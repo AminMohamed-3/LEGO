@@ -1,5 +1,6 @@
 import re
 
+
 def extract_emotions(text):
     """
     Extracts a list of emotions from the given text enclosed in <answer> tags.
@@ -11,12 +12,17 @@ def extract_emotions(text):
     list: A list of emotions found between <answer> and </answer> tags.
     """
     # Use regular expression to find the emotions between <answer> and </answer>
-    pattern = r'<answer>\s*(.*)'
+    pattern = r"<answer>\s*(.*)"
     match = re.search(pattern, text)
 
     if match:
         # Extract the list of emotions and split by comma
-        emotions = match.group(1).strip().split(', ')
+        emotions = match.group(1).strip().split(", ")
+        # if there's </answer> tag, remove it
+        if emotions[-1].endswith("</answer>"):
+            emotions[-1] = emotions[-1][:-9]
+        # remove any tailing whitespace
+        emotions = [emotion.strip() for emotion in emotions]
         return emotions
     else:
         return []
