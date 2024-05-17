@@ -1,0 +1,7 @@
+torch==2.2.1
+transformers==4.38.2
+numpy==1.26.4
+datasets==2.18.0
+langchain
+tqdm==4.66.1
+pandas==2.2.1
