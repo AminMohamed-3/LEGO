@@ -1,0 +1,11 @@
+[
+    {
+        "system_prompt": "TEST",
+        "human_prompt": "TEST",
+        "model": "john@example.com",
+        "provider": "fireworks",
+        "Temp": "1",
+        "Tokens": 350,
+        "score": 0.75
+    }
+]
