@@ -77,4 +77,6 @@ def prepare_dataset(tokenizer):
     dataset_dict = DatasetDict(
         {"train": train_dataset, "val": val_dataset, "test": test_dataset}
     )
-    return dataset_dict
+    id2label = {i: label for i, label in enumerate(emotions)}
+    label2id = {label: i for i, label in enumerate(emotions)}
+    return dataset_dict, id2label, label2id
