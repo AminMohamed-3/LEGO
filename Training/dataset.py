@@ -49,9 +49,9 @@ def prepare_dataset(tokenizer):
     val_df = df.iloc[X_val.index].copy()
     test_df = df.iloc[X_test.index].copy()
 
-    train_df["labels"] = train_df["labels"].apply(lambda x: [int(i) for i in x])
-    val_df["labels"] = val_df["labels"].apply(lambda x: [int(i) for i in x])
-    test_df["labels"] = test_df["labels"].apply(lambda x: [int(i) for i in x])
+    train_df["labels"] = train_df["labels"].apply(lambda x: [float(i) for i in x])
+    val_df["labels"] = val_df["labels"].apply(lambda x: [float(i) for i in x])
+    test_df["labels"] = test_df["labels"].apply(lambda x: [float(i) for i in x])
 
     train_dataset = Dataset.from_pandas(train_df)
     val_dataset = Dataset.from_pandas(val_df)
@@ -59,7 +59,7 @@ def prepare_dataset(tokenizer):
 
     # define tokenization function
     tokenize_function = lambda examples: tokenizer(
-        examples["text"], padding="longest", truncation=True
+        examples["text"], padding="max_length", truncation=True
     )
 
     train_dataset = train_dataset.map(tokenize_function, batched=True, batch_size=512)
