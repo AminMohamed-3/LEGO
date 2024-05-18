@@ -26,6 +26,7 @@ def compute_metrics(p: EvalPrediction, NUM_LABELS=28, threshold=0.5):
     probs = probs.cpu().detach().numpy()
     y_pred = np.zeros(probs.shape)
     y_pred[np.where(probs >= threshold)] = 1
+    y_pred[np.where(probs < threshold)] = 0 
     y_true = label_ids
     f1_macro_average = f1_score(y_true=y_true, y_pred=y_pred, average="macro")
     accuracy = accuracy_score(y_true, y_pred)
