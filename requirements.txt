@@ -6,3 +6,4 @@ langchain
 tqdm==4.66.1
 pandas==2.2.1
 langchain_openai
+python-dotenv
