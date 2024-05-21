@@ -4,6 +4,8 @@ import torch
 import torch.nn.functional as F
 import pandas as pd
 import json
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 def extract_emotions(text):
@@ -83,16 +85,19 @@ def calculate_metrics(predicted_labels, ground_truth_labels, all_labels):
             else 0
         )
 
+        accuracy = (tp) / total_samples  # Calculate accuracy for each label
+
         loss = calculate_bce_loss(predicted, ground_truth)
         normalized_loss = normalize_bce_loss(loss.mean().item())
 
         scores[label] = {
-            "correct": tp,
+            "correct": tp,  
             "incorrect": fp + fn,
             "precision": precision,
             "recall": recall,
             "f1_score": f1_score,
             "bce_loss": normalized_loss,
+            "accuracy": accuracy, 
         }
 
         total_loss += normalized_loss
@@ -107,19 +112,19 @@ def calculate_metrics(predicted_labels, ground_truth_labels, all_labels):
     average_recall = sum(scores[label]["recall"] for label in all_labels) / len(
         all_labels
     )
-    average_accuracy = (
-        sum(scores[label]["correct"] for label in all_labels) / total_samples
-    )
+    average_accuracy = sum(scores[label]["accuracy"] for label in all_labels) / len(
+        all_labels
+    )  # Calculate average accuracy
     scores["average"] = {
         "precision": average_precision,
         "recall": average_recall,
         "f1": average_f1,
         "bce": average_bce,
-        "accuracy": average_accuracy,
+        "accuracy": average_accuracy,  
     }
     # make average the first element
     scores = {k: scores[k] for k in ["average"] + all_labels}
-    return scores, average_bce
+    return scores
 
 
 def append_to_json_file(data, filename="results.json"):
@@ -144,13 +149,14 @@ def process_save_results(
     model_output,
     ground_truth,
     valid_labels,
+    verbose=True,
     **kwargs,
 ):
     parsed_output = parse_llama_output(model_output)
     cleaned_filtered_output = [
         filter_invalid_labels(instance, valid_labels) for instance in parsed_output
     ]
-    scores, average_bce = calculate_metrics(
+    scores = calculate_metrics(
         cleaned_filtered_output, ground_truth, valid_labels
     )
     append_to_json_file(
@@ -162,8 +168,107 @@ def process_save_results(
             "scores": scores,
         }
     )
+    print(f"Results for {model_name}:")
+    print(f"Average BCE Loss: {scores['average']['bce']:.4f}")
+    print(f"Average F1 Score: {scores['average']['f1']:.4f}")
+    print(f"Average Precision: {scores['average']['precision']:.4f}")
+    print(f"Average Recall: {scores['average']['recall']:.4f}")
+    print(f"Average Accuracy: {scores['average']['accuracy']:.4f}")
+
+    if verbose is True:
+        visualize_emotion_data("results.json")
+    
 
 
 def save_results_to_csv(scores, filepath):
     df = pd.DataFrame(scores).T  # Transpose to have labels as rows
     df.to_csv(filepath, index_label="label")
+
+
+def visualize_emotion_data(json_path):
+    # Load the JSON data from the file
+    with open(json_path, 'r') as file:
+        data = json.load(file)
+
+    # Initialize an empty dictionary to store the results
+    emotion_data = {}
+    precision_data = {}
+    recall_data = {}
+    f1_data = {}
+    bce_data = {}
+
+    # Extract the relevant information for each emotion
+    scores = data[0]['scores']  # Access the scores part of the JSON
+    for emotion, metrics in scores.items():
+        if emotion != "average":  # Skip the average key
+            correct = metrics.get('correct', 0)
+            incorrect = metrics.get('incorrect', 0)
+            precision = metrics.get('precision', 0)
+            recall = metrics.get('recall', 0)
+            f1_score = metrics.get('f1_score', 0)
+            bce_loss = metrics.get('bce_loss', 0)
+            emotion_data[emotion] = [correct, incorrect]
+            precision_data[emotion] = precision
+            recall_data[emotion] = recall
+            f1_data[emotion] = f1_score
+            bce_data[emotion] = bce_loss
+
+    # Convert the dictionaries to DataFrames
+    df_correct_incorrect = pd.DataFrame.from_dict(emotion_data, orient='index', columns=['Correct', 'Incorrect'])
+    df_precision = pd.DataFrame.from_dict(precision_data, orient='index', columns=['Precision'])
+    df_recall = pd.DataFrame.from_dict(recall_data, orient='index', columns=['Recall'])
+    df_f1 = pd.DataFrame.from_dict(f1_data, orient='index', columns=['F1 Score'])
+    df_bce = pd.DataFrame.from_dict(bce_data, orient='index', columns=['BCE Loss'])
+
+    # Plot the Correct vs Incorrect Predictions heatmap
+    plt.figure(figsize=(10, 6))
+    ax = sns.heatmap(df_correct_incorrect, annot=True, cmap='YlGnBu', fmt='d', annot_kws={"fontsize": 12})
+    ax.set_title('Correct vs Incorrect Predictions for Each Emotion', fontsize=18)
+    ax.set_xlabel('Prediction', fontsize=14)
+    ax.set_ylabel('Emotion', fontsize=14)
+    plt.show()
+
+    # Create a figure with subplots for the remaining plots
+    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 14))
+
+    # Plot the Precision bar chart
+    sns.barplot(x=df_precision.index, y='Precision', data=df_precision, legend=False, ax=axes[0, 0])
+    axes[0, 0].set_title('Precision for Each Emotion', fontsize=18)
+    axes[0, 0].set_xlabel('Emotion', fontsize=14)
+    axes[0, 0].set_ylabel('Precision', fontsize=14)
+    axes[0, 0].set_xticks(range(len(df_precision.index)))
+    axes[0, 0].set_xticklabels(df_precision.index, rotation=90, fontsize=12)
+    axes[0, 0].grid(axis='y', linestyle='--')
+
+    # Plot the Recall bar chart
+    sns.barplot(x=df_recall.index, y='Recall', data=df_recall, legend=False, ax=axes[0, 1])
+    axes[0, 1].set_title('Recall for Each Emotion', fontsize=18)
+    axes[0, 1].set_xlabel('Emotion', fontsize=14)
+    axes[0, 1].set_ylabel('Recall', fontsize=14)
+    axes[0, 1].set_xticks(range(len(df_recall.index)))
+    axes[0, 1].set_xticklabels(df_recall.index, rotation=90, fontsize=12)
+    axes[0, 1].grid(axis='y', linestyle='--')
+
+    # Plot the F1 Score bar chart
+    sns.barplot(x=df_f1.index, y='F1 Score', data=df_f1, legend=False, ax=axes[1, 0])
+    axes[1, 0].set_title('F1 Score for Each Emotion', fontsize=18)
+    axes[1, 0].set_xlabel('Emotion', fontsize=14)
+    axes[1, 0].set_ylabel('F1 Score', fontsize=14)
+    axes[1, 0].set_xticks(range(len(df_f1.index)))
+    axes[1, 0].set_xticklabels(df_f1.index, rotation=90, fontsize=12)
+    axes[1, 0].grid(axis='y', linestyle='--')
+
+    # Plot the BCE Loss bar chart
+    sns.barplot(x=df_bce.index, y='BCE Loss', data=df_bce, legend=False, ax=axes[1, 1])
+    axes[1, 1].set_title('BCE Loss for Each Emotion', fontsize=18)
+    axes[1, 1].set_xlabel('Emotion', fontsize=14)
+    axes[1, 1].set_ylabel('BCE Loss', fontsize=14)
+    axes[1, 1].set_xticks(range(len(df_bce.index)))
+    axes[1, 1].set_xticklabels(df_bce.index, rotation=90, fontsize=12)
+    axes[1, 1].grid(axis='y', linestyle='--')
+
+    # Adjust the spacing between subplots
+    plt.subplots_adjust(hspace=0.5, wspace=0.3)
+
+    # Display the figure
+    plt.show()
