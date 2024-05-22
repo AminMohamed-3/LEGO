@@ -238,6 +238,8 @@ def get_distance(emotions1, emotions2, verbose=False):
                     else 0
                 )
             # normalize path length to be between 0 and 1
+            if emotion1 == emotion2:
+                path_len = -5  
             path_len = (path_len - 0) / (13 - 0)
             # if the two emotions have been found before, skip this step
             if (emotion1, emotion2) in traversed or (emotion2, emotion1) in traversed:
