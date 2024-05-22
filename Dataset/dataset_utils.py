@@ -150,6 +150,7 @@ def process_save_results(
     ground_truth,
     valid_labels,
     verbose=True,
+    trial_num=0,
     **kwargs,
 ):
     parsed_output = parse_llama_output(model_output)
@@ -176,7 +177,7 @@ def process_save_results(
     print(f"Average Accuracy: {scores['average']['accuracy']:.4f}")
 
     if verbose is True:
-        visualize_emotion_data("results.json")
+        visualize_emotion_data("results.json", trial_num=trial_num)
     
 
 
@@ -185,7 +186,7 @@ def save_results_to_csv(scores, filepath):
     df.to_csv(filepath, index_label="label")
 
 
-def visualize_emotion_data(json_path):
+def visualize_emotion_data(json_path, trial_num=0):
     # Load the JSON data from the file
     with open(json_path, 'r') as file:
         data = json.load(file)
@@ -198,7 +199,7 @@ def visualize_emotion_data(json_path):
     bce_data = {}
 
     # Extract the relevant information for each emotion
-    scores = data[0]['scores']  # Access the scores part of the JSON
+    scores = data[trial_num]['scores']  # Access the scores part of the JSON
     for emotion, metrics in scores.items():
         if emotion != "average":  # Skip the average key
             correct = metrics.get('correct', 0)
