@@ -216,12 +216,12 @@ def get_distance(emotions1, emotions2, verbose=False):
     for emotion1 in emotions1:
         if emotion1 not in emotion_tree.nodes:
             print(f"{emotion1} not in the tree")
-            return -100
+            return 100000
 
     for emotion2 in emotions2:
         if emotion2 not in emotion_tree.nodes:
             print(f"{emotion2} not in the tree")
-            return -100
+            return 100000
 
     accumulation = 0
 
