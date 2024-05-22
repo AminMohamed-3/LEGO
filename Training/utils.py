@@ -41,24 +41,3 @@ def compute_metrics(p: EvalPrediction, NUM_LABELS=28, threshold=0.5):
     }
 
     return metrics
-
-class MultiLabelTrainer(Trainer):
-    """
-    Trainer for multi-label classification
-
-    Args:
-    Trainer: Trainer class from transformers
-
-    Returns:
-    MultiLabelTrainer: Trainer class for multi-label classification
-    """
-    def compute_loss(self, model, inputs, return_outputs=False):
-        labels = inputs.pop("labels")
-        labels = labels[:, :NUM_LABELS].float()
-        outputs = model(**inputs)
-        logits = outputs.logits
-        loss_fn = torch.nn.BCEWithLogitsLoss()
-        loss = loss_fn(logits, labels)
-        return (loss, outputs) if return_outputs else loss
-    
-
