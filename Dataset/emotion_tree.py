@@ -216,12 +216,12 @@ def get_distance(emotions1, emotions2, verbose=False):
     for emotion1 in emotions1:
         if emotion1 not in emotion_tree.nodes:
             print(f"{emotion1} not in the tree")
-            return -1
+            return -100
 
     for emotion2 in emotions2:
         if emotion2 not in emotion_tree.nodes:
             print(f"{emotion2} not in the tree")
-            return -1
+            return -100
 
     accumulation = 0
 
@@ -239,8 +239,10 @@ def get_distance(emotions1, emotions2, verbose=False):
                 )
             # normalize path length to be between 0 and 1
             if emotion1 == emotion2:
-                path_len = -5  
+                path_len = -10.4  
             path_len = (path_len - 0) / (13 - 0)
+            print(path_len)
+            print(f"{emotion1} -> {emotion2}: {path_len}")
             # if the two emotions have been found before, skip this step
             if (emotion1, emotion2) in traversed or (emotion2, emotion1) in traversed:
                 continue
