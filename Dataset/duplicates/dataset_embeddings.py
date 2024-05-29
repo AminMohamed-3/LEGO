@@ -79,7 +79,7 @@ def get_similars(df, collection, idx=0, n_results=5, verbose=False):
     sample = df.iloc[idx]
     text, labels = sample["text"], sample["labels_text"]
     # get embeddings
-    embeddings = get_embeddings(df, idx)
+    embeddings = get_embeddings(df, collection, idx)
     results = collection.query(embeddings, n_results=5)
     # get ids and distances
     ids = [int(_id) for _id in results["ids"][0]]
