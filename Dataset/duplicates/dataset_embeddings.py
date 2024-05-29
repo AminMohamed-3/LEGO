@@ -76,7 +76,7 @@ def get_similars(df, collection, idx=0, n_results=5, verbose=False):
         list: A list of dictionaries, each containing the index, text, labels, and distance for a similar sample.
     """
     # get example
-    sample = df.iloc[idx]
+    sample = df.loc[idx]
     text, labels = sample["text"], sample["labels_text"]
     # get embeddings
     embeddings = get_embeddings(df, collection, idx)
@@ -86,18 +86,19 @@ def get_similars(df, collection, idx=0, n_results=5, verbose=False):
     distances = [float(d) for d in results["distances"][0]]
     matches = []
     for idx in ids:
-        sample = df.iloc[idx]
-        text = sample["text"]
-        labels = sample["labels_text"]
-        distance = distances[ids.index(idx)]
-        matches.append(
-            {
-                "idx": idx,
-                "text": text,
-                "labels": labels,
-                "distance": distance,
-            }
-        )
-        if verbose:
-            print(f"text: {text}\nlabels: {labels}\n distance: {distance:0.2f}\n")
+        if idx in df.index:
+            sample = df.loc[idx]
+            text = sample["text"]
+            labels = sample["labels_text"]
+            distance = distances[ids.index(idx)]
+            matches.append(
+                {
+                    "idx": idx,
+                    "text": text,
+                    "labels": labels,
+                    "distance": distance,
+                }
+            )
+            if verbose:
+                print(f"text: {text}\nlabels: {labels}\n distance: {distance:0.2f}\n")
     return matches
