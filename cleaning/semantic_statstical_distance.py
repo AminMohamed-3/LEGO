@@ -38,7 +38,7 @@ def get_semantic_statstical_distance(emotions1, emotions2, verbose=False):
         float: The semantic statistical distance between the two sets of emotions.
     """
     # Load emotion distances from CSV file
-    distances = pd.read_csv("cleaning/combined_emotion_distances.csv")
+    distances = pd.read_csv("combined_emotion_distances.csv")
 
     # make emotions1 the largest of the two
     if len(emotions1) < len(emotions2):
