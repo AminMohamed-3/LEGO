@@ -2,4 +2,6 @@ wandb/
 __pycache__
 .env
 Dataset/__pycache__
-Dataset/db
+*.sqlite3
+*.bin
+*.pickle
