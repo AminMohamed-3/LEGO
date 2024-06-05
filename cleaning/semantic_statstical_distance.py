@@ -6,11 +6,21 @@ import numpy as np
 from emotion_tree import get_distance
 import chromadb
 import sys
+import yaml
+import os
 
-sys.path.append("../LEGO")
+config_path = os.path.join(os.path.dirname(__file__), "..", "config.yaml")
+# Load the configuration file
+with open(config_path, "r") as f:
+    config = yaml.safe_load(f)
+definitions, EMOTIONS, RANDOM_SEED = (
+    config["definitions"],
+    config["EMOTIONS"],
+    config["RANDOM_SEED"],
+)
 
-from config import definitions, EMOTIONS, id2label, label2id
-
+id2label = {str(id): label for id, label in enumerate(EMOTIONS)}
+label2id = {v: k for k, v in id2label.items()}
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
