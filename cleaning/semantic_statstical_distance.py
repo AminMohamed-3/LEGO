@@ -208,7 +208,7 @@ def save_emotion_distances(emotions, combined):
     df = df.reset_index(drop=True)
 
     # save
-    df.to_csv("cleaning/combined_emotion_distances.csv", index=False)
+    df.to_csv("combined_emotion_distances.csv", index=False)
 
 
 def main():
