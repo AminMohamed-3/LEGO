@@ -269,7 +269,7 @@ The tone of the comment seems to be lighthearted and playful, with a hint of iro
 <answer> amusement </answer>
 
 The comment is primarily expressing amusement, with a playful and lighthearted tone."
-"Thats true but [NAME] is still a valuable resource. In business, you dont dump those. Thats how I see this with an average roster at best",[27],['neutral'],"['**approval**', '**annoyance**']","Here's the emotional analysis of the comment:
+"Thats true but [NAME] is still a valuable resource. In business, you dont dump those. Thats how I see this with an average roster at best",[27],['neutral'],"['approval', 'annoyance']","Here's the emotional analysis of the comment:
 
 **Literal Analysis:**
 No obvious emotional words/phrases are directly expressed in the comment.
@@ -808,7 +808,7 @@ The tone of the comment is playful and enthusiastic, with a sense of eagerness a
 
 **Summary:**
 <answer> excitement, love </answer>"
-"I will watch tonight, thank you!",[15],['gratitude'],"['**gratitude**', '**excitement**']","Here's the emotional analysis of the comment:
+"I will watch tonight, thank you!",[15],['gratitude'],"['gratitude', 'excitement']","Here's the emotional analysis of the comment:
 
 **Literal Analysis:**
 The comment directly expresses gratitude through the phrase ""thank you"". This suggests that the dominant emotion is **gratitude**.

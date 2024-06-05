@@ -26,7 +26,9 @@ def extract_emotions(text):
         # Extract the list of emotions and split by comma
         emotions = match.group(1).strip().split(",")
         # Clean each emotion by removing unwanted characters and stripping whitespace
-        emotions = [re.sub(r"[()]", "", emotion).strip() for emotion in emotions]
+        emotions = [re.sub(r"[\*\(\)]", "", emotion).strip() for emotion in emotions]
+        # lower case all emotions
+        emotions = [emotion.lower() for emotion in emotions]
         return emotions
     else:
         return []
