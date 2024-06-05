@@ -120,7 +120,7 @@ def get_text_embeddings(text, model, tokenizer, norm=False):
 
 
 def init_collection():
-    chroma_client = chromadb.PersistentClient("cleaning/db/")
+    chroma_client = chromadb.PersistentClient("db/")
     collection = chroma_client.get_or_create_collection(
         name="emotions_cosine", metadata={"hnsw:space": "cosine"}
     )
