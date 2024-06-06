@@ -8,44 +8,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def extract_emotions(text):
-    """
-    Extracts a list of emotions from the given text enclosed in <answer> tags.
-
-    Parameters:
-    text (str): The input text containing the emotions.
-
-    Returns:
-    list: A list of emotions found between <answer> and </answer> tags.
-    """
-    # Use regular expression to find the emotions between <answer> and </answer>
-    pattern = r"<answer>\s*(.*?)\s*</answer>"
-    match = re.search(pattern, text)
-
-    if match:
-        # Extract the list of emotions and split by comma
-        emotions = match.group(1).strip().split(",")
-        # Clean each emotion by removing unwanted characters and stripping whitespace
-        emotions = [re.sub(r"[\*\(\)]", "", emotion).strip() for emotion in emotions]
-        # lower case all emotions
-        emotions = [emotion.lower() for emotion in emotions]
-        return emotions
-    else:
-        return []
-
-
-def parse_llama_output(output):
-    parsed_output = []
-    for instance in output:
-        # Convert string representation of list to actual list
-        if type(instance) == str:
-            labels_list = ast.literal_eval(instance)
-        else:
-            labels_list = instance
-        parsed_output.append(labels_list)
-    return parsed_output
-
-
 def filter_invalid_labels(predicted_labels, valid_labels):
     return [label for label in predicted_labels if label in valid_labels]
 
@@ -163,15 +125,13 @@ def process_save_results(
     distances_save_name="distance.csv",
     **kwargs,
 ):
-    # Parse and clean the model output
-    parsed_output = parse_llama_output(model_output)
-    parsed_ground_truth = parse_llama_output(ground_truth)
-    cleaned_filtered_output = [
-        filter_invalid_labels(instance, valid_labels) for instance in parsed_output
+
+    filtered_predictions = [
+        filter_invalid_labels(instance, valid_labels) for instance in model_output
     ]
 
     # Calculate metrics
-    scores = calculate_metrics(cleaned_filtered_output, ground_truth, valid_labels)
+    scores = calculate_metrics(filtered_predictions, ground_truth, valid_labels)
 
     # Print results
     print(f"Results for {model_name}:")
@@ -181,14 +141,13 @@ def process_save_results(
     print(f"Average Recall: {scores['average']['recall']:.4f}")
 
     # Calculate distances
-    filtered_parsed_predictions = cleaned_filtered_output
-    filtered_parsed_ground_truth = [
-        filter_invalid_labels(instance, valid_labels) for instance in parsed_ground_truth
+    filtered_ground_truth = [
+        filter_invalid_labels(instance, valid_labels) for instance in ground_truth
     ]
     distances = [
         get_semantic_statstical_distance(prediction, gt)
         for prediction, gt in zip(
-            filtered_parsed_predictions, filtered_parsed_ground_truth
+            filtered_predictions, filtered_ground_truth
         )
     ]
 
@@ -201,8 +160,8 @@ def process_save_results(
     df = pd.DataFrame(
         {
             "text": text,
-            "predictions": filtered_parsed_predictions,
-            "ground_truth": filtered_parsed_ground_truth,
+            "predictions": filtered_predictions,
+            "ground_truth": filtered_ground_truth,
             "distance": distances,
         }
     )
