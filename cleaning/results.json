@@ -825,5 +825,280 @@
             "average": -0.3553606789250355,
             "total": -71.07213578500709
         }
+    },
+    {
+        "model_name": "llama-v3-70b-instruct",
+        "system_message": "You're doing a classification task, given each text, think of the emotion it contains and of its context and try to classify it as one of these emotions ['confusion', 'approval', 'caring', 'desire', 'fear', 'realization', 'nervousness', 'neutral', 'pride', 'joy', 'disgust', 'disapproval', 'remorse', 'grief', 'excitement', 'embarrassment', 'anger', 'surprise', 'annoyance', 'love', 'amusement', 'sadness', 'disappointment', 'optimism', 'gratitude', 'curiosity', 'admiration', 'relief']\n",
+        "prompt_template": "\nList outputs as Your response should be a list of comma separated values, eg: `foo, bar, baz` or `foo,bar,baz`\nInput: {comment}\n",
+        "provider": "fireworks",
+        "temperature": 0.5,
+        "avg_input_tokens": 0,
+        "avg_output_tokens": 0,
+        "ensemble": 1,
+        "scores": {
+            "average": {
+                "precision": 0.5474806289144466,
+                "recall": 0.5827498767371269,
+                "f1": 0.528980382234198,
+                "bce": 0.71,
+                "accuracy": 0.03339285714285715
+            },
+            "caring": {
+                "correct": 3,
+                "incorrect": 11,
+                "precision": 0.75,
+                "recall": 0.23076923076923078,
+                "f1_score": 0.3529411764705882,
+                "bce_loss": 5.5,
+                "accuracy": 0.015
+            },
+            "amusement": {
+                "correct": 23,
+                "incorrect": 28,
+                "precision": 0.5111111111111111,
+                "recall": 0.7931034482758621,
+                "f1_score": 0.6216216216216216,
+                "bce_loss": 14.0,
+                "accuracy": 0.115
+            },
+            "disappointment": {
+                "correct": 6,
+                "incorrect": 9,
+                "precision": 0.6,
+                "recall": 0.5454545454545454,
+                "f1_score": 0.5714285714285713,
+                "bce_loss": 4.5,
+                "accuracy": 0.03
+            },
+            "annoyance": {
+                "correct": 21,
+                "incorrect": 30,
+                "precision": 0.45652173913043476,
+                "recall": 0.8076923076923077,
+                "f1_score": 0.5833333333333333,
+                "bce_loss": 15.0,
+                "accuracy": 0.105
+            },
+            "relief": {
+                "correct": 0,
+                "incorrect": 5,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0,
+                "bce_loss": 2.5,
+                "accuracy": 0.0
+            },
+            "admiration": {
+                "correct": 13,
+                "incorrect": 10,
+                "precision": 0.6190476190476191,
+                "recall": 0.8666666666666667,
+                "f1_score": 0.7222222222222222,
+                "bce_loss": 5.0,
+                "accuracy": 0.065
+            },
+            "optimism": {
+                "correct": 7,
+                "incorrect": 8,
+                "precision": 0.4666666666666667,
+                "recall": 1.0,
+                "f1_score": 0.6363636363636364,
+                "bce_loss": 4.0,
+                "accuracy": 0.035
+            },
+            "excitement": {
+                "correct": 10,
+                "incorrect": 15,
+                "precision": 0.45454545454545453,
+                "recall": 0.7692307692307693,
+                "f1_score": 0.5714285714285714,
+                "bce_loss": 7.5,
+                "accuracy": 0.05
+            },
+            "love": {
+                "correct": 3,
+                "incorrect": 1,
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1_score": 0.8571428571428571,
+                "bce_loss": 0.5,
+                "accuracy": 0.015
+            },
+            "remorse": {
+                "correct": 1,
+                "incorrect": 2,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1_score": 0.5,
+                "bce_loss": 1.0,
+                "accuracy": 0.005
+            },
+            "disgust": {
+                "correct": 3,
+                "incorrect": 6,
+                "precision": 0.75,
+                "recall": 0.375,
+                "f1_score": 0.5,
+                "bce_loss": 3.0,
+                "accuracy": 0.015
+            },
+            "approval": {
+                "correct": 8,
+                "incorrect": 32,
+                "precision": 0.25806451612903225,
+                "recall": 0.47058823529411764,
+                "f1_score": 0.3333333333333333,
+                "bce_loss": 16.0,
+                "accuracy": 0.04
+            },
+            "fear": {
+                "correct": 3,
+                "incorrect": 1,
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1_score": 0.8571428571428571,
+                "bce_loss": 0.5,
+                "accuracy": 0.015
+            },
+            "curiosity": {
+                "correct": 11,
+                "incorrect": 10,
+                "precision": 0.5789473684210527,
+                "recall": 0.8461538461538461,
+                "f1_score": 0.6875,
+                "bce_loss": 5.0,
+                "accuracy": 0.055
+            },
+            "neutral": {
+                "correct": 3,
+                "incorrect": 15,
+                "precision": 0.75,
+                "recall": 0.17647058823529413,
+                "f1_score": 0.2857142857142857,
+                "bce_loss": 7.5,
+                "accuracy": 0.015
+            },
+            "surprise": {
+                "correct": 5,
+                "incorrect": 10,
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "f1_score": 0.5,
+                "bce_loss": 5.0,
+                "accuracy": 0.025
+            },
+            "grief": {
+                "correct": 0,
+                "incorrect": 1,
+                "precision": 0.0,
+                "recall": 0,
+                "f1_score": 0,
+                "bce_loss": 0.5,
+                "accuracy": 0.0
+            },
+            "embarrassment": {
+                "correct": 2,
+                "incorrect": 3,
+                "precision": 0.6666666666666666,
+                "recall": 0.5,
+                "f1_score": 0.5714285714285715,
+                "bce_loss": 1.5,
+                "accuracy": 0.01
+            },
+            "confusion": {
+                "correct": 8,
+                "incorrect": 10,
+                "precision": 0.6153846153846154,
+                "recall": 0.6153846153846154,
+                "f1_score": 0.6153846153846154,
+                "bce_loss": 5.0,
+                "accuracy": 0.04
+            },
+            "realization": {
+                "correct": 6,
+                "incorrect": 4,
+                "precision": 0.8571428571428571,
+                "recall": 0.6666666666666666,
+                "f1_score": 0.75,
+                "bce_loss": 2.0,
+                "accuracy": 0.03
+            },
+            "pride": {
+                "correct": 1,
+                "incorrect": 3,
+                "precision": 0.5,
+                "recall": 0.3333333333333333,
+                "f1_score": 0.4,
+                "bce_loss": 1.5,
+                "accuracy": 0.005
+            },
+            "nervousness": {
+                "correct": 1,
+                "incorrect": 2,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1_score": 0.5,
+                "bce_loss": 1.0,
+                "accuracy": 0.005
+            },
+            "sadness": {
+                "correct": 5,
+                "incorrect": 6,
+                "precision": 0.5555555555555556,
+                "recall": 0.7142857142857143,
+                "f1_score": 0.6250000000000001,
+                "bce_loss": 3.0,
+                "accuracy": 0.025
+            },
+            "gratitude": {
+                "correct": 9,
+                "incorrect": 6,
+                "precision": 0.8181818181818182,
+                "recall": 0.6923076923076923,
+                "f1_score": 0.7500000000000001,
+                "bce_loss": 3.0,
+                "accuracy": 0.045
+            },
+            "desire": {
+                "correct": 2,
+                "incorrect": 4,
+                "precision": 0.6666666666666666,
+                "recall": 0.4,
+                "f1_score": 0.5,
+                "bce_loss": 2.0,
+                "accuracy": 0.01
+            },
+            "disapproval": {
+                "correct": 23,
+                "incorrect": 27,
+                "precision": 0.6216216216216216,
+                "recall": 0.6388888888888888,
+                "f1_score": 0.6301369863013699,
+                "bce_loss": 13.5,
+                "accuracy": 0.115
+            },
+            "joy": {
+                "correct": 5,
+                "incorrect": 13,
+                "precision": 0.3333333333333333,
+                "recall": 0.625,
+                "f1_score": 0.43478260869565216,
+                "bce_loss": 6.5,
+                "accuracy": 0.025
+            },
+            "anger": {
+                "correct": 5,
+                "incorrect": 12,
+                "precision": 0.4166666666666667,
+                "recall": 0.5,
+                "f1_score": 0.45454545454545453,
+                "bce_loss": 6.0,
+                "accuracy": 0.025
+            }
+        },
+        "distances": {
+            "average": -0.3487977369165489,
+            "total": -69.75954738330978
+        }
     }
 ]
