@@ -7,6 +7,16 @@ import json
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+def parse_llama_output(output):
+    parsed_output = []
+    for instance in output:
+        # Convert string representation of list to actual list
+        if type(instance) == str:
+            labels_list = ast.literal_eval(instance)
+        else:
+            labels_list = instance
+        parsed_output.append(labels_list)
+    return parsed_output
 
 def filter_invalid_labels(predicted_labels, valid_labels):
     return [label for label in predicted_labels if label in valid_labels]
@@ -129,6 +139,7 @@ def process_save_results(
     filtered_predictions = [
         filter_invalid_labels(instance, valid_labels) for instance in model_output
     ]
+    ground_truth = parse_llama_output(ground_truth)
 
     # Calculate metrics
     scores = calculate_metrics(filtered_predictions, ground_truth, valid_labels)
@@ -141,13 +152,11 @@ def process_save_results(
     print(f"Average Recall: {scores['average']['recall']:.4f}")
 
     # Calculate distances
-    filtered_ground_truth = [
-        filter_invalid_labels(instance, valid_labels) for instance in ground_truth
-    ]
+
     distances = [
         get_semantic_statstical_distance(prediction, gt)
         for prediction, gt in zip(
-            filtered_predictions, filtered_ground_truth
+            filtered_predictions, ground_truth
         )
     ]
 
@@ -161,7 +170,7 @@ def process_save_results(
         {
             "text": text,
             "predictions": filtered_predictions,
-            "ground_truth": filtered_ground_truth,
+            "ground_truth": ground_truth,
             "distance": distances,
         }
     )
