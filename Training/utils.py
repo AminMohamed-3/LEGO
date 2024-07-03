@@ -2,7 +2,12 @@ from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_sc
 import torch
 import numpy as np
 from transformers import EvalPrediction, Trainer
-from config import NUM_LABELS
+import yaml
+
+# load NUM_LABELS from config
+with open("config.yaml", "r") as f:
+    config = yaml.safe_load(f)
+    NUM_LABELS = config["NUM_LABELS"]
 
 def compute_metrics(p: EvalPrediction, NUM_LABELS=28, threshold=0.5):
     """
