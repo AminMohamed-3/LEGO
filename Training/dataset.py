@@ -42,9 +42,9 @@ def prepare_simplified_dataset(tokenizer):
 
 def prepare_local_dataset(tokenizer):
     # store at huggingface
-    df = pd.read_csv("run1/filtered_run1.csv")
+    df = pd.read_csv('cleaning/run1/filtered_run1.csv')
     dataset = Dataset.from_pandas(df)
-    dataset.save_to_disk("run1/filtered_run1")
+    dataset.save_to_disk("cleaning/run1/filtered_run1")
     dataset = load_from_disk("cleaning/run1/filtered_run1")
 
     # drop any empty parsed predictions
