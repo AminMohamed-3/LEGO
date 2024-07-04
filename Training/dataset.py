@@ -1,12 +1,14 @@
+import ast
+import yaml
+import sys
+import pandas as pd
+
 import numpy as np
 from tqdm import tqdm
 from datasets import load_dataset
 from datasets import load_from_disk
-from datasets import Dataset
+from datasets import Dataset, ClassLabel, Sequence, Value, Features, DatasetDict
 
-import yaml
-import sys
-import pandas as pd
 
 sys.path.append("..")
 import warnings
@@ -23,10 +25,12 @@ def prepare_simplified_dataset(tokenizer):
     dataset = load_dataset("go_emotions", "simplified")
     i2s = dataset["train"].features["labels"].feature.int2str
     tokenize_function = lambda examples: tokenizer(
-    examples["text"], padding="max_length", truncation=True, return_tensors="pt"
+        examples["text"], padding="max_length", truncation=True, return_tensors="pt"
     )
     labels_to_one_hot = lambda examples: {
-        "labels": np.sum(np.eye(NUM_LABELS, dtype=np.float16)[examples["labels"]], axis=0)
+        "labels": np.sum(
+            np.eye(NUM_LABELS, dtype=np.float16)[examples["labels"]], axis=0
+        )
     }
     dataset = dataset.map(tokenize_function, batched=True)
     dataset = dataset.map(
@@ -40,21 +44,28 @@ def prepare_simplified_dataset(tokenizer):
 
     return dataset, id2label, label2id
 
-def prepare_local_dataset(tokenizer):
-    # store at huggingface
-    df = pd.read_csv('cleaning/run1/filtered_run1.csv')
-    dataset = Dataset.from_pandas(df)
-    dataset.save_to_disk("cleaning/run1/filtered_run1")
-    dataset = load_from_disk("cleaning/run1/filtered_run1")
 
-    # drop any empty parsed predictions
-    dataset = dataset.filter(lambda x: x["parsed_predictions"] != "")
+def prepare_local_dataset(tokenizer):
+    label_feature = ClassLabel(names=EMOTIONS)
+    # store at huggingface
+    df = pd.read_csv("cleaning/run1/filtered_run1.csv")
+    df["labels"] = df["labels"].apply(ast.literal_eval)
+    df.drop(columns=["parsed_predictions"], inplace=True)
+
+    features = Features(
+        {"text": Value("string"), "labels": Sequence(feature=label_feature)}
+    )
+
+    train_dataset = Dataset.from_pandas(df, features=features)
+    dataset = DatasetDict({"train": train_dataset})
 
     tokenize_function = lambda examples: tokenizer(
         examples["text"], padding="max_length", truncation=True, return_tensors="pt"
     )
     labels_to_one_hot = lambda examples: {
-        "labels": np.sum(np.eye(NUM_LABELS, dtype=np.float16)[examples["labels"]], axis=0)
+        "labels": np.sum(
+            np.eye(NUM_LABELS, dtype=np.float16)[examples["labels"]], axis=0
+        )
     }
     dataset = dataset.map(tokenize_function, batched=True)
     dataset = dataset.map(
