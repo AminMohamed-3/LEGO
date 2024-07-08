@@ -45,19 +45,24 @@ def prepare_simplified_dataset(tokenizer):
     return dataset, id2label, label2id
 
 
-def prepare_local_dataset(tokenizer):
+def prepare_local_dataset(tokenizer, train_path=None, val_path=None, test_path=None):
     label_feature = ClassLabel(names=EMOTIONS)
-    # store at huggingface
-    df = pd.read_csv("cleaning/run1/filtered_run1.csv")
-    df["labels"] = df["labels"].apply(ast.literal_eval)
-    df.drop(columns=["parsed_predictions"], inplace=True)
-
     features = Features(
         {"text": Value("string"), "labels": Sequence(feature=label_feature)}
     )
 
-    train_dataset = Dataset.from_pandas(df, features=features)
-    dataset = DatasetDict({"train": train_dataset})
+    # parse the dataset
+    dataset_paths = {"train": train_path, "val": val_path, "test": test_path}
+    datasets = {}
+    for split, dataset_path in dataset_paths.items():
+        if dataset_path is not None:
+            df = pd.read_csv(dataset_path)
+            df["labels"] = df["labels"].apply(ast.literal_eval)
+            df.drop(columns=["parsed_predictions"], inplace=True)
+            dataset = Dataset.from_pandas(df, features=features)
+            datasets[split] = dataset
+
+    dataset = DatasetDict(datasets)
 
     tokenize_function = lambda examples: tokenizer(
         examples["text"], padding="max_length", truncation=True, return_tensors="pt"
