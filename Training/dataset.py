@@ -52,7 +52,7 @@ def prepare_local_dataset(tokenizer, train_path=None, val_path=None, test_path=N
     )
 
     # parse the dataset
-    dataset_paths = {"train": train_path, "val": val_path, "test": test_path}
+    dataset_paths = {"train": train_path, "validation": val_path, "test": test_path}
     datasets = {}
     for split, dataset_path in dataset_paths.items():
         if dataset_path is not None:
@@ -78,4 +78,7 @@ def prepare_local_dataset(tokenizer, train_path=None, val_path=None, test_path=N
         batched=False,
     )
 
-    return dataset
+    id2label = {k: EMOTIONS[k] for k in range(NUM_LABELS)}
+    label2id = {v: k for k, v in id2label.items()}
+
+    return dataset, id2label, label2id
