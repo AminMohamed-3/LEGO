@@ -116,10 +116,6 @@ def append_to_json_file(data, filename="results.json"):
     return "results saved in results.json"
 
 
-import pandas as pd
-from semantic_statstical_distance import get_semantic_statstical_distance
-
-import pandas as pd
 
 
 def process_save_results(
@@ -132,7 +128,6 @@ def process_save_results(
     text,
     verbose=True,
     trial_num=0,
-    distances_save_name="distance.csv",
     **kwargs,
 ):
 
@@ -151,60 +146,27 @@ def process_save_results(
     print(f"Average Precision: {scores['average']['precision']:.4f}")
     print(f"Average Recall: {scores['average']['recall']:.4f}")
 
-    # Calculate distances
-
-    distances = [
-        get_semantic_statstical_distance(prediction, gt)
-        for prediction, gt in zip(
-            filtered_predictions, ground_truth
-        )
-    ]
-
-    avg_distance = sum(distances) / len(distances)
-    total_distance = sum(distances)
-    print(f"Average Distance: {avg_distance:.4f}")
-    print(f"Total Distance: {total_distance:.4f}")
-
     # Save results to CSV
     df = pd.DataFrame(
         {
             "text": text,
             "predictions": filtered_predictions,
-            "ground_truth": ground_truth,
-            "distance": distances,
+            "ground_truth": ground_truth
         }
     )
-    df.to_csv(distances_save_name, index=False)
-
     append_to_json_file(
         {
             "model_name": model_name,
             "system_message": system_message,
             "prompt_template": prompt_template,
             **kwargs,
-            "scores": scores,
-            "distances": {
-                "average": avg_distance,
-                "total": total_distance,
-            },
+            "scores": scores
         }
     )
 
     # Optionally visualize data
     if verbose:
         visualize_emotion_data("results.json", trial_num=trial_num)
-        plot_histogram(distances)  # Call the plotting function here
-
-# Example plotting function
-import matplotlib.pyplot as plt
-
-
-def plot_histogram(distances):
-    plt.hist(distances, bins=20, edgecolor="black")
-    plt.title("Distribution of Semantic Distances")
-    plt.xlabel("Distance")
-    plt.ylabel("Frequency")
-    plt.show()
 
 
 def visualize_emotion_data(json_path, trial_num=0):
