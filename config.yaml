@@ -1,33 +1,33 @@
 RANDOM_SEED: 7102023
 NUM_LABELS: 28
 EMOTIONS:
-    - amusement
-    - excitement
-    - joy
-    - love
-    - desire
-    - optimism
-    - caring
-    - pride
     - admiration
-    - gratitude
-    - relief
-    - approval
-    - realization
-    - surprise
-    - curiosity
-    - confusion
-    - fear
-    - nervousness
-    - remorse
-    - embarrassment
-    - disappointment
-    - sadness
-    - grief
-    - disgust
+    - amusement
     - anger
     - annoyance
+    - approval
+    - caring
+    - confusion
+    - curiosity
+    - desire
+    - disappointment
     - disapproval
+    - disgust
+    - embarrassment
+    - excitement
+    - fear
+    - gratitude
+    - grief
+    - joy
+    - love
+    - nervousness
+    - optimism
+    - pride
+    - realization
+    - relief
+    - remorse
+    - sadness
+    - surprise
     - neutral
 definitions:
     admiration: "Finding something praiseworthy or deserving of utmost respect."
