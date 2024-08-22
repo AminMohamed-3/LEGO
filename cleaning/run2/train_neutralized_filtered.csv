@@ -1,501 +1,1001 @@
 text,labels,parsed_predictions
-My favourite food is anything I didn't have to cook myself.,[0],['amusement']
-"Now if he does off himself, everyone will think hes having a laugh screwing with people instead of actually dead","[23, 24, 25]","['disgust', 'anger', 'annoyance']"
-WHY THE FUCK IS BAYLESS ISOING,[24],['anger']
-To make her feel threatened,"[25, 16]","['annoyance', 'fear']"
-Dirty Southern Wankers,"[26, 23]","['disapproval', 'disgust']"
-OmG pEyToN iSn'T gOoD eNoUgH tO hElP uS iN tHe PlAyOfFs! Dumbass Broncos fans circa December 2015.,"[24, 25]","['anger', 'annoyance']"
-Yes I heard abt the f bombs! That has to be why. Thanks for your reply:) until then hubby and I will anxiously wait 😝,"[0, 1]","['amusement', 'excitement']"
+My favourite food is anything I didn't have to cook myself.,[1],['amusement']
+"Now if he does off himself, everyone will think hes having a laugh screwing with people instead of actually dead","[2, 11, 3]","['anger', 'disgust', 'annoyance']"
+WHY THE FUCK IS BAYLESS ISOING,[2],['anger']
+To make her feel threatened,"[14, 3]","['fear', 'annoyance']"
+Dirty Southern Wankers,"[10, 11]","['disapproval', 'disgust']"
+OmG pEyToN iSn'T gOoD eNoUgH tO hElP uS iN tHe PlAyOfFs! Dumbass Broncos fans circa December 2015.,"[2, 3]","['anger', 'annoyance']"
+Yes I heard abt the f bombs! That has to be why. Thanks for your reply:) until then hubby and I will anxiously wait 😝,"[13, 1]","['excitement', 'amusement']"
 We need more boards and to create a bit more space for [NAME]. Then we’ll be good.,[27],['neutral']
-Damn youtube and outrage drama is super lucrative for reddit,"[26, 25]","['disapproval', 'annoyance']"
+Damn youtube and outrage drama is super lucrative for reddit,"[10, 3]","['disapproval', 'annoyance']"
 It might be linked to the trust factor of your friend.,[27],['neutral']
-Demographics? I don’t know anybody under 35 who has cable tv.,"[13, 14]","['surprise', 'curiosity']"
-"Aww... she'll probably come around eventually, I'm sure she was just jealous of [NAME]... I mean, what woman wouldn't be! lol ","[0, 5]","['amusement', 'optimism']"
-Hello everyone. Im from Toronto as well. Can call and visit in personal if needed.,"[6, 27]","['caring', 'neutral']"
+Demographics? I don’t know anybody under 35 who has cable tv.,"[7, 26]","['curiosity', 'surprise']"
+"Aww... she'll probably come around eventually, I'm sure she was just jealous of [NAME]... I mean, what woman wouldn't be! lol ","[1, 20]","['amusement', 'optimism']"
+Hello everyone. Im from Toronto as well. Can call and visit in personal if needed.,"[5, 27]","['caring', 'neutral']"
 R/sleeptrain Might be time for some sleep training. Take a look and try to feel out what's right for your family.,[27],['neutral']
-"[NAME] - same fucking problem, slightly better command of the English language.","[26, 25]","['disapproval', 'annoyance']"
-"Shit, I guess I accidentally bought a Pay-Per-View boxing match","[25, 20]","['annoyance', 'disappointment']"
-Thank you friend,[9],['gratitude']
-Fucking coward.,"[26, 24]","['disapproval', 'anger']"
-that is what retardation looks like,"[26, 23]","['disapproval', 'disgust']"
-Maybe that’s what happened to the great white at Houston zoo,"[27, 14]","['neutral', 'curiosity']"
-"I never thought it was at the same moment, but sometimes after [NAME] sacrifice... sounds logical","[12, 11]","['realization', 'approval']"
-i got a bump and a bald spot. i feel dumb <3,[19],['embarrassment']
-You are going to do the dishes now,[25],['annoyance']
-Slowing things down now,[10],['relief']
+"[NAME] - same fucking problem, slightly better command of the English language.","[10, 3]","['disapproval', 'annoyance']"
+"Shit, I guess I accidentally bought a Pay-Per-View boxing match","[9, 3]","['disappointment', 'annoyance']"
+Thank you friend,[15],['gratitude']
+Fucking coward.,"[2, 10]","['anger', 'disapproval']"
+that is what retardation looks like,"[10, 11]","['disapproval', 'disgust']"
+Maybe that’s what happened to the great white at Houston zoo,"[7, 27]","['curiosity', 'neutral']"
+"I never thought it was at the same moment, but sometimes after [NAME] sacrifice... sounds logical","[4, 22]","['approval', 'realization']"
+i got a bump and a bald spot. i feel dumb <3,[12],['embarrassment']
+You are going to do the dishes now,[3],['annoyance']
+Slowing things down now,[23],['relief']
 His name has already been released. Just can't post it here.,[27],['neutral']
-Stupidly stubborn / stubbornly stupid,[25],['annoyance']
-Mine was apparently [NAME] and the giant peach!,"[1, 2]","['excitement', 'joy']"
-I miss them being alive,"[21, 22]","['sadness', 'grief']"
-"Super, thanks",[9],['gratitude']
-A new study just came out from China that it's actually too late.,"[21, 20]","['sadness', 'disappointment']"
-"Troll, bro. They know they're saying stupid shit. The motherfucker does nothing but stink up libertarian subs talking shit","[26, 24, 25]","['disapproval', 'anger', 'annoyance']"
-"All sounds possible except the key, I can't see how it was missed in the first search. ","[26, 25]","['disapproval', 'annoyance']"
-"Your aunt has some damn nerve, though!","[24, 25]","['anger', 'annoyance']"
-"Ok, then what the actual fuck is your plan?","[24, 25]","['anger', 'annoyance']"
-What does FPTP have to do with the referendum?,"[27, 14]","['neutral', 'curiosity']"
-Happy to be able to help.,"[6, 11]","['caring', 'approval']"
-"18 is hot but very bland, it's just here this blonde lady who is not as hot as blonde launch.","[26, 20]","['disapproval', 'disappointment']"
+Stupidly stubborn / stubbornly stupid,[3],['annoyance']
+Mine was apparently [NAME] and the giant peach!,"[13, 17]","['excitement', 'joy']"
+I miss them being alive,"[25, 16]","['sadness', 'grief']"
+"Super, thanks",[15],['gratitude']
+A new study just came out from China that it's actually too late.,"[9, 25]","['disappointment', 'sadness']"
+"Troll, bro. They know they're saying stupid shit. The motherfucker does nothing but stink up libertarian subs talking shit","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"All sounds possible except the key, I can't see how it was missed in the first search. ","[10, 3]","['disapproval', 'annoyance']"
+"Your aunt has some damn nerve, though!","[2, 3]","['anger', 'annoyance']"
+"Ok, then what the actual fuck is your plan?","[2, 3]","['anger', 'annoyance']"
+What does FPTP have to do with the referendum?,"[7, 27]","['curiosity', 'neutral']"
+Happy to be able to help.,"[4, 5]","['approval', 'caring']"
+"18 is hot but very bland, it's just here this blonde lady who is not as hot as blonde launch.","[9, 10]","['disappointment', 'disapproval']"
 Famous for his 3-4 Defense,[27],['neutral']
-Pretty sure I’ve seen this. He swings away with the harness he is wearing. Still looks painful but I think he lives,"[10, 14]","['relief', 'curiosity']"
+Pretty sure I’ve seen this. He swings away with the harness he is wearing. Still looks painful but I think he lives,"[7, 23]","['curiosity', 'relief']"
 When I feel down I listen to music.,[27],['neutral']
-"aw, thanks! I appreciate that! ",[9],['gratitude']
-Thanks! I love watching him every week,"[8, 9]","['admiration', 'gratitude']"
-I read on a different post that he died shortly after of internal injuries.,"[21, 22]","['sadness', 'grief']"
-Honestly it sounds exhausting being married to him. Maybe it will be better for you in the long run.,[26],['disapproval']
-It's crazy how far Photoshop has come. Underwater bridges?!! NEVER!!!,"[0, 13]","['amusement', 'surprise']"
-"I wouldn't let a sweet potato dictate decisions, ever.","[26, 25]","['disapproval', 'annoyance']"
-It's true though. He either gets no shirt and freezes to death or wears a stupid looking butchers cape. I hope he gets something better next season,"[0, 25]","['amusement', 'annoyance']"
-"It's a better option because it's my life and none of your business? Lmfao, who are you","[24, 25]","['anger', 'annoyance']"
-"Sack, shaft, and tip. The trifecta. ","[0, 1]","['amusement', 'excitement']"
+"aw, thanks! I appreciate that! ",[15],['gratitude']
+Thanks! I love watching him every week,"[15, 0]","['gratitude', 'admiration']"
+I read on a different post that he died shortly after of internal injuries.,"[25, 16]","['sadness', 'grief']"
+Honestly it sounds exhausting being married to him. Maybe it will be better for you in the long run.,[10],['disapproval']
+It's crazy how far Photoshop has come. Underwater bridges?!! NEVER!!!,"[1, 26]","['amusement', 'surprise']"
+"I wouldn't let a sweet potato dictate decisions, ever.","[10, 3]","['disapproval', 'annoyance']"
+It's true though. He either gets no shirt and freezes to death or wears a stupid looking butchers cape. I hope he gets something better next season,"[1, 3]","['amusement', 'annoyance']"
+"It's a better option because it's my life and none of your business? Lmfao, who are you","[2, 3]","['anger', 'annoyance']"
+"Sack, shaft, and tip. The trifecta. ","[13, 1]","['excitement', 'amusement']"
 I know. My question was if they **used** to compete in T5-TTT2.,[27],['neutral']
-FBI!! OPEN UP!!!,"[24, 25]","['anger', 'annoyance']"
-"Should’ve dumped coke all over her right after the movie, and make a run for it. Fk pettiness ","[24, 25]","['anger', 'annoyance']"
+FBI!! OPEN UP!!!,"[2, 3]","['anger', 'annoyance']"
+"Should’ve dumped coke all over her right after the movie, and make a run for it. Fk pettiness ","[2, 3]","['anger', 'annoyance']"
 You can always kneel.,[27],['neutral']
-"Cheers, sololander!",[11],['approval']
-Very interesting. Thx,[9],['gratitude']
-This isn't really wholesome,[26],['disapproval']
-your mom likes to copy me cause she has no creativity just like you:,"[26, 25]","['disapproval', 'annoyance']"
-Lord help me I want to be a mod again. So many damn trolls here,[25],['annoyance']
-Oh holy heck :/,"[26, 25]","['disapproval', 'annoyance']"
-"Thanks DB, I'll see if I can find the book",[9],['gratitude']
-LOL. Super cute!,[0],['amusement']
-I just shit my pants. Then walk away. Embarrassing enough he won't press or follow you.,[19],['embarrassment']
-WHAT ARE YOU DOIN [NAME]?,[25],['annoyance']
-This...has 9k upvotes. Wow.,"[8, 13]","['admiration', 'surprise']"
-[NAME] sees all,"[8, 11]","['admiration', 'approval']"
-Awesome. Thanks!,[9],['gratitude']
-Wait. What. How?,"[15, 13]","['confusion', 'surprise']"
-"And then they say, “HAHAHAHHA IT WAS RIGHT THERE WOW!”","[0, 13]","['amusement', 'surprise']"
-"Aww, try mindfulness. I think I am going over to that sub now.","[6, 11]","['caring', 'approval']"
-Twilight... STILL a better love story than The Last Jedi!,"[0, 11]","['amusement', 'approval']"
+"Cheers, sololander!",[4],['approval']
+Very interesting. Thx,[15],['gratitude']
+This isn't really wholesome,[10],['disapproval']
+your mom likes to copy me cause she has no creativity just like you:,"[10, 3]","['disapproval', 'annoyance']"
+Lord help me I want to be a mod again. So many damn trolls here,[3],['annoyance']
+Oh holy heck :/,"[10, 3]","['disapproval', 'annoyance']"
+"Thanks DB, I'll see if I can find the book",[15],['gratitude']
+LOL. Super cute!,[1],['amusement']
+I just shit my pants. Then walk away. Embarrassing enough he won't press or follow you.,[12],['embarrassment']
+WHAT ARE YOU DOIN [NAME]?,[3],['annoyance']
+This...has 9k upvotes. Wow.,"[0, 26]","['admiration', 'surprise']"
+[NAME] sees all,"[4, 0]","['approval', 'admiration']"
+Awesome. Thanks!,[15],['gratitude']
+Wait. What. How?,"[6, 26]","['confusion', 'surprise']"
+"And then they say, “HAHAHAHHA IT WAS RIGHT THERE WOW!”","[1, 26]","['amusement', 'surprise']"
+"Aww, try mindfulness. I think I am going over to that sub now.","[4, 5]","['approval', 'caring']"
+Twilight... STILL a better love story than The Last Jedi!,"[4, 1]","['approval', 'amusement']"
 Detective from svu.,[27],['neutral']
-Good for #70 to console the poor guy,[6],['caring']
-The republicans are the military. You are an idiot.,"[26, 24]","['disapproval', 'anger']"
-Don't kiss your doorbell! Or anyone else's for that matter...,[0],['amusement']
+Good for #70 to console the poor guy,[5],['caring']
+The republicans are the military. You are an idiot.,"[2, 10]","['anger', 'disapproval']"
+Don't kiss your doorbell! Or anyone else's for that matter...,[1],['amusement']
 Just got home from school. How are we doing,[27],['neutral']
-This pic they used for [NAME] makes her look like [NAME],[0],['amusement']
-"Awesome! I’m a cradle [RELIGION], so really interesting to hear your experience. Thanks for sharing.","[11, 9]","['approval', 'gratitude']"
-What a wonderful world,"[8, 5]","['admiration', 'optimism']"
+This pic they used for [NAME] makes her look like [NAME],[1],['amusement']
+"Awesome! I’m a cradle [RELIGION], so really interesting to hear your experience. Thanks for sharing.","[4, 15]","['approval', 'gratitude']"
+What a wonderful world,"[20, 0]","['optimism', 'admiration']"
 Never get out of the boat.,[27],['neutral']
-"just noticed, lol. damn pervert foreigners.","[26, 25]","['disapproval', 'annoyance']"
-Oh forgive us for trying to make an exciting atmosphere at our homecourt.,[24],['anger']
+"just noticed, lol. damn pervert foreigners.","[10, 3]","['disapproval', 'annoyance']"
+Oh forgive us for trying to make an exciting atmosphere at our homecourt.,[2],['anger']
 "true I am a troll, but fortunately for me I'm not emotionally invested in it.",[27],['neutral']
-sorry [NAME]! 😘😘😘,"[3, 9]","['love', 'gratitude']"
-"At least it’s not anything worse, and that you are still close to that person :)","[10, 9]","['relief', 'gratitude']"
-This is the first person Australia has tried to do this to...,"[26, 25]","['disapproval', 'annoyance']"
-my brain hurts...,[25],['annoyance']
-Thank you for at least doing something good sir.,"[9, 11]","['gratitude', 'approval']"
-"He was off by 5 minutes, not impressed. ","[26, 20]","['disapproval', 'disappointment']"
-Sometimes life actually hands you lemons. We're just lucky that we have a proverbial phrase that gives us an idea of what we can do with them.,"[0, 5]","['amusement', 'optimism']"
-People on the other side want you dead no matter why you are there.,"[24, 16]","['anger', 'fear']"
-"Pay you for what, just standing there? Done.","[24, 25]","['anger', 'annoyance']"
-Cleavage: Nature's Brass Catcher.,[0],['amusement']
-"Apologies, I take it all back as I’ve just seen his latest effort","[12, 18]","['realization', 'remorse']"
-I love Rocket Love and Blasted. I just wonder who the songs were written for because these are all reference tracks except Acura Intergul,"[8, 14]","['admiration', 'curiosity']"
-okay im interested in joining the bare hands hunting posse,"[1, 14]","['excitement', 'curiosity']"
-Damn for that much you may as well use a mobile plan unless you're doing something latency sensitive.,"[26, 25]","['disapproval', 'annoyance']"
+sorry [NAME]! 😘😘😘,"[15, 18]","['gratitude', 'love']"
+"At least it’s not anything worse, and that you are still close to that person :)","[15, 23]","['gratitude', 'relief']"
+This is the first person Australia has tried to do this to...,"[10, 3]","['disapproval', 'annoyance']"
+my brain hurts...,[3],['annoyance']
+Thank you for at least doing something good sir.,"[15, 4]","['gratitude', 'approval']"
+"He was off by 5 minutes, not impressed. ","[9, 10]","['disappointment', 'disapproval']"
+Sometimes life actually hands you lemons. We're just lucky that we have a proverbial phrase that gives us an idea of what we can do with them.,"[1, 20]","['amusement', 'optimism']"
+People on the other side want you dead no matter why you are there.,"[14, 2]","['fear', 'anger']"
+"Pay you for what, just standing there? Done.","[2, 3]","['anger', 'annoyance']"
+Cleavage: Nature's Brass Catcher.,[1],['amusement']
+"Apologies, I take it all back as I’ve just seen his latest effort","[22, 24]","['realization', 'remorse']"
+I love Rocket Love and Blasted. I just wonder who the songs were written for because these are all reference tracks except Acura Intergul,"[7, 0]","['curiosity', 'admiration']"
+okay im interested in joining the bare hands hunting posse,"[13, 7]","['excitement', 'curiosity']"
+Damn for that much you may as well use a mobile plan unless you're doing something latency sensitive.,"[10, 3]","['disapproval', 'annoyance']"
 I think the 90 day rule applies to increases over 5%?,[27],['neutral']
-If they bolt its a feature.,"[0, 27]","['amusement', 'neutral']"
-So this means the people who have debt can see those that don’t. Am I sensing an easier target for muggings and such?,[16],['fear']
-Skynet has really lost its edge,"[26, 20]","['disapproval', 'disappointment']"
-You just make her sound awesome.,[8],['admiration']
-seriously wtf. I want to see how the whole hand went in detail. that was the sickest soulread ever,"[8, 1]","['admiration', 'excitement']"
-Your team lacks ethics.,"[26, 24]","['disapproval', 'anger']"
-"[NAME] was useless, aside from bandaging [NAME] up a bit more than she already did and treating [NAME], name one decision [NAME] has made smartly. ","[26, 25]","['disapproval', 'annoyance']"
-"Not the **emotional effect**, when it's in the best interest of our country.",[11],['approval']
-i wouldn't take that significant of a pay cut. you should keep your job and do your creative writing on the side/free time.,"[26, 25]","['disapproval', 'annoyance']"
+If they bolt its a feature.,"[1, 27]","['amusement', 'neutral']"
+So this means the people who have debt can see those that don’t. Am I sensing an easier target for muggings and such?,[14],['fear']
+Skynet has really lost its edge,"[9, 10]","['disappointment', 'disapproval']"
+You just make her sound awesome.,[0],['admiration']
+seriously wtf. I want to see how the whole hand went in detail. that was the sickest soulread ever,"[13, 0]","['excitement', 'admiration']"
+Your team lacks ethics.,"[2, 10]","['anger', 'disapproval']"
+"[NAME] was useless, aside from bandaging [NAME] up a bit more than she already did and treating [NAME], name one decision [NAME] has made smartly. ","[10, 3]","['disapproval', 'annoyance']"
+"Not the **emotional effect**, when it's in the best interest of our country.",[4],['approval']
+i wouldn't take that significant of a pay cut. you should keep your job and do your creative writing on the side/free time.,"[10, 3]","['disapproval', 'annoyance']"
 "Hey, I just shared the tweet with the quote. I don't know about all that",[27],['neutral']
-Who is this Wild team? Where have they been?,"[13, 14]","['surprise', 'curiosity']"
-omg [NAME] and his dad walking out together is so cute 😍,"[8, 2]","['admiration', 'joy']"
-Thanks I'll give it a go. Nothing used for randoms at all? Would it be better for me to find a group to play with?,"[9, 14]","['gratitude', 'curiosity']"
-Why’s he pointless? I want to know how people like you watch this game. Genuinely baffles me.,"[15, 26]","['confusion', 'disapproval']"
-I appreciate his deadpan humour.,"[0, 8]","['amusement', 'admiration']"
-So I said earlier that this team was boring without [NAME] lately. I take that back after the last two games.,"[8, 11]","['admiration', 'approval']"
-"I was kicked, and apparently don't care about oversharing on Reddit about it anymore",[0],['amusement']
-It's because you play against 1000 ms ping EU players that have no idea what's going on. Happy hunting!,"[0, 25]","['amusement', 'annoyance']"
-Updooted like the filthy animal I am.,"[0, 11]","['amusement', 'approval']"
-The fuck is “mog?!”,"[24, 25]","['anger', 'annoyance']"
-Especially that “Australia ain’t gonna cop it” ad on TV god I hate [NAME],"[26, 25]","['disapproval', 'annoyance']"
-And you believe this?,[26],['disapproval']
-"If you are into sours they put out some decent stuff, but anything outside of that is completely forgettable and average.","[26, 25]","['disapproval', 'annoyance']"
-We thought he was getting better but then he turned himself around.,"[13, 10]","['surprise', 'relief']"
-You seem slightly sensitive... I was actually thinking we had been infiltrated by the normies,"[0, 25]","['amusement', 'annoyance']"
-Yet another clown whining about discussions about bitcoin in a bitcoin sub.,"[26, 25]","['disapproval', 'annoyance']"
-"Three words, no subtlety. ""Dude. Stop. Seriously."" ",[25],['annoyance']
-"[NAME] dude I see [NAME] so rarely that I forget that he's the OG ""Fuck this character fuck this stupid game"" king. ",[0],['amusement']
-"Wow. I just read the synopsis, and that’s really what happens. ",[13],['surprise']
-"Wow, that landlady sure is a piece of shit. I'd be interested in knowing how many people she has discriminated against or harassed in the past.","[23, 24]","['disgust', 'anger']"
-I KILL YOU SCUM,[24],['anger']
-"It’s way too broken, anyone and their dog can use it.","[26, 25]","['disapproval', 'annoyance']"
-Tournament was a blast met some really cool people loved it all. Thanks for holding it. Would love to do it again someday,"[9, 2, 1]","['gratitude', 'joy', 'excitement']"
-"Yeah, I am! I'll private message you a link to my profile. Thank you.",[9],['gratitude']
-*curb your enthusiasm theme intensifies*,[0],['amusement']
-youre a disgusting piece of filth.,"[23, 24]","['disgust', 'anger']"
-By the way the dogs also alerted at kuss road but will just ignore that much like [NAME] did lol ciao,[0],['amusement']
-This is sort of wholesome in a weird way,"[0, 14]","['amusement', 'curiosity']"
-"Just an employee, just stressed that it takes so long to save 10k for example and even that is nothing ! Should of brought more bitcoins","[25, 20]","['annoyance', 'disappointment']"
-Kinda. And thank you. I'm curious about those files and film and fotos you mentioned.,[14],['curiosity']
-I don't think aspergers causes me distress or anxiety. I think having to live in a society that privileges neurotypical modes of interaction causes me distress and anxiety,"[24, 25]","['anger', 'annoyance']"
-Looks like my greyhounds feet,"[27, 14]","['neutral', 'curiosity']"
-You told me it was pointless to point it out. You're the idiot,"[24, 25]","['anger', 'annoyance']"
-2019 should just be a picture of a trash can or dumpster on fire. Amazing how shitty DICE can make things in 10 years.,"[26, 25]","['disapproval', 'annoyance']"
-Yeah let's wrap up AS4 I'm suddenly so much more excited for S11,[1],['excitement']
+Who is this Wild team? Where have they been?,"[7, 26]","['curiosity', 'surprise']"
+omg [NAME] and his dad walking out together is so cute 😍,"[0, 17]","['admiration', 'joy']"
+Thanks I'll give it a go. Nothing used for randoms at all? Would it be better for me to find a group to play with?,"[15, 7]","['gratitude', 'curiosity']"
+Why’s he pointless? I want to know how people like you watch this game. Genuinely baffles me.,"[6, 10]","['confusion', 'disapproval']"
+I appreciate his deadpan humour.,"[1, 0]","['amusement', 'admiration']"
+So I said earlier that this team was boring without [NAME] lately. I take that back after the last two games.,"[4, 0]","['approval', 'admiration']"
+"I was kicked, and apparently don't care about oversharing on Reddit about it anymore",[1],['amusement']
+It's because you play against 1000 ms ping EU players that have no idea what's going on. Happy hunting!,"[1, 3]","['amusement', 'annoyance']"
+Updooted like the filthy animal I am.,"[4, 1]","['approval', 'amusement']"
+The fuck is “mog?!”,"[2, 3]","['anger', 'annoyance']"
+Especially that “Australia ain’t gonna cop it” ad on TV god I hate [NAME],"[10, 3]","['disapproval', 'annoyance']"
+And you believe this?,[10],['disapproval']
+"If you are into sours they put out some decent stuff, but anything outside of that is completely forgettable and average.","[10, 3]","['disapproval', 'annoyance']"
+We thought he was getting better but then he turned himself around.,"[23, 26]","['relief', 'surprise']"
+You seem slightly sensitive... I was actually thinking we had been infiltrated by the normies,"[1, 3]","['amusement', 'annoyance']"
+Yet another clown whining about discussions about bitcoin in a bitcoin sub.,"[10, 3]","['disapproval', 'annoyance']"
+"Three words, no subtlety. ""Dude. Stop. Seriously."" ",[3],['annoyance']
+"[NAME] dude I see [NAME] so rarely that I forget that he's the OG ""Fuck this character fuck this stupid game"" king. ",[1],['amusement']
+"Wow. I just read the synopsis, and that’s really what happens. ",[26],['surprise']
+"Wow, that landlady sure is a piece of shit. I'd be interested in knowing how many people she has discriminated against or harassed in the past.","[2, 11]","['anger', 'disgust']"
+I KILL YOU SCUM,[2],['anger']
+"It’s way too broken, anyone and their dog can use it.","[10, 3]","['disapproval', 'annoyance']"
+Tournament was a blast met some really cool people loved it all. Thanks for holding it. Would love to do it again someday,"[15, 13, 17]","['gratitude', 'excitement', 'joy']"
+"Yeah, I am! I'll private message you a link to my profile. Thank you.",[15],['gratitude']
+*curb your enthusiasm theme intensifies*,[1],['amusement']
+youre a disgusting piece of filth.,"[2, 11]","['anger', 'disgust']"
+By the way the dogs also alerted at kuss road but will just ignore that much like [NAME] did lol ciao,[1],['amusement']
+This is sort of wholesome in a weird way,"[7, 1]","['curiosity', 'amusement']"
+"Just an employee, just stressed that it takes so long to save 10k for example and even that is nothing ! Should of brought more bitcoins","[9, 3]","['disappointment', 'annoyance']"
+Kinda. And thank you. I'm curious about those files and film and fotos you mentioned.,[7],['curiosity']
+I don't think aspergers causes me distress or anxiety. I think having to live in a society that privileges neurotypical modes of interaction causes me distress and anxiety,"[2, 3]","['anger', 'annoyance']"
+Looks like my greyhounds feet,"[7, 27]","['curiosity', 'neutral']"
+You told me it was pointless to point it out. You're the idiot,"[2, 3]","['anger', 'annoyance']"
+2019 should just be a picture of a trash can or dumpster on fire. Amazing how shitty DICE can make things in 10 years.,"[10, 3]","['disapproval', 'annoyance']"
+Yeah let's wrap up AS4 I'm suddenly so much more excited for S11,[13],['excitement']
 He left the bench and is back in the locker room with the medical staff,[27],['neutral']
 "Deluxe always need ingest people, there's also fairly regular openings for media operators.",[27],['neutral']
-"Absolutely. I'd love it. No matter how much I like the guy, if he just goes for it that's not cool.","[26, 11]","['disapproval', 'approval']"
-"Honestly, same. I was miserable at my admin asst job.",[21],['sadness']
-Glad to see Hearts fans giving [NAME] such a warm welcome back..,"[11, 2]","['approval', 'joy']"
-"Glad you feel better! My offer still stands though, if you need someone, I’m here","[6, 10]","['caring', 'relief']"
-Colts Offense is laughable right now,"[26, 25]","['disapproval', 'annoyance']"
-"Lol so petty, I kinda love it. I probably wouldn’t actually do that but it’s tempting.","[0, 8]","['amusement', 'admiration']"
-Lmao Stole my joke! 😂,[0],['amusement']
-Welcome to the party pal!,"[1, 2]","['excitement', 'joy']"
-Is this a [NAME] reference. I feel like it is.,[14],['curiosity']
-Don't think we should be stomping all over people's bodily autonomy just so public health authorities can declare victory.,"[26, 24]","['disapproval', 'anger']"
-Can he teach them to run really really fast?,[14],['curiosity']
-"Please enlighten us, O oracle. This should be rich...","[0, 14]","['amusement', 'curiosity']"
-[NAME] was one of the only good things in that season,"[8, 11]","['admiration', 'approval']"
-Your coaching is terrible.... be ready and see how [NAME] uses [NAME],"[26, 24]","['disapproval', 'anger']"
-I adore this comment section <3,"[8, 3]","['admiration', 'love']"
-How did you try it if it's not live yet? There was no early access to it,"[26, 25]","['disapproval', 'annoyance']"
-"You got it, thanks!",[9],['gratitude']
-"No deagle nerf/vault, good patch but could be way better","[11, 20]","['approval', 'disappointment']"
-"Stop master debating, you are making a fool out of yourself. It's concerning.","[26, 25]","['disapproval', 'annoyance']"
+"Absolutely. I'd love it. No matter how much I like the guy, if he just goes for it that's not cool.","[4, 10]","['approval', 'disapproval']"
+"Honestly, same. I was miserable at my admin asst job.",[25],['sadness']
+Glad to see Hearts fans giving [NAME] such a warm welcome back..,"[4, 17]","['approval', 'joy']"
+"Glad you feel better! My offer still stands though, if you need someone, I’m here","[23, 5]","['relief', 'caring']"
+Colts Offense is laughable right now,"[10, 3]","['disapproval', 'annoyance']"
+"Lol so petty, I kinda love it. I probably wouldn’t actually do that but it’s tempting.","[1, 0]","['amusement', 'admiration']"
+Lmao Stole my joke! 😂,[1],['amusement']
+Welcome to the party pal!,"[13, 17]","['excitement', 'joy']"
+Is this a [NAME] reference. I feel like it is.,[7],['curiosity']
+Don't think we should be stomping all over people's bodily autonomy just so public health authorities can declare victory.,"[2, 10]","['anger', 'disapproval']"
+Can he teach them to run really really fast?,[7],['curiosity']
+"Please enlighten us, O oracle. This should be rich...","[7, 1]","['curiosity', 'amusement']"
+[NAME] was one of the only good things in that season,"[4, 0]","['approval', 'admiration']"
+Your coaching is terrible.... be ready and see how [NAME] uses [NAME],"[2, 10]","['anger', 'disapproval']"
+I adore this comment section <3,"[0, 18]","['admiration', 'love']"
+How did you try it if it's not live yet? There was no early access to it,"[10, 3]","['disapproval', 'annoyance']"
+"You got it, thanks!",[15],['gratitude']
+"No deagle nerf/vault, good patch but could be way better","[4, 9]","['approval', 'disappointment']"
+"Stop master debating, you are making a fool out of yourself. It's concerning.","[10, 3]","['disapproval', 'annoyance']"
 I think it depends on how many people are awake and passing by at the time of the posting.,[27],['neutral']
-"as long as the tracking shows delivered, it's not your responsibility what happens to it after that","[27, 10]","['neutral', 'relief']"
-"[NAME] got in before [NAME], but other than that...","[25, 20]","['annoyance', 'disappointment']"
-"My stylist is a fit, handsome guy with big, sexy hands. Can't say I don't like it when he tousles my hair.","[8, 4]","['admiration', 'desire']"
-You are giving them human emotions. If you spent any time with cattle at all you would realize how silly that is.,"[26, 25]","['disapproval', 'annoyance']"
-"He may have, I was more worried about the ""running and shooting the AR one handed, off to the side"".",[25],['annoyance']
-"Hmmm, can I see that statistic claiming Rowan engineering is that high?",[14],['curiosity']
-horse meat is fucking peng i love it. why is it ok for a cow to be slaughtered for food but not a horse? ridiculous double standards,"[26, 24, 25]","['disapproval', 'anger', 'annoyance']"
-Where’s Sharpton now?,[25],['annoyance']
-good luck buddy,"[6, 5]","['caring', 'optimism']"
-it really do be like that sometimes,"[0, 11]","['amusement', 'approval']"
-Define woman please if you're not going to use the accepted denotation.,[25],['annoyance']
-Your response is truly one of the most amazing ones I’ve seen.,[8],['admiration']
-That’s a straight up ghoul,"[26, 23]","['disapproval', 'disgust']"
-I don’t understand why people give gold to crossposts. You deserve all the upvotes.,"[8, 11]","['admiration', 'approval']"
-"No problem at all, glad I could help :) Cheers!","[9, 11]","['gratitude', 'approval']"
-We're not moving.,"[26, 25]","['disapproval', 'annoyance']"
-My [NAME]! This isnt a vaccine! It's a jello shot!,"[0, 13]","['amusement', 'surprise']"
+"as long as the tracking shows delivered, it's not your responsibility what happens to it after that","[23, 27]","['relief', 'neutral']"
+"[NAME] got in before [NAME], but other than that...","[9, 3]","['disappointment', 'annoyance']"
+"My stylist is a fit, handsome guy with big, sexy hands. Can't say I don't like it when he tousles my hair.","[8, 0]","['desire', 'admiration']"
+You are giving them human emotions. If you spent any time with cattle at all you would realize how silly that is.,"[10, 3]","['disapproval', 'annoyance']"
+"He may have, I was more worried about the ""running and shooting the AR one handed, off to the side"".",[3],['annoyance']
+"Hmmm, can I see that statistic claiming Rowan engineering is that high?",[7],['curiosity']
+horse meat is fucking peng i love it. why is it ok for a cow to be slaughtered for food but not a horse? ridiculous double standards,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+Where’s Sharpton now?,[3],['annoyance']
+good luck buddy,"[5, 20]","['caring', 'optimism']"
+it really do be like that sometimes,"[4, 1]","['approval', 'amusement']"
+Define woman please if you're not going to use the accepted denotation.,[3],['annoyance']
+Your response is truly one of the most amazing ones I’ve seen.,[0],['admiration']
+That’s a straight up ghoul,"[10, 11]","['disapproval', 'disgust']"
+I don’t understand why people give gold to crossposts. You deserve all the upvotes.,"[4, 0]","['approval', 'admiration']"
+"No problem at all, glad I could help :) Cheers!","[15, 4]","['gratitude', 'approval']"
+We're not moving.,"[10, 3]","['disapproval', 'annoyance']"
+My [NAME]! This isnt a vaccine! It's a jello shot!,"[1, 26]","['amusement', 'surprise']"
 Who do you think can lead the Packers to where they need to be?,[27],['neutral']
-"Thanks, :), as the days go by they are getting better.","[9, 11]","['gratitude', 'approval']"
-"Oh wow. Yeah I’m very new, only about 8 hours gameplay","[13, 1]","['surprise', 'excitement']"
-"*""Success is the best revenge.""* Good job OP. Stay strong. You're almost there.","[7, 11]","['pride', 'approval']"
-Food stamps are a disgrace. People should get money!,"[26, 24]","['disapproval', 'anger']"
+"Thanks, :), as the days go by they are getting better.","[15, 4]","['gratitude', 'approval']"
+"Oh wow. Yeah I’m very new, only about 8 hours gameplay","[13, 26]","['excitement', 'surprise']"
+"*""Success is the best revenge.""* Good job OP. Stay strong. You're almost there.","[4, 21]","['approval', 'pride']"
+Food stamps are a disgrace. People should get money!,"[2, 10]","['anger', 'disapproval']"
 Whisper me your steam id but it'll be 1-2 hours until I can start playing,[27],['neutral']
-By [NAME]! That’s [NAME] music!,[8],['admiration']
-You just needed a [RELIGION] grandparent to be killed,"[26, 24]","['disapproval', 'anger']"
+By [NAME]! That’s [NAME] music!,[0],['admiration']
+You just needed a [RELIGION] grandparent to be killed,"[2, 10]","['anger', 'disapproval']"
 "You live in Appalachia, don’t you?",[27],['neutral']
-That pole and cheap plastic fence surely would offer excellent protection from a car. Walk it off brah.,"[0, 26]","['amusement', 'disapproval']"
-What the fuck is [NAME] doing in the background,"[24, 25]","['anger', 'annoyance']"
-It creates perverse incentives. Allow underpaid prison labour and suddenly you've an incentive towards exploiting your prison population rather than rehabilitating them.,"[26, 24]","['disapproval', 'anger']"
-"Yeahhhh no, you're banned for this whole convo.","[26, 24]","['disapproval', 'anger']"
-I always just say “thank you” because it’s a nice thought 🤷‍♀️,"[27, 9]","['neutral', 'gratitude']"
-"To be fair, [NAME] is an amazing broadcaster.","[8, 11]","['admiration', 'approval']"
-I had 3 last night 🙈 this rant was after glass #1,"[0, 19]","['amusement', 'embarrassment']"
+That pole and cheap plastic fence surely would offer excellent protection from a car. Walk it off brah.,"[1, 10]","['amusement', 'disapproval']"
+What the fuck is [NAME] doing in the background,"[2, 3]","['anger', 'annoyance']"
+It creates perverse incentives. Allow underpaid prison labour and suddenly you've an incentive towards exploiting your prison population rather than rehabilitating them.,"[2, 10]","['anger', 'disapproval']"
+"Yeahhhh no, you're banned for this whole convo.","[2, 10]","['anger', 'disapproval']"
+I always just say “thank you” because it’s a nice thought 🤷‍♀️,"[15, 27]","['gratitude', 'neutral']"
+"To be fair, [NAME] is an amazing broadcaster.","[4, 0]","['approval', 'admiration']"
+I had 3 last night 🙈 this rant was after glass #1,"[1, 12]","['amusement', 'embarrassment']"
 [NAME],[27],['neutral']
-Dv cus it’s playful doggos,"[0, 2]","['amusement', 'joy']"
-"I'm 14 stone...so probably about 2 stone over weight. I don't drink alcohol or do drugs, but I love food.... ",[18],['remorse']
-Needs a real big bag of rice!,[4],['desire']
-"Also curious. But as someone who lives in northern Ontario, this is pretty accurate","[0, 14]","['amusement', 'curiosity']"
-Like the handout this guy got to build the stadium?,"[8, 13]","['admiration', 'surprise']"
-"I thought I couldn't get more depressed about last game, but.....","[21, 20]","['sadness', 'disappointment']"
-i think its cool because its a hybrid that comes in stickshift,"[11, 1]","['approval', 'excitement']"
-"I'm not saying your analysis is wrong or not based on evidence, just that the data it generates is not useful. ","[26, 25]","['disapproval', 'annoyance']"
+Dv cus it’s playful doggos,"[1, 17]","['amusement', 'joy']"
+"I'm 14 stone...so probably about 2 stone over weight. I don't drink alcohol or do drugs, but I love food.... ",[24],['remorse']
+Needs a real big bag of rice!,[8],['desire']
+"Also curious. But as someone who lives in northern Ontario, this is pretty accurate","[7, 1]","['curiosity', 'amusement']"
+Like the handout this guy got to build the stadium?,"[0, 26]","['admiration', 'surprise']"
+"I thought I couldn't get more depressed about last game, but.....","[9, 25]","['disappointment', 'sadness']"
+i think its cool because its a hybrid that comes in stickshift,"[4, 13]","['approval', 'excitement']"
+"I'm not saying your analysis is wrong or not based on evidence, just that the data it generates is not useful. ","[10, 3]","['disapproval', 'annoyance']"
 Ask over at r/NewTubers,[27],['neutral']
-The first time I'm seeing it so thank you for sharing. Definitely shows the propaganda efforts.,"[12, 9]","['realization', 'gratitude']"
-"It's simple, he's blunt, and that is what some people need.",[11],['approval']
-And yet you had to walk back your support of this bill when you found out it would catch up your shotgun,"[26, 25]","['disapproval', 'annoyance']"
-It's also one of the very few decent solo FPS released this year.,[11],['approval']
-"I like this sub, and I like you. You're alright. ","[3, 11]","['love', 'approval']"
-bet you could still eat them,[0],['amusement']
-"Yeah, I was thinking my boy was into them before that. But I doubt Panic! At the Disco would have peaked his interest.","[0, 27]","['amusement', 'neutral']"
+The first time I'm seeing it so thank you for sharing. Definitely shows the propaganda efforts.,"[15, 22]","['gratitude', 'realization']"
+"It's simple, he's blunt, and that is what some people need.",[4],['approval']
+And yet you had to walk back your support of this bill when you found out it would catch up your shotgun,"[10, 3]","['disapproval', 'annoyance']"
+It's also one of the very few decent solo FPS released this year.,[4],['approval']
+"I like this sub, and I like you. You're alright. ","[4, 18]","['approval', 'love']"
+bet you could still eat them,[1],['amusement']
+"Yeah, I was thinking my boy was into them before that. But I doubt Panic! At the Disco would have peaked his interest.","[1, 27]","['amusement', 'neutral']"
 "She doesn’t have to be added to the game for her to be significant, [NAME] was just an extreme example.",[27],['neutral']
-wow so almost every sub has grown a lot in 7 months. Also 8.3k!! what!? that's insane,"[13, 1]","['surprise', 'excitement']"
-At least they can make some good pizza,"[8, 11]","['admiration', 'approval']"
-I've never been there before so I can't confirm or deny but I would be really surprised if a casino only had limit holdem,"[13, 14]","['surprise', 'curiosity']"
-"Pretty sure you don't know what ""hurt"" means","[26, 25]","['disapproval', 'annoyance']"
-Go pursue that education. Let [NAME] wallow in her own sadness.,"[21, 25]","['sadness', 'annoyance']"
-Such a nice photo of city hall.,[8],['admiration']
-That's the kind of problem a physical therapist is more qualified to handle. Good luck,"[27, 11]","['neutral', 'approval']"
-I was suffering a delirium flu during the phantom facemask game so it’s all sorts of suffering for me.,"[22, 21, 25]","['grief', 'sadness', 'annoyance']"
-Thank you so much! I love Germany! I was in Berlin 2 years ago for research work.,"[8, 3, 9]","['admiration', 'love', 'gratitude']"
-I had no idea what the fuck this was about. Found the ad and watched it. It's actually decent.,"[13, 14]","['surprise', 'curiosity']"
-"I'm sorry OP, every single thing on that list is incredibly wrong. I hope you're doing well now. ","[6, 26]","['caring', 'disapproval']"
-I’m assuming you’re referring to the poor execution of the hanging? He only used half of the holes,"[26, 25]","['disapproval', 'annoyance']"
-"I mean, your account is a day old, so I think you’ll be okay.","[27, 11]","['neutral', 'approval']"
-"If ANYONE told me upfront they were a whatever game console guy/girl, I’d reconsider dating them. You’re too into video games. ","[26, 25]","['disapproval', 'annoyance']"
-Those are some fine looking pills.,[11],['approval']
-Would feel weird swiping right on a leftie,"[0, 14]","['amusement', 'curiosity']"
-She has at least 12 elbows and all of them are happy. You get it gurl,[0],['amusement']
+wow so almost every sub has grown a lot in 7 months. Also 8.3k!! what!? that's insane,"[13, 26]","['excitement', 'surprise']"
+At least they can make some good pizza,"[4, 0]","['approval', 'admiration']"
+I've never been there before so I can't confirm or deny but I would be really surprised if a casino only had limit holdem,"[7, 26]","['curiosity', 'surprise']"
+"Pretty sure you don't know what ""hurt"" means","[10, 3]","['disapproval', 'annoyance']"
+Go pursue that education. Let [NAME] wallow in her own sadness.,"[25, 3]","['sadness', 'annoyance']"
+Such a nice photo of city hall.,[0],['admiration']
+That's the kind of problem a physical therapist is more qualified to handle. Good luck,"[4, 27]","['approval', 'neutral']"
+I was suffering a delirium flu during the phantom facemask game so it’s all sorts of suffering for me.,"[25, 16, 3]","['sadness', 'grief', 'annoyance']"
+Thank you so much! I love Germany! I was in Berlin 2 years ago for research work.,"[15, 0, 18]","['gratitude', 'admiration', 'love']"
+I had no idea what the fuck this was about. Found the ad and watched it. It's actually decent.,"[7, 26]","['curiosity', 'surprise']"
+"I'm sorry OP, every single thing on that list is incredibly wrong. I hope you're doing well now. ","[5, 10]","['caring', 'disapproval']"
+I’m assuming you’re referring to the poor execution of the hanging? He only used half of the holes,"[10, 3]","['disapproval', 'annoyance']"
+"I mean, your account is a day old, so I think you’ll be okay.","[4, 27]","['approval', 'neutral']"
+"If ANYONE told me upfront they were a whatever game console guy/girl, I’d reconsider dating them. You’re too into video games. ","[10, 3]","['disapproval', 'annoyance']"
+Those are some fine looking pills.,[4],['approval']
+Would feel weird swiping right on a leftie,"[7, 1]","['curiosity', 'amusement']"
+She has at least 12 elbows and all of them are happy. You get it gurl,[1],['amusement']
 "Me, too, please.",[27],['neutral']
-"Not surprised, damn that sucks. Concussions are awful.","[26, 20]","['disapproval', 'disappointment']"
-ur mom is in purgatory xd,"[0, 25]","['amusement', 'annoyance']"
-"Yes, it's normal. More like considering you options than desperation","[27, 11]","['neutral', 'approval']"
-"The bathroom on the first floor at my school had no soap dispenser, a destroyed toilet, and toilet paper so long it left the bathroom.","[26, 25]","['disapproval', 'annoyance']"
-I wanted to see him show out over Kemba.,"[1, 14]","['excitement', 'curiosity']"
-"Not all [NAME] supporters are tankies, but all tankies are [NAME] supporters","[26, 25]","['disapproval', 'annoyance']"
-They look absolutely PERFECT together. I hope its that way in real life too. So happy for ya [NAME]!!!,"[11, 2]","['approval', 'joy']"
-"It could be, but I hope it's abandoned. I haven't been too impressed with the flash forwards. ","[26, 20]","['disapproval', 'disappointment']"
-It's bizarre that it's considered normal to intentionally brainwash people into murdering psychos.,"[26, 23]","['disapproval', 'disgust']"
-What do you think? If you look at my question above? Last thing I should do is to say sorry?,"[15, 25]","['confusion', 'annoyance']"
-Bet flop. Good [NAME] what are you doing on the river.,"[26, 25]","['disapproval', 'annoyance']"
-"Mmm, no. I highly dislike this. 10/10 TIHI material.","[26, 23]","['disapproval', 'disgust']"
-All the scumbags around everywhere. Sucks that it's so easy to use for a lot of other things.,"[23, 24]","['disgust', 'anger']"
-Gamers know all too well how it feels to be oppressed by society.,[24],['anger']
-It's extremely common. Hell you probably have it yourself and just don't know.,"[27, 25]","['neutral', 'annoyance']"
+"Not surprised, damn that sucks. Concussions are awful.","[9, 10]","['disappointment', 'disapproval']"
+ur mom is in purgatory xd,"[1, 3]","['amusement', 'annoyance']"
+"Yes, it's normal. More like considering you options than desperation","[4, 27]","['approval', 'neutral']"
+"The bathroom on the first floor at my school had no soap dispenser, a destroyed toilet, and toilet paper so long it left the bathroom.","[10, 3]","['disapproval', 'annoyance']"
+I wanted to see him show out over Kemba.,"[7, 13]","['curiosity', 'excitement']"
+"Not all [NAME] supporters are tankies, but all tankies are [NAME] supporters","[10, 3]","['disapproval', 'annoyance']"
+They look absolutely PERFECT together. I hope its that way in real life too. So happy for ya [NAME]!!!,"[4, 17]","['approval', 'joy']"
+"It could be, but I hope it's abandoned. I haven't been too impressed with the flash forwards. ","[9, 10]","['disappointment', 'disapproval']"
+It's bizarre that it's considered normal to intentionally brainwash people into murdering psychos.,"[10, 11]","['disapproval', 'disgust']"
+What do you think? If you look at my question above? Last thing I should do is to say sorry?,"[6, 3]","['confusion', 'annoyance']"
+Bet flop. Good [NAME] what are you doing on the river.,"[10, 3]","['disapproval', 'annoyance']"
+"Mmm, no. I highly dislike this. 10/10 TIHI material.","[10, 11]","['disapproval', 'disgust']"
+All the scumbags around everywhere. Sucks that it's so easy to use for a lot of other things.,"[2, 11]","['anger', 'disgust']"
+Gamers know all too well how it feels to be oppressed by society.,[2],['anger']
+It's extremely common. Hell you probably have it yourself and just don't know.,"[27, 3]","['neutral', 'annoyance']"
 "You’ve described some states in the South, like ",[27],['neutral']
-"Lol, get em Corsi! ","[0, 8]","['amusement', 'admiration']"
-Sounds nice owo,"[1, 2]","['excitement', 'joy']"
-A jellyfish. He purposely stung himself with it.,"[0, 13]","['amusement', 'surprise']"
-"No he was given a bad team to work with unfortunately, and never got the final shot he deserved :(","[21, 20]","['sadness', 'disappointment']"
-Does nobody notice that this is a doctored photo..?? Like really bad clone stamp.. I mean it could be beautiful but this is not a real photo.,"[26, 25]","['disapproval', 'annoyance']"
-The dad was in stitches..,[0],['amusement']
-I'm sorry but as someone who travels alone I would be pissed if I was told I can't drink at the bar by myself.,"[24, 25]","['anger', 'annoyance']"
-an interesting trade would be [NAME] and a 1st to the Mavs for [NAME]. and [NAME],[14],['curiosity']
+"Lol, get em Corsi! ","[1, 0]","['amusement', 'admiration']"
+Sounds nice owo,"[13, 17]","['excitement', 'joy']"
+A jellyfish. He purposely stung himself with it.,"[1, 26]","['amusement', 'surprise']"
+"No he was given a bad team to work with unfortunately, and never got the final shot he deserved :(","[9, 25]","['disappointment', 'sadness']"
+Does nobody notice that this is a doctored photo..?? Like really bad clone stamp.. I mean it could be beautiful but this is not a real photo.,"[10, 3]","['disapproval', 'annoyance']"
+The dad was in stitches..,[1],['amusement']
+I'm sorry but as someone who travels alone I would be pissed if I was told I can't drink at the bar by myself.,"[2, 3]","['anger', 'annoyance']"
+an interesting trade would be [NAME] and a 1st to the Mavs for [NAME]. and [NAME],[7],['curiosity']
 Doesn't seem like a big deal. I mean is she in the room?,[27],['neutral']
-Get him boys!,"[24, 25]","['anger', 'annoyance']"
-"Lol, that’s funny. I’ll have to find our Aggieopoly and see how it compares.",[0],['amusement']
-"We were all duped? I’ve seen through her from day 1, even posted about how fake she is ","[26, 25]","['disapproval', 'annoyance']"
-"At least you get sunny on Netflix, they took it off in Canada :(","[21, 20]","['sadness', 'disappointment']"
-[NAME] better be careful. He'll be next.,[16],['fear']
-That's the first time I have seen OG pass up that kind of opportunity.,[13],['surprise']
-"To be a buzzkill, something can be both depressing and uplifting and despite being depressing it is most definitely uplifting. ","[8, 5]","['admiration', 'optimism']"
-"Mostly shit paying jobs with more openings + older people rejoining the workforce. Ofc they will spin it as ""good"" news...","[26, 25]","['disapproval', 'annoyance']"
-This shirt IS a problem. Get rid of it.,"[24, 25]","['anger', 'annoyance']"
-my mom caught be masturbating to dominatrix porn (i was bored of vanilla shit) LOL But porn addiction is bad because it can stop you from approaching women etc,"[0, 19]","['amusement', 'embarrassment']"
-I really like this photo.,"[8, 2]","['admiration', 'joy']"
-"Lmao the cop stops like *""Fuck, well I guess he won't be resisting on the way""*",[0],['amusement']
-"I said I'm full, sir. That means no desert either. No one likes a pushy waiter.","[26, 25]","['disapproval', 'annoyance']"
+Get him boys!,"[2, 3]","['anger', 'annoyance']"
+"Lol, that’s funny. I’ll have to find our Aggieopoly and see how it compares.",[1],['amusement']
+"We were all duped? I’ve seen through her from day 1, even posted about how fake she is ","[10, 3]","['disapproval', 'annoyance']"
+"At least you get sunny on Netflix, they took it off in Canada :(","[9, 25]","['disappointment', 'sadness']"
+[NAME] better be careful. He'll be next.,[14],['fear']
+That's the first time I have seen OG pass up that kind of opportunity.,[26],['surprise']
+"To be a buzzkill, something can be both depressing and uplifting and despite being depressing it is most definitely uplifting. ","[20, 0]","['optimism', 'admiration']"
+"Mostly shit paying jobs with more openings + older people rejoining the workforce. Ofc they will spin it as ""good"" news...","[10, 3]","['disapproval', 'annoyance']"
+This shirt IS a problem. Get rid of it.,"[2, 3]","['anger', 'annoyance']"
+my mom caught be masturbating to dominatrix porn (i was bored of vanilla shit) LOL But porn addiction is bad because it can stop you from approaching women etc,"[1, 12]","['amusement', 'embarrassment']"
+I really like this photo.,"[0, 17]","['admiration', 'joy']"
+"Lmao the cop stops like *""Fuck, well I guess he won't be resisting on the way""*",[1],['amusement']
+"I said I'm full, sir. That means no desert either. No one likes a pushy waiter.","[10, 3]","['disapproval', 'annoyance']"
 "I live in the area, and I haven’t noticed the smell anymore the last few times I’ve walked by there.",[27],['neutral']
-"the young and the goal-less Thanks TSN, i hate it","[26, 25]","['disapproval', 'annoyance']"
-Yes he is a hard worker for sure. Just wish he could get his shot back on track.,[11],['approval']
+"the young and the goal-less Thanks TSN, i hate it","[10, 3]","['disapproval', 'annoyance']"
+Yes he is a hard worker for sure. Just wish he could get his shot back on track.,[4],['approval']
 I am still a child,[27],['neutral']
-Because all those delusional people be doing the same shit in their real life.,"[26, 25]","['disapproval', 'annoyance']"
-"I’m sorry, you just sound like one of those people who takes overwatch super seriously and has no life","[26, 25]","['disapproval', 'annoyance']"
-I told my mum and an ambulance is coming now. Thanks everyone,"[10, 9]","['relief', 'gratitude']"
-"ick! That makes me feel gross. I have ""Addison's Disease"". ","[26, 23]","['disapproval', 'disgust']"
-Thank you SO much! This is so genuine and so helpful. Thank you so much for your time and your thoughts.,[9],['gratitude']
-Tis nothing but a scratch,[0],['amusement']
-"Here did you know that [NAME] slept with 35,000 women. Outrageous.","[26, 23]","['disapproval', 'disgust']"
-"I live in Suiderstrand, which is past Aghulas, no option for fibre here unfortunately :(","[21, 20]","['sadness', 'disappointment']"
+Because all those delusional people be doing the same shit in their real life.,"[10, 3]","['disapproval', 'annoyance']"
+"I’m sorry, you just sound like one of those people who takes overwatch super seriously and has no life","[10, 3]","['disapproval', 'annoyance']"
+I told my mum and an ambulance is coming now. Thanks everyone,"[15, 23]","['gratitude', 'relief']"
+"ick! That makes me feel gross. I have ""Addison's Disease"". ","[10, 11]","['disapproval', 'disgust']"
+Thank you SO much! This is so genuine and so helpful. Thank you so much for your time and your thoughts.,[15],['gratitude']
+Tis nothing but a scratch,[1],['amusement']
+"Here did you know that [NAME] slept with 35,000 women. Outrageous.","[10, 11]","['disapproval', 'disgust']"
+"I live in Suiderstrand, which is past Aghulas, no option for fibre here unfortunately :(","[9, 25]","['disappointment', 'sadness']"
 Hi [NAME]!,[27],['neutral']
-"Thats great! Just curious, what game? ","[1, 14]","['excitement', 'curiosity']"
-"hey thank you! any time I can help someone, I'm more than happy to:)",[9],['gratitude']
-Taco Tuesdays after meatless Monday. I call it meatcycling,[0],['amusement']
-I don't think they consider geometric patters to be abstract art.,"[26, 27]","['disapproval', 'neutral']"
-"Ah, thank you",[9],['gratitude']
-Season 2 just started and as a huge TNG fan I can definitely say the first season is the closest I've ever seen to another season of TNG,[8],['admiration']
-"its oxford, if you dont agree with oxford go live in a damn cave, because they is correct, and [NAME] I LOVE ENGLAND","[7, 3]","['pride', 'love']"
-Why are you trying to cheat NJ transit? NJ transit is in deep financial debt and you are trying to steal from them. Shame.,"[26, 24]","['disapproval', 'anger']"
-The rest areas and truck stops are booming!,"[1, 2]","['excitement', 'joy']"
-Idk for fun?,"[0, 14]","['amusement', 'curiosity']"
-It makes us more determined to tank for Zion,[5],['optimism']
-" I'm scared to even ask my mom ,I might get yelled at 😟",[16],['fear']
-If [NAME] has similar role to end year then no way am I taking those over him ...especially Sony,"[26, 25]","['disapproval', 'annoyance']"
-"I love it! A smile from a stranger has really turned my day around, so I always hope I can possibly do the same! ","[3, 2]","['love', 'joy']"
+"Thats great! Just curious, what game? ","[7, 13]","['curiosity', 'excitement']"
+"hey thank you! any time I can help someone, I'm more than happy to:)",[15],['gratitude']
+Taco Tuesdays after meatless Monday. I call it meatcycling,[1],['amusement']
+I don't think they consider geometric patters to be abstract art.,"[10, 27]","['disapproval', 'neutral']"
+"Ah, thank you",[15],['gratitude']
+Season 2 just started and as a huge TNG fan I can definitely say the first season is the closest I've ever seen to another season of TNG,[0],['admiration']
+"its oxford, if you dont agree with oxford go live in a damn cave, because they is correct, and [NAME] I LOVE ENGLAND","[21, 18]","['pride', 'love']"
+Why are you trying to cheat NJ transit? NJ transit is in deep financial debt and you are trying to steal from them. Shame.,"[2, 10]","['anger', 'disapproval']"
+The rest areas and truck stops are booming!,"[13, 17]","['excitement', 'joy']"
+Idk for fun?,"[7, 1]","['curiosity', 'amusement']"
+It makes us more determined to tank for Zion,[20],['optimism']
+" I'm scared to even ask my mom ,I might get yelled at 😟",[14],['fear']
+If [NAME] has similar role to end year then no way am I taking those over him ...especially Sony,"[10, 3]","['disapproval', 'annoyance']"
+"I love it! A smile from a stranger has really turned my day around, so I always hope I can possibly do the same! ","[17, 18]","['joy', 'love']"
 "I'm in Australia, so idk if there's really anything I can do.",[27],['neutral']
-"Ah, victory ","[7, 2]","['pride', 'joy']"
-r/hockey has no love for us! Just stay here with all us cool people!,"[26, 25]","['disapproval', 'annoyance']"
-They don't seem to care much. Al qaida or ahrar al sham makes little difference anyway.,"[27, 20]","['neutral', 'disappointment']"
-the number 9 recruit from the 2019 class at USC has already entered the transfer portal lol it's only been like 3 weeks man give it a chance,"[0, 25]","['amusement', 'annoyance']"
+"Ah, victory ","[21, 17]","['pride', 'joy']"
+r/hockey has no love for us! Just stay here with all us cool people!,"[10, 3]","['disapproval', 'annoyance']"
+They don't seem to care much. Al qaida or ahrar al sham makes little difference anyway.,"[9, 27]","['disappointment', 'neutral']"
+the number 9 recruit from the 2019 class at USC has already entered the transfer portal lol it's only been like 3 weeks man give it a chance,"[1, 3]","['amusement', 'annoyance']"
 nah me good,[27],['neutral']
-I have his signature on my jersey. Lined up at Canadian Tire for it when I was younger. Happy retirement!,"[8, 2]","['admiration', 'joy']"
-Every day it gets harder to tell the difference between a legit mental health issue and someone just using it as an excuse to be an arsehole.,"[26, 25]","['disapproval', 'annoyance']"
-I am just like this! Glad to know I’m not imagining it.,"[0, 10]","['amusement', 'relief']"
-I do not understand why everything in this script must inevitably explode.,"[15, 25]","['confusion', 'annoyance']"
-The logic is so the government can oppress you.,"[26, 24]","['disapproval', 'anger']"
-Oh yeah! He was great for us. 0.69 ERA in 24 G with 10.7 K/9. I forgot about him.,"[8, 13]","['admiration', 'surprise']"
-I hope for the camera-man's sake that gun is empty,[16],['fear']
-"""[NAME], meet [NAME]"" love that show","[1, 2]","['excitement', 'joy']"
+I have his signature on my jersey. Lined up at Canadian Tire for it when I was younger. Happy retirement!,"[0, 17]","['admiration', 'joy']"
+Every day it gets harder to tell the difference between a legit mental health issue and someone just using it as an excuse to be an arsehole.,"[10, 3]","['disapproval', 'annoyance']"
+I am just like this! Glad to know I’m not imagining it.,"[23, 1]","['relief', 'amusement']"
+I do not understand why everything in this script must inevitably explode.,"[6, 3]","['confusion', 'annoyance']"
+The logic is so the government can oppress you.,"[2, 10]","['anger', 'disapproval']"
+Oh yeah! He was great for us. 0.69 ERA in 24 G with 10.7 K/9. I forgot about him.,"[0, 26]","['admiration', 'surprise']"
+I hope for the camera-man's sake that gun is empty,[14],['fear']
+"""[NAME], meet [NAME]"" love that show","[13, 17]","['excitement', 'joy']"
 Please never don't not reproduce.,[27],['neutral']
-"Source each of these and trend lines from previous years please. No, listing a few agencies and telling people to Google 8t isn't a source. ","[26, 25]","['disapproval', 'annoyance']"
-Holy shit this golden comment flew under the radar. I laughed so hard,"[0, 2]","['amusement', 'joy']"
-Saying babcuck should be fired = woke gimme updoots,"[26, 24]","['disapproval', 'anger']"
-[NAME] rescued me as well. I also had a couple weeks of [NAME] saving my ass.,[9],['gratitude']
-"Also, the Detroit Police Underwater Recovery Team is a thing that I want to learn more about...",[14],['curiosity']
-It’s like you didn’t even read the comment you’re responding to.,[25],['annoyance']
-"They hated him, because he told them the truth","[26, 24]","['disapproval', 'anger']"
-"I hope she lives to be 200, just to piss them off.","[0, 24]","['amusement', 'anger']"
-Eventually sure. But the question really lacked the maybe later option lol,[0],['amusement']
-"Okay fine. Still though. Make some joke ""maybe we should cuddle for warmth"" and see how she responds. ","[0, 25]","['amusement', 'annoyance']"
-That would never pass since every side would get what they want. There has to be a loser in his eyes,"[26, 25]","['disapproval', 'annoyance']"
-I focus on the pain,[21],['sadness']
-Imagine what could've happened if you saw the longer director's cut!,"[1, 14]","['excitement', 'curiosity']"
-This game looks way too fast for the Oilers rn,[17],['nervousness']
-I am more than pleasantly surprised I clicked this link,"[13, 1]","['surprise', 'excitement']"
-I’ve seen 62 to 8 in 12 hours up north. Weather is crazy stuff.,"[0, 13]","['amusement', 'surprise']"
-I have dayz but haven’t played in years. Last I heard it’s still a broken mess lol.,"[0, 20]","['amusement', 'disappointment']"
-"""[NAME]"" Still love [NAME], and while the actual [NAME] was cool at first, she's gotten pretty ""meh"" to me.","[26, 3]","['disapproval', 'love']"
-It's kinda funny when it's told to you,[0],['amusement']
+"Source each of these and trend lines from previous years please. No, listing a few agencies and telling people to Google 8t isn't a source. ","[10, 3]","['disapproval', 'annoyance']"
+Holy shit this golden comment flew under the radar. I laughed so hard,"[1, 17]","['amusement', 'joy']"
+Saying babcuck should be fired = woke gimme updoots,"[2, 10]","['anger', 'disapproval']"
+[NAME] rescued me as well. I also had a couple weeks of [NAME] saving my ass.,[15],['gratitude']
+"Also, the Detroit Police Underwater Recovery Team is a thing that I want to learn more about...",[7],['curiosity']
+It’s like you didn’t even read the comment you’re responding to.,[3],['annoyance']
+"They hated him, because he told them the truth","[2, 10]","['anger', 'disapproval']"
+"I hope she lives to be 200, just to piss them off.","[2, 1]","['anger', 'amusement']"
+Eventually sure. But the question really lacked the maybe later option lol,[1],['amusement']
+"Okay fine. Still though. Make some joke ""maybe we should cuddle for warmth"" and see how she responds. ","[1, 3]","['amusement', 'annoyance']"
+That would never pass since every side would get what they want. There has to be a loser in his eyes,"[10, 3]","['disapproval', 'annoyance']"
+I focus on the pain,[25],['sadness']
+Imagine what could've happened if you saw the longer director's cut!,"[13, 7]","['excitement', 'curiosity']"
+This game looks way too fast for the Oilers rn,[19],['nervousness']
+I am more than pleasantly surprised I clicked this link,"[13, 26]","['excitement', 'surprise']"
+I’ve seen 62 to 8 in 12 hours up north. Weather is crazy stuff.,"[1, 26]","['amusement', 'surprise']"
+I have dayz but haven’t played in years. Last I heard it’s still a broken mess lol.,"[1, 9]","['amusement', 'disappointment']"
+"""[NAME]"" Still love [NAME], and while the actual [NAME] was cool at first, she's gotten pretty ""meh"" to me.","[10, 18]","['disapproval', 'love']"
+It's kinda funny when it's told to you,[1],['amusement']
 But even then it would need something else to live,[27],['neutral']
-I like it!,[2],['joy']
-"Thank you, needed to hear this today! ",[9],['gratitude']
-"They aren't horrible in the least bit. Just learn from your mistake, remember, and move on. That's all you can do.","[6, 11]","['caring', 'approval']"
-"MEEEEEEEEE. Most people don't get my humour, but every now and then somebody does and we non-stop laugh together. ","[0, 2]","['amusement', 'joy']"
-I read fuck and not tuck. Was wondering how the hell it wasn't creepy....,"[0, 13]","['amusement', 'surprise']"
-wake me up,[4],['desire']
-Now THAT is a murder by words!,"[24, 25]","['anger', 'annoyance']"
-"> When did I ever mention native genocide? How do you think the land was ""stolen""? The residents were killed.","[26, 24, 25]","['disapproval', 'anger', 'annoyance']"
-Seeing that knife on this subreddit put the fear of [NAME] in me,[16],['fear']
-The important thing to remember is 0 is also a number!,"[27, 11]","['neutral', 'approval']"
-Sorry he was a United director when he bought it.,"[26, 20]","['disapproval', 'disappointment']"
-*Get up and Drive your funky soul by [NAME] starts playing,"[1, 2]","['excitement', 'joy']"
-Man my siblings would never just kill me like that,"[24, 25]","['anger', 'annoyance']"
-"You tell me, was this a short trip or not? I was wrong, it was 4.3 ",[12],['realization']
-you might be more of an optimist than me. hopefully you're right,[5],['optimism']
-Good news: this is shark tale not finding Nemo,"[0, 10]","['amusement', 'relief']"
-The only reason people are there is because they dont know [NAME] is fired lmao.,[0],['amusement']
-Thats insane. Someone died like 2 years ago after a bolt got kicked up by a truck and went through his windshield and hit him on 146 in LaPorte,"[21, 23]","['sadness', 'disgust']"
+I like it!,[17],['joy']
+"Thank you, needed to hear this today! ",[15],['gratitude']
+"They aren't horrible in the least bit. Just learn from your mistake, remember, and move on. That's all you can do.","[4, 5]","['approval', 'caring']"
+"MEEEEEEEEE. Most people don't get my humour, but every now and then somebody does and we non-stop laugh together. ","[1, 17]","['amusement', 'joy']"
+I read fuck and not tuck. Was wondering how the hell it wasn't creepy....,"[1, 26]","['amusement', 'surprise']"
+wake me up,[8],['desire']
+Now THAT is a murder by words!,"[2, 3]","['anger', 'annoyance']"
+"> When did I ever mention native genocide? How do you think the land was ""stolen""? The residents were killed.","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+Seeing that knife on this subreddit put the fear of [NAME] in me,[14],['fear']
+The important thing to remember is 0 is also a number!,"[4, 27]","['approval', 'neutral']"
+Sorry he was a United director when he bought it.,"[9, 10]","['disappointment', 'disapproval']"
+*Get up and Drive your funky soul by [NAME] starts playing,"[13, 17]","['excitement', 'joy']"
+Man my siblings would never just kill me like that,"[2, 3]","['anger', 'annoyance']"
+"You tell me, was this a short trip or not? I was wrong, it was 4.3 ",[22],['realization']
+you might be more of an optimist than me. hopefully you're right,[20],['optimism']
+Good news: this is shark tale not finding Nemo,"[23, 1]","['relief', 'amusement']"
+The only reason people are there is because they dont know [NAME] is fired lmao.,[1],['amusement']
+Thats insane. Someone died like 2 years ago after a bolt got kicked up by a truck and went through his windshield and hit him on 146 in LaPorte,"[25, 11]","['sadness', 'disgust']"
 Are you still sitting in the car right now?,[27],['neutral']
-He probably banked on the inherent secrecy of the community and ignorance (on Belgian law) of his victims.,"[26, 23]","['disapproval', 'disgust']"
-"[NAME] has to lose it a some point, just hope it's not tonight.",[17],['nervousness']
-"I feel awful posting it, but I couldn’t not share :|","[18, 19]","['remorse', 'embarrassment']"
-"See also: ""Useless College Degrees From Prestigious and Ridiculously Overpriced Universities""","[0, 26]","['amusement', 'disapproval']"
-The sin was refusing to impregnate his brother's widow when [NAME] directly told him to. It's not just about wasting semen.,"[26, 25]","['disapproval', 'annoyance']"
-"“Wow. Just .. wow. Read a book, sweatie!”",[0],['amusement']
-Cheers to you on your cake day.,"[11, 2]","['approval', 'joy']"
-Ahh gotcha - thanks :),"[9, 11]","['gratitude', 'approval']"
-He will rest easy knowing how happy he made all of us,"[9, 2]","['gratitude', 'joy']"
+He probably banked on the inherent secrecy of the community and ignorance (on Belgian law) of his victims.,"[10, 11]","['disapproval', 'disgust']"
+"[NAME] has to lose it a some point, just hope it's not tonight.",[19],['nervousness']
+"I feel awful posting it, but I couldn’t not share :|","[12, 24]","['embarrassment', 'remorse']"
+"See also: ""Useless College Degrees From Prestigious and Ridiculously Overpriced Universities""","[1, 10]","['amusement', 'disapproval']"
+The sin was refusing to impregnate his brother's widow when [NAME] directly told him to. It's not just about wasting semen.,"[10, 3]","['disapproval', 'annoyance']"
+"“Wow. Just .. wow. Read a book, sweatie!”",[1],['amusement']
+Cheers to you on your cake day.,"[4, 17]","['approval', 'joy']"
+Ahh gotcha - thanks :),"[15, 4]","['gratitude', 'approval']"
+He will rest easy knowing how happy he made all of us,"[15, 17]","['gratitude', 'joy']"
 "You can request a hand count at bottle drop, I think",[27],['neutral']
-It's been cross posted.,[25],['annoyance']
-"He was hooking you up, hoping you both could hook up ",[4],['desire']
-Their orange chicken is the absolute fucking bomb. I love having it on top of a nice bed of rice and veggies :D,"[8, 2]","['admiration', 'joy']"
-"Klokslag 12 I find really enjoyable, horror movie podcast, Im not a horror fan but I find these dudes very entertaining",[0],['amusement']
-They basically worship this.,[8],['admiration']
-Damn thats so cheap,"[1, 11]","['excitement', 'approval']"
-"I am afraid to look, but my morbid curiosity draws me to ask.","[14, 16]","['curiosity', 'fear']"
-Good for [NAME]. He deserves it.,"[8, 7]","['admiration', 'pride']"
-"Frankly, partisan politics aside, I would REALLY like to know where this fever dream of historical came from. It's mind boggling.","[15, 14]","['confusion', 'curiosity']"
-OMG if the [NAME] and [NAME] run... I'll have the worst of time deciding who to vote for!,"[0, 1]","['amusement', 'excitement']"
-This was potentially the most dangerous stunt I have ever seen someone do. One minor mistake and you die.,"[26, 16]","['disapproval', 'fear']"
-"whats the [NAME] story ? sorry, not up to date on the bloke","[27, 14]","['neutral', 'curiosity']"
-The actress died before season 1 aired so that’s literally impossible since [NAME] didn’t betray until season 2,"[26, 25]","['disapproval', 'annoyance']"
-[NAME] already had that in their comment and I didn't deny it. I guess that level of attention to detail isn't taught at Bellevue Community College.,"[26, 25]","['disapproval', 'annoyance']"
-Omg so glad I’m not alone,"[10, 9]","['relief', 'gratitude']"
-Yeah no haha. Out of my price range tbh,"[26, 20]","['disapproval', 'disappointment']"
-wow! thats... a lot of water my dude was your bladder ok,"[0, 13]","['amusement', 'surprise']"
-"Wizards really embracing the tank, having [NAME] playing the 5 against [NAME]","[8, 11]","['admiration', 'approval']"
-"Congrats, still waiting on getting called for an interview for another internal position. Applying around Christmas HR is so fucking slow.",[25],['annoyance']
-And I’ll be there!!!,"[1, 2]","['excitement', 'joy']"
-She's ugly so that might add some more months.,"[26, 23]","['disapproval', 'disgust']"
-Wholesome and hilarious! Good job OP.,"[0, 11]","['amusement', 'approval']"
-That was brilliant 😂,"[0, 7]","['amusement', 'pride']"
-[NAME] WHO IS [NAME]!!!!!,"[8, 1]","['admiration', 'excitement']"
-We didn't win in Alvalade even when they got 7th place. We just have some sort of block there,[20],['disappointment']
-Sad. My condolences to her family.,[21],['sadness']
-I'm so excited for this game!! 😄,[1],['excitement']
-Focus on yourself by focusing on your prayers and reminding [NAME],[6],['caring']
-"So true, sometimes what’s obvious passes over our heads. Good post.","[8, 11]","['admiration', 'approval']"
-"She threw it in the trash? Pig! Wash it down the sink, even if it's a pancake.","[26, 24]","['disapproval', 'anger']"
-It's embarrassing!,[19],['embarrassment']
+It's been cross posted.,[3],['annoyance']
+"He was hooking you up, hoping you both could hook up ",[8],['desire']
+Their orange chicken is the absolute fucking bomb. I love having it on top of a nice bed of rice and veggies :D,"[0, 17]","['admiration', 'joy']"
+"Klokslag 12 I find really enjoyable, horror movie podcast, Im not a horror fan but I find these dudes very entertaining",[1],['amusement']
+They basically worship this.,[0],['admiration']
+Damn thats so cheap,"[13, 4]","['excitement', 'approval']"
+"I am afraid to look, but my morbid curiosity draws me to ask.","[7, 14]","['curiosity', 'fear']"
+Good for [NAME]. He deserves it.,"[21, 0]","['pride', 'admiration']"
+"Frankly, partisan politics aside, I would REALLY like to know where this fever dream of historical came from. It's mind boggling.","[7, 6]","['curiosity', 'confusion']"
+OMG if the [NAME] and [NAME] run... I'll have the worst of time deciding who to vote for!,"[13, 1]","['excitement', 'amusement']"
+This was potentially the most dangerous stunt I have ever seen someone do. One minor mistake and you die.,"[14, 10]","['fear', 'disapproval']"
+"whats the [NAME] story ? sorry, not up to date on the bloke","[7, 27]","['curiosity', 'neutral']"
+The actress died before season 1 aired so that’s literally impossible since [NAME] didn’t betray until season 2,"[10, 3]","['disapproval', 'annoyance']"
+[NAME] already had that in their comment and I didn't deny it. I guess that level of attention to detail isn't taught at Bellevue Community College.,"[10, 3]","['disapproval', 'annoyance']"
+Omg so glad I’m not alone,"[15, 23]","['gratitude', 'relief']"
+Yeah no haha. Out of my price range tbh,"[9, 10]","['disappointment', 'disapproval']"
+wow! thats... a lot of water my dude was your bladder ok,"[1, 26]","['amusement', 'surprise']"
+"Wizards really embracing the tank, having [NAME] playing the 5 against [NAME]","[4, 0]","['approval', 'admiration']"
+"Congrats, still waiting on getting called for an interview for another internal position. Applying around Christmas HR is so fucking slow.",[3],['annoyance']
+And I’ll be there!!!,"[13, 17]","['excitement', 'joy']"
+She's ugly so that might add some more months.,"[10, 11]","['disapproval', 'disgust']"
+Wholesome and hilarious! Good job OP.,"[4, 1]","['approval', 'amusement']"
+That was brilliant 😂,"[1, 21]","['amusement', 'pride']"
+[NAME] WHO IS [NAME]!!!!!,"[13, 0]","['excitement', 'admiration']"
+We didn't win in Alvalade even when they got 7th place. We just have some sort of block there,[9],['disappointment']
+Sad. My condolences to her family.,[25],['sadness']
+I'm so excited for this game!! 😄,[13],['excitement']
+Focus on yourself by focusing on your prayers and reminding [NAME],[5],['caring']
+"So true, sometimes what’s obvious passes over our heads. Good post.","[4, 0]","['approval', 'admiration']"
+"She threw it in the trash? Pig! Wash it down the sink, even if it's a pancake.","[2, 10]","['anger', 'disapproval']"
+It's embarrassing!,[12],['embarrassment']
 Found his burner,[27],['neutral']
-"Another reason to instantly kill people who constantly use the word ""awesome"" for everything. This is just brainless mediocrity at its best.","[24, 25]","['anger', 'annoyance']"
+"Another reason to instantly kill people who constantly use the word ""awesome"" for everything. This is just brainless mediocrity at its best.","[2, 3]","['anger', 'annoyance']"
 "Yup. You see more hands, have to learn more to be competitive.. etc",[27],['neutral']
-"In your logic, billions of people being less poor is somehow a bad thing.","[26, 25]","['disapproval', 'annoyance']"
-Yeah but even then I feel like they could’ve went about it better,"[26, 25]","['disapproval', 'annoyance']"
-"Lol, ..probably not. But then again, i never wanted to know what blue waffles were and somehow i do. ","[0, 14]","['amusement', 'curiosity']"
-"I wasn't meaning it as an insult or anything, sorry if it came off that way. ",[18],['remorse']
-"**GOD DAMN YOU, FIGHT BACK!!**",[24],['anger']
-[NAME] looked terrible that game. I was really hoping to be wrong but he came just as advertised by Hawks fans,"[26, 20]","['disapproval', 'disappointment']"
-Stop arguing with people.,[25],['annoyance']
-"trust me, he's not.","[26, 25]","['disapproval', 'annoyance']"
-This stresses me out way too much.,[25],['annoyance']
-Come with me And you'll be In a world of pure ~~imagination~~ vindication,"[1, 2]","['excitement', 'joy']"
-Eat too many whoppers and he'll be down with the sickness. Lma0 I'm sorry,[0],['amusement']
-Ouch! That hit hard,[20],['disappointment']
-The impact of his head hitting the court looked so bad. I hope he'll recover from this.,[16],['fear']
-"Same here man, terrible feeling","[23, 20]","['disgust', 'disappointment']"
-congrats. i'm broken rn but if I wasn't I'd be happy for you,"[21, 20]","['sadness', 'disappointment']"
+"In your logic, billions of people being less poor is somehow a bad thing.","[10, 3]","['disapproval', 'annoyance']"
+Yeah but even then I feel like they could’ve went about it better,"[10, 3]","['disapproval', 'annoyance']"
+"Lol, ..probably not. But then again, i never wanted to know what blue waffles were and somehow i do. ","[7, 1]","['curiosity', 'amusement']"
+"I wasn't meaning it as an insult or anything, sorry if it came off that way. ",[24],['remorse']
+"**GOD DAMN YOU, FIGHT BACK!!**",[2],['anger']
+[NAME] looked terrible that game. I was really hoping to be wrong but he came just as advertised by Hawks fans,"[9, 10]","['disappointment', 'disapproval']"
+Stop arguing with people.,[3],['annoyance']
+"trust me, he's not.","[10, 3]","['disapproval', 'annoyance']"
+This stresses me out way too much.,[3],['annoyance']
+Come with me And you'll be In a world of pure ~~imagination~~ vindication,"[13, 17]","['excitement', 'joy']"
+Eat too many whoppers and he'll be down with the sickness. Lma0 I'm sorry,[1],['amusement']
+Ouch! That hit hard,[9],['disappointment']
+The impact of his head hitting the court looked so bad. I hope he'll recover from this.,[14],['fear']
+"Same here man, terrible feeling","[9, 11]","['disappointment', 'disgust']"
+congrats. i'm broken rn but if I wasn't I'd be happy for you,"[9, 25]","['disappointment', 'sadness']"
 "it's the result of a structural problem inherent in all forms of vanguardism, though. it's not the result of MLs being fascists or not leftists",[27],['neutral']
-Change the initials to fake names. Was going to read but it’s too annoying.,[25],['annoyance']
-IT'S MA'AM!!!!,"[24, 25]","['anger', 'annoyance']"
-Think of how long you can park!,"[1, 2]","['excitement', 'joy']"
-second temple stood for 420 years r/trees /r/Judiasm crossover confirmed!!!!!,"[1, 11]","['excitement', 'approval']"
-Why? They deserve it.,[11],['approval']
-Buddy. Your prejudice is showing. Also plot twist I'm a white [NAME] woman. You don't understand the principle of what white privilege is.,"[26, 24, 25]","['disapproval', 'anger', 'annoyance']"
-I’m not sure it was [NAME] that changed the definition as much as it was the ATF.,"[15, 27]","['confusion', 'neutral']"
-My Dachshund loves trying to lick my son's mouth when he's laughing. Every single time.,"[0, 2]","['amusement', 'joy']"
-"Lol don't worry, they even make you somehow hate [NAME] in season 2.","[0, 25]","['amusement', 'annoyance']"
-100%. She's made herself vulnerable to being sued by a few people.,"[26, 25]","['disapproval', 'annoyance']"
-I'd give it a 9/10 one of my favorites. So what was your thoughts on D'jango?,"[8, 11]","['admiration', 'approval']"
-You’re right. Thank you for the context and information.,"[9, 11]","['gratitude', 'approval']"
+Change the initials to fake names. Was going to read but it’s too annoying.,[3],['annoyance']
+IT'S MA'AM!!!!,"[2, 3]","['anger', 'annoyance']"
+Think of how long you can park!,"[13, 17]","['excitement', 'joy']"
+second temple stood for 420 years r/trees /r/Judiasm crossover confirmed!!!!!,"[13, 4]","['excitement', 'approval']"
+Why? They deserve it.,[4],['approval']
+Buddy. Your prejudice is showing. Also plot twist I'm a white [NAME] woman. You don't understand the principle of what white privilege is.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+I’m not sure it was [NAME] that changed the definition as much as it was the ATF.,"[6, 27]","['confusion', 'neutral']"
+My Dachshund loves trying to lick my son's mouth when he's laughing. Every single time.,"[1, 17]","['amusement', 'joy']"
+"Lol don't worry, they even make you somehow hate [NAME] in season 2.","[1, 3]","['amusement', 'annoyance']"
+100%. She's made herself vulnerable to being sued by a few people.,"[10, 3]","['disapproval', 'annoyance']"
+I'd give it a 9/10 one of my favorites. So what was your thoughts on D'jango?,"[4, 0]","['approval', 'admiration']"
+You’re right. Thank you for the context and information.,"[15, 4]","['gratitude', 'approval']"
 I have heard nothing about him this window. If anything it would be summer.,[27],['neutral']
-"I appreciate this post, so it’s appropriate in my eyes 😀","[0, 9]","['amusement', 'gratitude']"
-Only married once so can't be that bad. Not that it even matters,[0],['amusement']
-You're mistaking a poor character for MC.,"[26, 25]","['disapproval', 'annoyance']"
-Mostly because of the hype. I love going out with my friends!,"[3, 1]","['love', 'excitement']"
-Refrigerators? That's cool,[0],['amusement']
-Have to admit I thought this story would end with her demanding food or something.,"[0, 13]","['amusement', 'surprise']"
-Fuck is exactly what she's good for,"[26, 24, 23]","['disapproval', 'anger', 'disgust']"
-"Sure you are, comrade. You've met your quota of replies now, yes?","[0, 25]","['amusement', 'annoyance']"
-Well good...opera is often beautiful..though it retains the stink of the upper classes.. I cant help but deride art that caters to high society to stay alive.,"[26, 25]","['disapproval', 'annoyance']"
-They look like rappers,[0],['amusement']
-PLACE THE DEVICE ON HER HEAD HA HA HA TIME TO DIE,[0],['amusement']
+"I appreciate this post, so it’s appropriate in my eyes 😀","[15, 1]","['gratitude', 'amusement']"
+Only married once so can't be that bad. Not that it even matters,[1],['amusement']
+You're mistaking a poor character for MC.,"[10, 3]","['disapproval', 'annoyance']"
+Mostly because of the hype. I love going out with my friends!,"[13, 18]","['excitement', 'love']"
+Refrigerators? That's cool,[1],['amusement']
+Have to admit I thought this story would end with her demanding food or something.,"[1, 26]","['amusement', 'surprise']"
+Fuck is exactly what she's good for,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+"Sure you are, comrade. You've met your quota of replies now, yes?","[1, 3]","['amusement', 'annoyance']"
+Well good...opera is often beautiful..though it retains the stink of the upper classes.. I cant help but deride art that caters to high society to stay alive.,"[10, 3]","['disapproval', 'annoyance']"
+They look like rappers,[1],['amusement']
+PLACE THE DEVICE ON HER HEAD HA HA HA TIME TO DIE,[1],['amusement']
 "I go by Ms., but my kids will call me Miss, Mrs. occasionally Mr., and it doesn't really bug me",[27],['neutral']
-I took a picture of the sunrise this morning too. Just north of Austin. It was very pretty today.,"[8, 2]","['admiration', 'joy']"
-I HATE that song...I did not vote for it. A few of my songs I liked went at around 60-70,"[26, 24]","['disapproval', 'anger']"
-"You just gotta man up, go out there, and get that kiss.","[4, 1]","['desire', 'excitement']"
-"Aren’t people on the internet the best! I don’t blame you for deleting, no time for negativity in this life. 🍻 ","[8, 11]","['admiration', 'approval']"
-He can't rescind. What a dumbass,"[26, 25]","['disapproval', 'annoyance']"
-Go get another phone!,"[24, 25]","['anger', 'annoyance']"
-We moved away from our home town a few years ago. We have no family and not many close friends.,[21],['sadness']
-Do I even wanna know what that means?,"[15, 14]","['confusion', 'curiosity']"
-Whats more scary than a yellow man? A yellow man using yellow colour,[0],['amusement']
-I didn’t know it was gonna be that simple Forgive me [NAME] :D,"[0, 10]","['amusement', 'relief']"
-I found the love of my life at 35. There's plenty of time.,"[2, 5]","['joy', 'optimism']"
-Yeah he's a real one. I would've loved him coaching the Broncos,"[8, 11]","['admiration', 'approval']"
-This really bothers me too. I completely agree. It would have helped us avoid a US situation. Now I think we're barreling toward it,"[26, 25]","['disapproval', 'annoyance']"
-Nice job building yourself btw,"[8, 11]","['admiration', 'approval']"
-"No kids, I have a broken oven. When my marriage fell apart that was a blessing.","[10, 9]","['relief', 'gratitude']"
-Yeah highkey looks decent,"[11, 5]","['approval', 'optimism']"
-You are sexy af,"[8, 4]","['admiration', 'desire']"
+I took a picture of the sunrise this morning too. Just north of Austin. It was very pretty today.,"[0, 17]","['admiration', 'joy']"
+I HATE that song...I did not vote for it. A few of my songs I liked went at around 60-70,"[2, 10]","['anger', 'disapproval']"
+"You just gotta man up, go out there, and get that kiss.","[13, 8]","['excitement', 'desire']"
+"Aren’t people on the internet the best! I don’t blame you for deleting, no time for negativity in this life. 🍻 ","[4, 0]","['approval', 'admiration']"
+He can't rescind. What a dumbass,"[10, 3]","['disapproval', 'annoyance']"
+Go get another phone!,"[2, 3]","['anger', 'annoyance']"
+We moved away from our home town a few years ago. We have no family and not many close friends.,[25],['sadness']
+Do I even wanna know what that means?,"[6, 7]","['confusion', 'curiosity']"
+Whats more scary than a yellow man? A yellow man using yellow colour,[1],['amusement']
+I didn’t know it was gonna be that simple Forgive me [NAME] :D,"[23, 1]","['relief', 'amusement']"
+I found the love of my life at 35. There's plenty of time.,"[20, 17]","['optimism', 'joy']"
+Yeah he's a real one. I would've loved him coaching the Broncos,"[4, 0]","['approval', 'admiration']"
+This really bothers me too. I completely agree. It would have helped us avoid a US situation. Now I think we're barreling toward it,"[10, 3]","['disapproval', 'annoyance']"
+Nice job building yourself btw,"[4, 0]","['approval', 'admiration']"
+"No kids, I have a broken oven. When my marriage fell apart that was a blessing.","[15, 23]","['gratitude', 'relief']"
+Yeah highkey looks decent,"[4, 20]","['approval', 'optimism']"
+You are sexy af,"[8, 0]","['desire', 'admiration']"
 how do you think money is created? it is largely controlled by the government and is distributed to create certain results in our society.,[27],['neutral']
-"I’m glad things are coming to light, I pray justice is served for the victims. ","[11, 9]","['approval', 'gratitude']"
-Don't know why anyone would need more explanation than this video,"[26, 25]","['disapproval', 'annoyance']"
-the last minute of game time lasted 15 minutes.,[25],['annoyance']
-Where else can you get deer ears and a flower crown on your selfie?,[0],['amusement']
-"I'm curious though, will they upvote it to own the ~~libs~~ [NAME]?",[14],['curiosity']
-"I'm curious to see the difference, but sadly that's not really something you can just ask someone.","[21, 14]","['sadness', 'curiosity']"
-"Emotes have a ridiculous amount of effort put into them, which only makes the fact that nobody uses them sadder","[21, 20]","['sadness', 'disappointment']"
-[NAME] fucking [NAME] please no,"[24, 25]","['anger', 'annoyance']"
+"I’m glad things are coming to light, I pray justice is served for the victims. ","[4, 15]","['approval', 'gratitude']"
+Don't know why anyone would need more explanation than this video,"[10, 3]","['disapproval', 'annoyance']"
+the last minute of game time lasted 15 minutes.,[3],['annoyance']
+Where else can you get deer ears and a flower crown on your selfie?,[1],['amusement']
+"I'm curious though, will they upvote it to own the ~~libs~~ [NAME]?",[7],['curiosity']
+"I'm curious to see the difference, but sadly that's not really something you can just ask someone.","[7, 25]","['curiosity', 'sadness']"
+"Emotes have a ridiculous amount of effort put into them, which only makes the fact that nobody uses them sadder","[9, 25]","['disappointment', 'sadness']"
+[NAME] fucking [NAME] please no,"[2, 3]","['anger', 'annoyance']"
 "They can’t ask for much, hes on his last year, it’s similar to us and [NAME]",[27],['neutral']
-I get all the deja smells and it's terrible.,"[23, 25]","['disgust', 'annoyance']"
-> lack of diversity in the cast now that's a new one lmao,"[0, 25]","['amusement', 'annoyance']"
-I don't know why this image bothers me so much,[15],['confusion']
-You dont put it in the wastebasket. You put it on your Dad's nightstand.,"[0, 25]","['amusement', 'annoyance']"
-I hate how much I love it,"[3, 4]","['love', 'desire']"
-Thanks. I appreciate that. At least I know I’m not the only one.,"[10, 9]","['relief', 'gratitude']"
-Yeah but don’t you have to get in the water to save lives?,[14],['curiosity']
-I have been doing that. The disc-to-digital thing is pretty sweet.,"[0, 11]","['amusement', 'approval']"
-You're most welcome!,[9],['gratitude']
-It's the lists fault!,[25],['annoyance']
-Haha this dude’s from the area I’m from. He’s a local treasure,"[8, 0]","['admiration', 'amusement']"
-Really wish we had got something like this!,"[4, 20]","['desire', 'disappointment']"
+I get all the deja smells and it's terrible.,"[3, 11]","['annoyance', 'disgust']"
+> lack of diversity in the cast now that's a new one lmao,"[1, 3]","['amusement', 'annoyance']"
+I don't know why this image bothers me so much,[6],['confusion']
+You dont put it in the wastebasket. You put it on your Dad's nightstand.,"[1, 3]","['amusement', 'annoyance']"
+I hate how much I love it,"[8, 18]","['desire', 'love']"
+Thanks. I appreciate that. At least I know I’m not the only one.,"[15, 23]","['gratitude', 'relief']"
+Yeah but don’t you have to get in the water to save lives?,[7],['curiosity']
+I have been doing that. The disc-to-digital thing is pretty sweet.,"[4, 1]","['approval', 'amusement']"
+You're most welcome!,[15],['gratitude']
+It's the lists fault!,[3],['annoyance']
+Haha this dude’s from the area I’m from. He’s a local treasure,"[1, 0]","['amusement', 'admiration']"
+Really wish we had got something like this!,"[8, 9]","['desire', 'disappointment']"
 I didn't downvote you so I couldn't tell yah why. It was definitely infected that's why it was red and swollen.,[27],['neutral']
-[NAME] looks queasy already I like where this is going,"[0, 1]","['amusement', 'excitement']"
-Bold of you to assume I have anyone that I would want to date in the first place,"[26, 25]","['disapproval', 'annoyance']"
-What? That's exactly what I got from it. Obviously red-haired people are just defective and need to be cured/corrected. /sssssssssssssssssssssssssssss,"[26, 23]","['disapproval', 'disgust']"
-I know I don't know the Spanish alphabet but I can't believe I didn't catch that before,"[12, 13]","['realization', 'surprise']"
-"The same reason that the two on the left look dead inside: They know what they are, and are wishing for the sweet release of death. ","[21, 18]","['sadness', 'remorse']"
-Maybe if [NAME] is still playing,"[27, 14]","['neutral', 'curiosity']"
-The good kind,[11],['approval']
-"I don't know what you're talking about, but that sounds just as racist as it is sexist.","[26, 24]","['disapproval', 'anger']"
-I want to go back in time and hug you as a child (after you got the lice treated tho).,"[6, 3]","['caring', 'love']"
-I've been there. It's one of the most diverse places on Earth.,"[8, 11]","['admiration', 'approval']"
-I would say. ’good’ but it’s all fucking tragic.,"[21, 23]","['sadness', 'disgust']"
-Insecurities exist even for people that are attractive. Even hot people are just like everyone else.,[12],['realization']
-Me too. I love it!,[3],['love']
-That uncle was awesome.,[8],['admiration']
-Also available on Spotify and Apple Music. Any feedback would be hugely appreciated!,[9],['gratitude']
-Fiddish baby [NAME]!!,"[0, 2]","['amusement', 'joy']"
-[NAME] was bottom 3 just last split...,[13],['surprise']
-Yup [NAME] got cucked,"[0, 26]","['amusement', 'disapproval']"
-"she disrespected [NAME], i dont like her","[26, 25]","['disapproval', 'annoyance']"
-Fuck isn't it nice to have a [NAME] on the team?,[11],['approval']
-Brave soul.,[8],['admiration']
-He sunk their house into the ground and blamed the architect and every episoode after that his beard gets a little less washed 🤔,"[0, 25]","['amusement', 'annoyance']"
-"[NAME], [NAME] is the most underrated [NAME]. I love that guy. ","[8, 3]","['admiration', 'love']"
+[NAME] looks queasy already I like where this is going,"[13, 1]","['excitement', 'amusement']"
+Bold of you to assume I have anyone that I would want to date in the first place,"[10, 3]","['disapproval', 'annoyance']"
+What? That's exactly what I got from it. Obviously red-haired people are just defective and need to be cured/corrected. /sssssssssssssssssssssssssssss,"[10, 11]","['disapproval', 'disgust']"
+I know I don't know the Spanish alphabet but I can't believe I didn't catch that before,"[26, 22]","['surprise', 'realization']"
+"The same reason that the two on the left look dead inside: They know what they are, and are wishing for the sweet release of death. ","[25, 24]","['sadness', 'remorse']"
+Maybe if [NAME] is still playing,"[7, 27]","['curiosity', 'neutral']"
+The good kind,[4],['approval']
+"I don't know what you're talking about, but that sounds just as racist as it is sexist.","[2, 10]","['anger', 'disapproval']"
+I want to go back in time and hug you as a child (after you got the lice treated tho).,"[5, 18]","['caring', 'love']"
+I've been there. It's one of the most diverse places on Earth.,"[4, 0]","['approval', 'admiration']"
+I would say. ’good’ but it’s all fucking tragic.,"[25, 11]","['sadness', 'disgust']"
+Insecurities exist even for people that are attractive. Even hot people are just like everyone else.,[22],['realization']
+Me too. I love it!,[18],['love']
+That uncle was awesome.,[0],['admiration']
+Also available on Spotify and Apple Music. Any feedback would be hugely appreciated!,[15],['gratitude']
+Fiddish baby [NAME]!!,"[1, 17]","['amusement', 'joy']"
+[NAME] was bottom 3 just last split...,[26],['surprise']
+Yup [NAME] got cucked,"[1, 10]","['amusement', 'disapproval']"
+"she disrespected [NAME], i dont like her","[10, 3]","['disapproval', 'annoyance']"
+Fuck isn't it nice to have a [NAME] on the team?,[4],['approval']
+Brave soul.,[0],['admiration']
+He sunk their house into the ground and blamed the architect and every episoode after that his beard gets a little less washed 🤔,"[1, 3]","['amusement', 'annoyance']"
+"[NAME], [NAME] is the most underrated [NAME]. I love that guy. ","[0, 18]","['admiration', 'love']"
+I was actually a little lost here and there for an episode or two because I didn't remember everything from season 1. It came back to me though,"[6, 23]","['confusion', 'relief']"
+Oh my god. Don't you know it's illegal to share memes if you don't have an IQ of 16 trillion?,"[10, 3, 11]","['disapproval', 'annoyance', 'disgust']"
+[NAME] and [NAME] should be there too E: Damn didn't think this would be unpopular lol,"[1, 9]","['amusement', 'disappointment']"
+I think [NAME] could've been a long term quality backup. We really should have hung onto him and ejected [NAME] like a bad habit.,"[24, 4, 25, 10, 9]","['remorse', 'approval', 'sadness', 'disapproval', 'disappointment']"
+Lol I love this flair,"[4, 1, 18]","['approval', 'amusement', 'love']"
+Finally gonna get together with [NAME]. Love is beautiful.,"[4, 17, 18]","['approval', 'joy', 'love']"
+Ask him if he wants to a warm glass of shut the hell up.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"I just dropped out of my science class without being at school, hot damn","[2, 9, 3]","['anger', 'disappointment', 'annoyance']"
+The only time this movie should encourage blindfolds is when watching it. Then hopefully you won’t witness the giant plot holes and terrible ending.,"[2, 9, 11]","['anger', 'disappointment', 'disgust']"
+The real joke is your grades dude,"[1, 3]","['amusement', 'annoyance']"
+If only. He’s signing with the red wings 100%.,"[13, 17, 26]","['excitement', 'joy', 'surprise']"
+No steel toe boots either. Amateurs. If the owner made his cooks do this instead of proper contractors he deserves a workers comp claim.,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+I like that idea!,"[4, 1, 17]","['approval', 'amusement', 'joy']"
+"Other nations still have gangs/organized crime, but yet guns aren’t as easily to obtain.","[14, 10]","['fear', 'disapproval']"
+My coffee burned its way through my nostrils. Thank you!,"[15, 11]","['gratitude', 'disgust']"
+Good luck [NAME],"[4, 20]","['approval', 'optimism']"
+In shock and was more concerned about my kid tbh. Now off course I wish I'd sued the arse off her for emotional distress.,"[2, 10, 22]","['anger', 'disapproval', 'realization']"
+Are you promoting sex outside of marriage?,[10],['disapproval']
+"Oh, I thought it was about the audio glitch at the end, lol Now I see ","[23, 1]","['relief', 'amusement']"
+"That's pretty good all things considered, if they want to maintain that, they really need to get a patch out ASAP",[10],['disapproval']
+"Uh, you do know there's another hole right next door, right?","[26, 3]","['surprise', 'annoyance']"
+That guy is being intentionally obtuse. Down vote trolls are a waste of everyone's time.,"[10, 3]","['disapproval', 'annoyance']"
+".5x speed. Every moment I enjoy would last longer and any time I find myself in a pickle, I'll have more time to react appropriately.","[13, 1, 20]","['excitement', 'amusement', 'optimism']"
+"The sad thing is, relatively speaking these are actually pretty good living conditions. Check out Harris Ranch.","[9, 25]","['disappointment', 'sadness']"
+GG. We played as best as we could. Utah just a better team.,"[9, 27]","['disappointment', 'neutral']"
+You’re not being used but she has no right to tell you what to do with your money.,"[2, 10]","['anger', 'disapproval']"
+Aww yesss assalamu ‘alaykum akhi i love when i see a reflective post by you in here,"[4, 0, 18]","['approval', 'admiration', 'love']"
+A machine would literally do a worse job than him.,"[2, 10]","['anger', 'disapproval']"
+same but with panic at the disco,"[13, 1, 17, 26]","['excitement', 'amusement', 'joy', 'surprise']"
+Came for the murderino and stayed to say I drive like [NAME] a lot and it’s bad lol,"[1, 27]","['amusement', 'neutral']"
+"Got one, it's still bad dude","[9, 3]","['disappointment', 'annoyance']"
+Wow.,[27],['neutral']
+old school from back when we won the cup,"[4, 21, 13]","['approval', 'pride', 'excitement']"
+Noooo not the booze,"[2, 9, 10, 3]","['anger', 'disappointment', 'disapproval', 'annoyance']"
+"On BBC Parliament: ""Brussels will be watching this as well."" Will they? Do they have a TV Licence?!","[11, 10, 3]","['disgust', 'disapproval', 'annoyance']"
+"don't know any [NAME], sorry","[25, 27]","['sadness', 'neutral']"
+And yet “50 Shades” got a major release...hmmm,"[7, 9, 26]","['curiosity', 'disappointment', 'surprise']"
+Thank you for that ! I’m glad it’s just not me !,"[15, 23, 1]","['gratitude', 'relief', 'amusement']"
+This is badass. I'd love to see it placed over war pigs. Amazing work OP,"[4, 8, 0, 13]","['approval', 'desire', 'admiration', 'excitement']"
+I love this. Now I'm craving tacos in the morning.,"[7, 8, 18]","['curiosity', 'desire', 'love']"
+You should tell the bison in Yellowstone they aren't really wild animals.,"[6, 10, 11]","['confusion', 'disapproval', 'disgust']"
+"What do you mean by ""free game""? Are you under the assumption that the Executive branch can dictate appropriations?","[7, 10]","['curiosity', 'disapproval']"
+yeah dude I love my 9(???) with the welded bump stock,[],[]
+"Sounds like a true basket case. People that actually obsess over conspiracies, oh my....","[10, 3, 11]","['disapproval', 'annoyance', 'disgust']"
+This chicks stealing his pubes off the toilets seat,[],[]
+Thank you I hate it,"[2, 3, 10, 11, 9]","['anger', 'annoyance', 'disapproval', 'disgust', 'disappointment']"
+Wouldn’t be surprised,[26],['surprise']
+Stuff like this makes me worry a little less about the future generations.,"[23, 20]","['relief', 'optimism']"
+I was wondering that as well....,"[7, 27]","['curiosity', 'neutral']"
+Mate you're talking to a Remainer who wants to Remain... I just want a Labour Government that's all.,"[10, 3]","['disapproval', 'annoyance']"
+Is that [NAME],"[7, 27]","['curiosity', 'neutral']"
+"this is a truly remarkable and informative documentary, and well worth setting aside an evening to watch. ","[4, 0, 17]","['approval', 'admiration', 'joy']"
+B plug? What the hell. Use an A plug or you're never going to become doctor some day.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"Whenever you get a smelly one, don't you feel ashamed? Like what disgusting thing did I do wrong?","[12, 11]","['embarrassment', 'disgust']"
+I would of taken a shit in the woods real quick,[],[]
+Or they saved their mom from a lifetime of fixing him... 🤕,"[10, 3]","['disapproval', 'annoyance']"
+"I don't know how that works, but it's definitive that it will happen on that date.",[6],['confusion']
+"But all-Korean teams don't always do the best in OWL/Contenders, look at Outlaws v. Seoul, etc... ","[9, 0]","['disappointment', 'admiration']"
+Everyday for the last year and a half has been very hard and I should be glad she's gone. I'm almost there.,"[23, 25, 27]","['relief', 'sadness', 'neutral']"
+Understandable. Thank you for your opinion. Ill move towards due action soon.,"[4, 23, 20]","['approval', 'relief', 'optimism']"
+Yea having children will always solve the problem,"[20, 26]","['optimism', 'surprise']"
+True true. I concede.,"[9, 25, 10]","['disappointment', 'sadness', 'disapproval']"
+[NAME] and his supporters are the dumbest humans in the fucking galaxy. They should be locked up for their own safety.,[],[]
+It’s fun until you’re looking back,"[13, 24]","['excitement', 'remorse']"
+The contempt from [NAME] in these threads lately is seriously disappointing.,"[9, 10, 11]","['disappointment', 'disapproval', 'disgust']"
+"Hey Singapore, you’re in luck!","[13, 17, 26]","['excitement', 'joy', 'surprise']"
+I concur:,"[4, 27]","['approval', 'neutral']"
+Nooooo r/trollGC is for memes Check out r/goodnewsforwomen if you want happy news,"[1, 10, 3]","['amusement', 'disapproval', 'annoyance']"
+Friends from college is like that.,[27],['neutral']
+"Lost my kid to the system, wanna see wha the wee lassie has tae say",[],[]
+...? /u/iBiteYou I think he's finally gone crazy,"[2, 10]","['anger', 'disapproval']"
+Damn hippies.,"[2, 10]","['anger', 'disapproval']"
+I kill them all and THEN overwrite my only save. I'm bonkers.,"[2, 9]","['anger', 'disappointment']"
+Son of a bitch... here we go. Can't just stand there guys....,"[2, 3]","['anger', 'annoyance']"
+QUARANTINE! QUARANTINE!,[14],['fear']
+hehe cheeky little guy,[1],['amusement']
+I am sure the protection was from other males. How does hat change things?,"[7, 19]","['curiosity', 'nervousness']"
+"Being someone who has severe anxiety and in this predicament before, you need to do what’s best for YOU",[27],['neutral']
+Happy Cake Day! :),"[4, 17]","['approval', 'joy']"
+We can only hope that they will appreciate our sacrifices once they get older!,"[9, 25, 20]","['disappointment', 'sadness', 'optimism']"
+[NAME] - OT3 in my team without me... [NAME] - Sometimes bad things just happen...,"[27, 3]","['neutral', 'annoyance']"
+I laughed so hard.,"[1, 17]","['amusement', 'joy']"
+Lol i control your life gooferton btw open your chatbox,"[1, 27]","['amusement', 'neutral']"
+">""fun"" is what you say when you can't give an objective reason something is good. -r/movies Filmé connoisseur","[4, 1, 10]","['approval', 'amusement', 'disapproval']"
+"Oh yeah, I meant it ""doesn't work as an explanation for [NAME]"". Not that the concept is bunk.","[9, 10, 27]","['disappointment', 'disapproval', 'neutral']"
+I’m rather surprised that these books are STILL being made. Like I thought they died off around 2014.,"[9, 26, 3]","['disappointment', 'surprise', 'annoyance']"
+"Even if you were, all good my dude! Shouldn't comment on something too quickly lol","[13, 1, 27]","['excitement', 'amusement', 'neutral']"
+"it's simple, it's stupid, and I can't stop laughing. 10/10",[1],['amusement']
+>complain that government can't do anything right >get elected and prove it,"[1, 10]","['amusement', 'disapproval']"
+Right? Seems like a nit of a reach imo.,"[10, 3]","['disapproval', 'annoyance']"
+Nice try with your 1/3 pan and t rex arms there buckaroo /s,"[1, 10]","['amusement', 'disapproval']"
+Either of those scenarios make sense. I'm getting antsy I need some positive Steelers news haha.,"[1, 20]","['amusement', 'optimism']"
+At least we know they have good taste,"[4, 15]","['approval', 'gratitude']"
+radical would be good. Poverty has to be erased before society is allowed to maximize individual wealth as it is doing now.,"[4, 23, 20]","['approval', 'relief', 'optimism']"
+"I've felt number 2 so hard. ""Working hard for what you don't want"" is a thing. :(","[9, 25, 27]","['disappointment', 'sadness', 'neutral']"
+Growing up there were people in our church who hated the Smurfs because they were magic using communists.,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+So much time saved. Not.,"[9, 3]","['disappointment', 'annoyance']"
+I don't get what you mean,"[6, 27]","['confusion', 'neutral']"
+now if only there was some sort of *shock them through the phone* button....,"[26, 3]","['surprise', 'annoyance']"
+Democrips & Rebloodicans was my favorite.,"[2, 1, 3, 11, 23]","['anger', 'amusement', 'annoyance', 'disgust', 'relief']"
+We aren't a bunch of Republican puppets like you believe.,"[4, 2, 3]","['approval', 'anger', 'annoyance']"
+I like [NAME] so far but making shots that you missed in the first half aren't coaching adjustments,"[9, 10]","['disappointment', 'disapproval']"
+"Big man going round the world asking for protection money. And all that time the Pentagon cringes, as they would lose a key base around China.","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+oh my [NAME],"[13, 17, 26]","['excitement', 'joy', 'surprise']"
+Okay I can see this looking really cool for a festival or photos though 😄,"[1, 27]","['amusement', 'neutral']"
+"I became a member in the summer and have still not gotten my packet, your post just gave me hope it still might come","[23, 9]","['relief', 'disappointment']"
+Are you here to solve my catsup problem?,"[7, 1]","['curiosity', 'amusement']"
+Its ok we all know you suck scrub.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+I can say when I was 16 I never did anything even remotely as hateful as what these kids did. It's really easy.,"[9, 10, 24]","['disappointment', 'disapproval', 'remorse']"
+"I get ghosted all the time after I open pics. I don't like it, so would not do it to someone else.","[11, 9, 10, 3]","['disgust', 'disappointment', 'disapproval', 'annoyance']"
+This is my favorite game of all time. Thanks for bringing back some good memories!,"[15, 17]","['gratitude', 'joy']"
+What are ferals and what's wrong with them? (I'm relatively new to the furry community and don't know a lot about it yet.),"[7, 10]","['curiosity', 'disapproval']"
+"I dont know, she seems pretty gangster to me.","[7, 0]","['curiosity', 'admiration']"
+"If the blindness ever comes back for whatever reason, try doing this:","[14, 9, 19]","['fear', 'disappointment', 'nervousness']"
+You shouldn't force someone to come out you know. Now look at what you did! You killed [NAME]! You bastard!,[],[]
+"The article says an emergency declaration let's them skip some regulations on contractors... Overpriced no bid contacts to his cronies are on the menu, boys!","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+"Yeah dude, that's illegal in so many ways.","[10, 3]","['disapproval', 'annoyance']"
+I agree. That is a fight better left for later.,"[10, 27]","['disapproval', 'neutral']"
+I know how you feel and I’m sorry you’re going through that. But I’m glad you are still here,"[4, 23, 18, 16]","['approval', 'relief', 'love', 'grief']"
+And then everyone clapped and cheered.,"[4, 1, 17]","['approval', 'amusement', 'joy']"
+I enjoyed this TED talk.,"[15, 4, 17]","['gratitude', 'approval', 'joy']"
+He's trying!,"[4, 20]","['approval', 'optimism']"
+Is [NAME] dating the woman she lives with? Not my business but enquiring minds want to know,"[7, 27]","['curiosity', 'neutral']"
+I think they are leaving it up because they know they can't delete it.,"[14, 10, 22]","['fear', 'disapproval', 'realization']"
+So juicy i'm surprised the man from Del Monte isn't knocking at his door.,"[1, 26]","['amusement', 'surprise']"
+"Oh I remember that final , I just dont want to involve my team in the conversation because we share a rivalry","[19, 10, 3]","['nervousness', 'disapproval', 'annoyance']"
+Ya i hate to talk bad about don’t but they should get the sticks out of their butts and make smarter decisions for their community,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"Comments like these are the biggest reason I get so pissed off about fucking centrists crying about the ""both sides"" argument. ","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+I know! I would absolutely do this as well. I’d love to to a AMA with him to find out more.,"[7, 8, 4, 18]","['curiosity', 'desire', 'approval', 'love']"
+Im sure shell last 5 min,"[6, 26]","['confusion', 'surprise']"
+fuck atheist countries,[],[]
+"Sorry, but getting shot at causes an almost instinctive natural reflexive reaction to shoot back. I guess I'm just weird like that. ","[27, 3]","['neutral', 'annoyance']"
+"the NT-242 is my favorite battlefront weapon, by far.","[13, 1, 21]","['excitement', 'amusement', 'pride']"
+Actually [NAME] had the #1 PP who bazooka [NAME] fired lol,"[1, 27]","['amusement', 'neutral']"
+Oh yeah. That character could have had potential if they let him develop properly,"[9, 27]","['disappointment', 'neutral']"
+Just tried and I was able to register it. I got the first Juul from the same place too and that charger worked fine,"[4, 23, 27]","['approval', 'relief', 'neutral']"
+The hooters waitress I hooked up with became a stripper. Now she’s engaged to her dui attorney who is 60,[],[]
+Is your job my job? Because I don't know what it is about hardware stores that make Ppl stupid but hell are they stupid...,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+"Yeah, sorry, I was on the mobile site, and wasn't able to delete it.","[27, 22]","['neutral', 'realization']"
+"I mean, one has to do the research. Buying a lemon doesn't mean that having a car is ""worthless"".","[9, 27]","['disappointment', 'neutral']"
+I loved this place but I would only go for the big Blockbusters. It was the best IMAX theater in Minnesota hands down RIP,"[23, 12, 25, 10]","['relief', 'embarrassment', 'sadness', 'disapproval']"
+[NAME] mom is Puerto Rican,"[0, 21, 27]","['admiration', 'pride', 'neutral']"
+Kinda reminds me of the 11 foot 8 videos. Sooo,"[1, 27]","['amusement', 'neutral']"
+Didn’t the chinook end? How are her legs not freezing off?!,"[26, 11]","['surprise', 'disgust']"
+"In the short term, yes. ",[27],['neutral']
+Company car? Oh boy he’s in trouble now.,"[1, 10]","['amusement', 'disapproval']"
+(It was a joke),"[1, 27]","['amusement', 'neutral']"
+"Wow this was an eye-opening response, and you’re right it helped us learn more, be compassionate and focus on a better well-being.","[15, 20, 4, 22, 23]","['gratitude', 'optimism', 'approval', 'realization', 'relief']"
+Look we are starving but we still have some honor. We don't need any help from your people. Especially not 50 cents a day,"[10, 21, 11]","['disapproval', 'pride', 'disgust']"
+Oh right I forgot [NAME] was on the show,"[26, 27]","['surprise', 'neutral']"
+This draft is one man deep tbh. Not getting Zion would be devastating and a waste of a whole year.,"[14, 9, 25]","['fear', 'disappointment', 'sadness']"
+Weird flex but okay,"[1, 27]","['amusement', 'neutral']"
+"Ding Ding Ding, exactly where I called BS","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+I put cheese on everythingggggg and I ain't even mad about it,"[1, 17, 27]","['amusement', 'joy', 'neutral']"
+"Easy money, thank you [NAME]","[15, 4, 23]","['gratitude', 'approval', 'relief']"
+Ahem....Repost Alert!,"[1, 26]","['amusement', 'surprise']"
+That's not a thing,"[10, 3]","['disapproval', 'annoyance']"
+"I mean, two times zero is zero and that can be a guarantee :D","[4, 1, 17]","['approval', 'amusement', 'joy']"
+hmmmmm I still love [NAME] and a lot of OR candidates but thank you,"[15, 18]","['gratitude', 'love']"
+It’s an 05 and we don’t know when the battery was last repacked lol,"[4, 1]","['approval', 'amusement']"
+they could be extinct. plenty of creatures no longer exist anymore.,"[25, 16]","['sadness', 'grief']"
+Polarizing filter needed??,"[10, 3]","['disapproval', 'annoyance']"
+Well the house is burnt out so there's not a lot happening with it expect probably insurance folks need to investigate the damage.,"[9, 27]","['disappointment', 'neutral']"
+I desperately want to believe you but then,"[9, 25]","['disappointment', 'sadness']"
+I miss being practically jello as a kid,[25],['sadness']
+A year ago I said that this continuous ISO by Houston is disgusting to watch. It s still disgusting.,[11],['disgust']
+Poeling is looking like a fkn stud. Imagine our C depth next season... [NAME]... holy fuck,[],[]
+He looks especially cute in the glasses.,"[4, 5, 18]","['approval', 'caring', 'love']"
+Didn't find it believable even from the start,"[9, 10]","['disappointment', 'disapproval']"
+Maybe write your own music and it won’t get taken down.,"[23, 20, 27]","['relief', 'optimism', 'neutral']"
+There is no god. *[NAME] is content in own company. .: If there was a god it is definitely not an [NAME].,"[4, 1]","['approval', 'amusement']"
+"> ""But I'm their father. They have to,"" he kept saying. And there is delusion colliding with reality.","[16, 22]","['grief', 'realization']"
+Would need the #1 overall in 2 years... should try to get a first in next years draft for AB and hope that team tanks,"[9, 10, 19]","['disappointment', 'disapproval', 'nervousness']"
+He looks so disappointed in him,"[9, 10]","['disappointment', 'disapproval']"
+Why would you assume he wasn’t in on the decision?,"[7, 1, 3]","['curiosity', 'amusement', 'annoyance']"
+Which doesn't excuse the fact that he wanted to see sexy pictures of a 16 year old. Gross.,"[10, 11]","['disapproval', 'disgust']"
+"He probably does, but people don’t speak Godlish very well.","[1, 10]","['amusement', 'disapproval']"
+Haha I meant [NAME]. I was a very chatty fast bowler/no.6 pinch hitter.,"[1, 27]","['amusement', 'neutral']"
+No matter what you choose (if you even have a choice) you can rest assured it will be fairly slow and very overpriced.,"[10, 3]","['disapproval', 'annoyance']"
+I once looked at the I-95 and was hospitalised for weeks.,"[25, 16]","['sadness', 'grief']"
+I hope his pants fell down from the extra weight lmao,[1],['amusement']
+Its to bad he doesn’t give Tomlin this treatment.,"[9, 10]","['disappointment', 'disapproval']"
+What evidence are you basing this on? What evidence would you accept as convincing you're wrong?,"[7, 27]","['curiosity', 'neutral']"
+I would not say just one ... It took both [NAME] AND [NAME] to screw this one up!,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"Thank you for your concern, fellow conservative","[4, 15]","['approval', 'gratitude']"
+Always great to see a fellow [NAME] give proper advice,[4],['approval']
+genuinely funny - downvoted,"[1, 10]","['amusement', 'disapproval']"
+Thank you for phrasing it in a way where I picture [NAME] leaning over a school bus seat to tell me that.,"[15, 1, 4]","['gratitude', 'amusement', 'approval']"
+If you plan on doing more then do leo next. Hitting /r/Tekken with the gender mixup.,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+"Tbh, 2020 he would give us another amazing album. This year could still be rushed, but it’s great to see him out and shit","[4, 1, 13]","['approval', 'amusement', 'excitement']"
+"To each according to their needs... Except entitled parents, who need everything.","[2, 10]","['anger', 'disapproval']"
+That’s my favorite way to introduce myself tbh,"[13, 1, 17]","['excitement', 'amusement', 'joy']"
+It's also the only title that doesn't have to be defended. Convenient that.,"[1, 27]","['amusement', 'neutral']"
+"Again nothing, you are the one obsessing over that term, he literally says he puts girls on a pedestal. ","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+Because majority of moves have stupidly long names. GO INTO ANGEL PUNISHER INTO DIVE BOMB RADIANCE AND FINISH THE JOB WITH PUNISHING LIGHT BLADE,"[2, 11, 3]","['anger', 'disgust', 'annoyance']"
+This is a great thread for catching up on my block list. 10/10 would block again,"[4, 1, 3]","['approval', 'amusement', 'annoyance']"
+I didn’t rely on them necessarily. I just dislike chiefs and [NAME] lol,"[1, 3]","['amusement', 'annoyance']"
+"Oh, [NAME]... [INSERT SITCOM LAUGH TRACK HERE]",[1],['amusement']
+What? Who said I hated him? I dont give a damn about him either way.,"[6, 27, 3]","['confusion', 'neutral', 'annoyance']"
+"Well I mean OP said this was a year ago, I meant that they could STILL press charges.","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+Lol he said it was the driver's fault and everyone called him out.,"[1, 10]","['amusement', 'disapproval']"
+That’s the most badass joke I’ve heard,"[13, 1, 17]","['excitement', 'amusement', 'joy']"
+I love this 😂,"[1, 17, 18]","['amusement', 'joy', 'love']"
+"Nobody got time for that, Dont even like twitter","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+"Your pro controller tho, tops.","[0, 21]","['admiration', 'pride']"
+[NAME] it'd be funny if it weren't so pathetic.,"[1, 3, 10, 11, 9]","['amusement', 'annoyance', 'disapproval', 'disgust', 'disappointment']"
+"When the law says that being penetrated is required to be called rape, it's not just peoples' belief, it's literally systematic.",[],[]
+"""I'm not the one constantly talking about getting laid, YOU are!"" ","[2, 3]","['anger', 'annoyance']"
+"Plot twist, she's accepted [NAME] as her Lord and Savior.","[4, 17, 18, 26, 13]","['approval', 'joy', 'love', 'surprise', 'excitement']"
+Wow!!!,"[13, 17]","['excitement', 'joy']"
+"Yeah but that post is a day old so OP won't have any chance of getting karma off it, cmmon now","[9, 3]","['disappointment', 'annoyance']"
+"Apologies, got a little carried away. ","[12, 24]","['embarrassment', 'remorse']"
+Whoops. Didn’t know that was a thing. Thanks!,"[23, 12, 15]","['relief', 'embarrassment', 'gratitude']"
+I didn't mean for that to sound racist I just mean those [NAME] in the article,[10],['disapproval']
+That’s how I read it in the sentence but my brain reads it as “yeahno”. Lol,[1],['amusement']
+"Oh, wow. Hope nothing happens to his arms on the way!",[14],['fear']
+[NAME] looking like [NAME] out there,"[1, 26]","['amusement', 'surprise']"
+"well, i mean, he served his sentence and repaid his debt. is his punishment over, or is it forever?","[7, 24]","['curiosity', 'remorse']"
+"I also posted about this a few days ago. Maybe they have different designers but none of them has follow-up or approval from a single person, unfortunate","[9, 10, 27]","['disappointment', 'disapproval', 'neutral']"
+"[NAME] was my favorite. And I liked [NAME] her first season. They both suck now, so damn hard.","[9, 0, 18, 11]","['disappointment', 'admiration', 'love', 'disgust']"
+This is your moment!,"[13, 21, 17]","['excitement', 'pride', 'joy']"
+"No offense, but your parents are assholes.","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+Whatever mental condition he has is far worse than autism.,[],[]
+As much as I hate [NAME] I love the guy a lot,"[4, 0, 18]","['approval', 'admiration', 'love']"
+That doesn't make the kid stupid though. That makes him a baby.,"[4, 27]","['approval', 'neutral']"
+8 hour old spam account of the forum incel buttcoin troll.,[],[]
+Fine as long as the experience is not frustrating. Problem is not balance problem is it’s not fun,"[9, 10, 27, 3]","['disappointment', 'disapproval', 'neutral', 'annoyance']"
+#WHERE ARE THE TURTLES,"[6, 2]","['confusion', 'anger']"
+"Oh I can feel the burn all the way from Australia, even a few months later. Doesn't anyone have a direct source to this post? Thanks","[27, 3]","['neutral', 'annoyance']"
+"Instagram literally fueles my eating disorder, I can't have it. It is all fake though","[23, 10, 11]","['relief', 'disapproval', 'disgust']"
+The age of consent is 16. It's the indecent nature of the photo that has gotten him in trouble.,[],[]
+I think this isn't allowed on /r/cringe and I think that's why they hid that sub.,"[10, 3, 24]","['disapproval', 'annoyance', 'remorse']"
+>Allow insurance to not pay for treatment of diseases with known vaccinations and to raise rates on antivaxxers *Genius!*,[],[]
+I'm fucking starving here.,[2],['anger']
+She just needs to kiss [NAME],[18],['love']
+i saw that before. what does that have to do with this?,"[7, 27]","['curiosity', 'neutral']"
+"Because all they care about is themselves, and maybe their immediate family. Its the libertarian ethos - gimme gimme and fuck everybody else.","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+You're right... But look at that badass black leather jacket.,"[4, 0, 13]","['approval', 'admiration', 'excitement']"
+i mean yeah but people need to understand when someone needs something other than just sexual comments and maybe some actual support,[4],['approval']
+money always talk. i want more to learn from this lesson.,"[4, 8]","['approval', 'desire']"
+"This is the sort of chucklefuck who finds himself saying ""and there was nothing I could do"" after a mishap... often.","[2, 10, 3, 11]","['anger', 'disapproval', 'annoyance', 'disgust']"
+My brother fell asleep on the beach once and his whole back turned purple from sunburn and yours is still worse than his! My [NAME]!!,"[1, 10, 3]","['amusement', 'disapproval', 'annoyance']"
+Big big hold from the [NAME],"[13, 17, 26]","['excitement', 'joy', 'surprise']"
+"Or the Lady Killers, except it's a bank and not a Casino. Set in the south too.","[7, 1, 22]","['curiosity', 'amusement', 'realization']"
+"Love [NAME], but he is really dumb when it comes to politics and economics.",[],[]
+Thanks for explaining the point he was making.,"[15, 23, 4]","['gratitude', 'relief', 'approval']"
+"Land near those coastal hotspots is running out. If you want to live in the Midwest, it's still cheap. ","[9, 27]","['disappointment', 'neutral']"
+I have the same issue with a new co-worker and it drives me insane.,"[2, 3]","['anger', 'annoyance']"
+oh thats rather weak then. kmt thought they would know better. its a reactable headbutt.,"[11, 10, 3]","['disgust', 'disapproval', 'annoyance']"
+"Go twice a day, every day. Only way the bleeding stops. It blows.","[13, 23, 3, 11]","['excitement', 'relief', 'annoyance', 'disgust']"
+"""brush my back again, I dare you, I double dare you.""",[2],['anger']
+r/uk hates nationalism but likes the SNP. Not sure if hypocrisy or it’s different people,"[6, 27]","['confusion', 'neutral']"
+No! That's horrible news!..for Galaxy fans lol,"[1, 9, 3]","['amusement', 'disappointment', 'annoyance']"
+What a coincidence. I also had a Bort.,"[7, 26]","['curiosity', 'surprise']"
+This actually made me laugh out loud,[1],['amusement']
+Eat my fuck- [NAME],[],[]
+The secret and walk away endings are not cannon.,"[2, 10]","['anger', 'disapproval']"
+[NAME] IS SMILING EVERYONE,"[1, 17]","['amusement', 'joy']"
+Fcuk you.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"To me, the best smell a person can have is just a clean smell. ",[4],['approval']
+Ha! I like that one.,"[13, 1, 4]","['excitement', 'amusement', 'approval']"
+Plus corporations are universally unethical,"[11, 10, 3]","['disgust', 'disapproval', 'annoyance']"
+I like this kid,"[4, 17, 18]","['approval', 'joy', 'love']"
+Is that the dude from spiderman?,[27],['neutral']
+Sorry. This happens to too many good people.,"[25, 16]","['sadness', 'grief']"
+Hahaha damn.,"[1, 3]","['amusement', 'annoyance']"
+[NAME] has a fun instagram,"[1, 27]","['amusement', 'neutral']"
+I guess when it's a decision they agree with the other Tamaki stuff I've read so far (granted I don't read much anything else.,"[4, 23, 27]","['approval', 'relief', 'neutral']"
+Pretty sure their subreddit makes one of these for every game. They're pretty legit.,"[4, 27]","['approval', 'neutral']"
+"Funny, coming from the tool circle jerk reddit.",[1],['amusement']
+Doesn’t change the fact that you’re still wrong....,"[2, 10]","['anger', 'disapproval']"
+Easy on the Granville Island gatekeeping amigo. Its absolutely a tourist destination.,"[10, 3]","['disapproval', 'annoyance']"
+"I wouldn’t worry, most United fans have never even been to Manchester. ",[27],['neutral']
+Holy shit was that the one guy that supported remain? I didn't know we had a celebrity on this board.,"[4, 1, 26]","['approval', 'amusement', 'surprise']"
+So... For me it changed earlier yesterday... Maybe it's a location/language thing,"[6, 27]","['confusion', 'neutral']"
+"No, they aren’t. ","[9, 25, 27]","['disappointment', 'sadness', 'neutral']"
+"If I'm enjoying some fresh produce, and I hear you say >app-uh-LAY-sha Rest assured im throwing this apple at'cha.","[1, 2, 3]","['amusement', 'anger', 'annoyance']"
+"That comment about ""kill him with kindness"" was kinda unnecessary. How about just kindness for kindness sake? lol","[27, 3]","['neutral', 'annoyance']"
+Looks deliriously boring.,"[3, 25, 10, 11, 9]","['annoyance', 'sadness', 'disapproval', 'disgust', 'disappointment']"
+"I forgot context and thought you meant the band was republican, please don’t worry me like this again ","[23, 9, 3]","['relief', 'disappointment', 'annoyance']"
+also anxious that people will be angry or surprised or upset at me for me never telling people about this before,"[14, 10, 19]","['fear', 'disapproval', 'nervousness']"
+"You came at me with attacks, so no, you get NOTHING!","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+That was the initial spin. They said the Covington kids were harassing the four young black men that were discussing the bible and oppression.,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+It's holiday time here in Europe. Today is my first day in work for 2 weeks.,"[23, 27]","['relief', 'neutral']"
+"No no no, the ball was tipped. He’s a great kicker","[9, 0]","['disappointment', 'admiration']"
+Spending the day with family in beautiful Bowral 🌿,"[15, 23, 17, 18]","['gratitude', 'relief', 'joy', 'love']"
+Sounds like you are dealing with some difficult mental health issues. Parents generally love their children. maybe try to talk to them??,[10],['disapproval']
+Hungover lil chicken,"[1, 11]","['amusement', 'disgust']"
+The guest judges these last two episodes are so gorgeousss like really,"[4, 0]","['approval', 'admiration']"
+Why do you use your valuable time to hate? We only got time to love each other and ourselves.,"[3, 25, 10, 18, 9]","['annoyance', 'sadness', 'disapproval', 'love', 'disappointment']"
+Thank [NAME] for your mother and her googling skills! Now if you have kids you know who allowed and welcome to be around them and who not.,"[15, 1, 4]","['gratitude', 'amusement', 'approval']"
+Technically they did not. Technically we were forced ti give 1b to 10 Irish constituencies to put them in charge after failing to vite them.,"[2, 10]","['anger', 'disapproval']"
+"Pretend you are the lead in a movie. You will probably get laid, confidence is everything. Bingo bango, great night!","[13, 1, 20]","['excitement', 'amusement', 'optimism']"
+Lmao I'm sorry!,"[23, 1, 12, 24]","['relief', 'amusement', 'embarrassment', 'remorse']"
+> He's finished. What does 'finished' mean specifically here? I think most of the previous times I've heard this phrase it's been sarcastic.,"[7, 27]","['curiosity', 'neutral']"
+Maybe it’s just too early but I can’t figure out what that’s supposed to be.,"[6, 27]","['confusion', 'neutral']"
+Sadly my boyfriend's family is the direct opposite but we'll still make it work :3,"[25, 27, 18]","['sadness', 'neutral', 'love']"
+I mean if you hidden the initial hit you can punish anything he does after,"[2, 10]","['anger', 'disapproval']"
+"I read this place obsessively and didn't see it, so I'm enjoying it and upvoting it anyway","[1, 20]","['amusement', 'optimism']"
+Of all the injustices in the world!,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+We should stop there... the inception will sink the titanic.,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+Are you looking for clear blocks of ice or just plain blocks?,"[7, 27]","['curiosity', 'neutral']"
+Man I love listening to [NAME] talk and I’d love to have a chat with him but he does talk some bollocks sometimes.,"[1, 10, 18]","['amusement', 'disapproval', 'love']"
+The worst part is the character in the image behind it is great and this just hurts to read in his voice.,"[9, 16]","['disappointment', 'grief']"
+Great reply as usual,"[4, 17, 15]","['approval', 'joy', 'gratitude']"
+If you think he's working 2400 times harder than an average minimum wage worker then there's something severely wrong with your world view.,"[2, 10]","['anger', 'disapproval']"
+[NAME] is a queen and y'all better treat her like one.,"[13, 4, 0]","['excitement', 'approval', 'admiration']"
+Definitely. I find if I don't exercise for a few weeks I'll gain a few pounds quick..,[19],['nervousness']
+"It’s a fast food restaurant, what do you expect?","[10, 3]","['disapproval', 'annoyance']"
+Let's do this shit. Michigan first half?,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+"Thank you for doing these, i wanna learn our prospects more and this helps","[15, 7]","['gratitude', 'curiosity']"
+Just make sure you don't go too far and get a 17hmr!,"[4, 1, 23]","['approval', 'amusement', 'relief']"
+This is almost worse than Santa Con. Can we get millenials to destroy this please.,"[11, 10, 3]","['disgust', 'disapproval', 'annoyance']"
+IIRC those who made those statements while it occurred were lambasted as conspiracy theorists by the conforming majority. Life is full of surprise.,"[27, 26]","['neutral', 'surprise']"
+Source???!,"[3, 11]","['annoyance', 'disgust']"
+"Ah, the ol' [NAME] strategy.","[1, 26]","['amusement', 'surprise']"
+😅 thanks bew bew,"[15, 1]","['gratitude', 'amusement']"
+... or so the Germans would have us believe.,"[10, 27]","['disapproval', 'neutral']"
+FIRE THE MEDICAL TEAM.,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+At least she can't use the old thyroid problems excuse for her fatness,"[10, 3, 11]","['disapproval', 'annoyance', 'disgust']"
+Also the fishing has been terrible for a month now. I am about to take the 5 story jump my friends.,"[9, 19]","['disappointment', 'nervousness']"
+I never said it was irrelevant. I am trying to add on to what the OP had said for potential savings.,"[4, 15, 26]","['approval', 'gratitude', 'surprise']"
+"Just a minute, don't hang up!","[23, 3]","['relief', 'annoyance']"
+"if he ended up with that chef, damn that will break my heart for sure.","[9, 25]","['disappointment', 'sadness']"
+"Unleash your RAGE, my chosen children! Unleash your rage upon the [NAME], and bring forth the age of the YELLOW ","[13, 2, 10]","['excitement', 'anger', 'disapproval']"
+"Ugh, he sounds like a slob and you should leave him.","[10, 3]","['disapproval', 'annoyance']"
+I'm so sorry about your friend. What was he like?,"[7, 16]","['curiosity', 'grief']"
+The spouse sponsors them to guarantee that they are not a burden to the state. Nothing about this is related to committing a crime.,"[23, 20, 27]","['relief', 'optimism', 'neutral']"
+"Scrambled eggs, chevre, sweet potato chips, and a side of I should probably go shopping. A confusing flex","[7, 1, 27]","['curiosity', 'amusement', 'neutral']"
+For me it's more about making my personal appearance a hobby more than just buying expensive stuff to have it,"[0, 27]","['admiration', 'neutral']"
+"Will see,still better for Chelsea then [NAME] who looked completely lost and devoid of any confidence lately","[9, 10, 11]","['disappointment', 'disapproval', 'disgust']"
+That sounds intelligent. Wonder why you don’t have a job you have to interview for.,"[23, 1]","['relief', 'amusement']"
+TL:DR leave. Deal with the consequences later.,"[14, 2, 3]","['fear', 'anger', 'annoyance']"
+"I agree, it would be a bore if everybody agreed with everyone else. ","[4, 1]","['approval', 'amusement']"
+Defense that's why,"[10, 3]","['disapproval', 'annoyance']"
+My type of cheerleader. Those are some good looking guys,"[4, 0, 13]","['approval', 'admiration', 'excitement']"
+"Damn I got a notif from a (very cute) friend saying ""no u"" on Discord right before I saw this","[1, 3]","['amusement', 'annoyance']"
+That solves it. Thank you!,[27],['neutral']
+Try to keep yourself busy with other things to forget the thoughts.,"[25, 16, 27]","['sadness', 'grief', 'neutral']"
+My first thought.. Girl your eye makeup!,"[1, 0]","['amusement', 'admiration']"
+[NAME] is gorgeous and so are you.,"[4, 0, 18]","['approval', 'admiration', 'love']"
+"Looks nice, thanks:) ","[4, 1, 15]","['approval', 'amusement', 'gratitude']"
+"4 lives essentially, its insane","[1, 26]","['amusement', 'surprise']"
+Did you read the post?,[27],['neutral']
+"Unfortunately, I don't. Sorry. 😔",[25],['sadness']
+All good 👍,"[4, 23, 17]","['approval', 'relief', 'joy']"
+so painful to watch,"[25, 16]","['sadness', 'grief']"
+"He’s a coward, but no need to ruin his life. You should feel sorry for him. ","[5, 10, 16, 27]","['caring', 'disapproval', 'grief', 'neutral']"
+Very succinct and accurate,"[4, 0, 21]","['approval', 'admiration', 'pride']"
+"Where I live this standard, however they would of only been together just three weeks. Great news for you guys thou.","[26, 17, 27]","['surprise', 'joy', 'neutral']"
+They look the same way fighting as I do dancing,"[1, 0]","['amusement', 'admiration']"
+"Really glad the US just passed transparent pricing for healthcare providers, but it's just a first step.","[15, 4, 20]","['gratitude', 'approval', 'optimism']"
+"You’re right, I was thinking of AiG or the Discovery Institute. ","[4, 26]","['approval', 'surprise']"
+Wow! I've never heard of a celebrity doing something so nice,"[4, 26, 18]","['approval', 'surprise', 'love']"
+"Ooohhh shit, they did *not* just say men should be decent human beings, they've finally taken it too far! Gather the troops! /s",[],[]
+I made friend with one of these scammers. After speaking to me he quit his job at that company. We still speak regularly over whatapp and facetime!,"[7, 1, 26]","['curiosity', 'amusement', 'surprise']"
+I know you're trying to play devil's advocate but [NAME] doesn't hit close to as well as [NAME],"[4, 9, 27]","['approval', 'disappointment', 'neutral']"
+Thanks! That was an interesting read. Seems there really is a city where they built more homes than there were people to live there!,"[15, 1, 26, 7]","['gratitude', 'amusement', 'surprise', 'curiosity']"
+I know I haven't been myself lately but listen! I can do better and I can change!,"[23, 20]","['relief', 'optimism']"
+So glad to hear that! you go girl<3,"[4, 0, 17]","['approval', 'admiration', 'joy']"
+I left her off because I tried to keep the list to people who were in a little earlier than her.,"[10, 3]","['disapproval', 'annoyance']"
+Sorry I dropped mine can I have another?,"[9, 19]","['disappointment', 'nervousness']"
+And? That still doesn’t debate the fact that he’s all about the money?,"[2, 10]","['anger', 'disapproval']"
+I wanna give [NAME] a mosquito bite,[1],['amusement']
+It sounds like you'd have a great time with Final Fantasy XIV.,"[13, 20, 0]","['excitement', 'optimism', 'admiration']"
+"As [NAME] says,""Just put your emotions over there and eventually you will die""",[],[]
+"What are you even talking about? I'm sorry you don't like [NAME], get over it.","[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+"Their faces tho, LOL",[1],['amusement']
+"Fake news. This video has been thoroughly debunked, here:",[10],['disapproval']
+Haha! I was right :D.,"[4, 1, 17]","['approval', 'amusement', 'joy']"
+Omg!! They are kinda turning [NAME] into new [NAME].,"[7, 26]","['curiosity', 'surprise']"
+"Just from observing and polling people around me, they don't care.","[10, 27]","['disapproval', 'neutral']"
+Fruit is byfar the worst of all flavors,"[11, 10, 3]","['disgust', 'disapproval', 'annoyance']"
+Disagree wholeheartedly. I'm actually amazed anyone can think this way.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+He's the reason why they unable to win it in the first place.,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+Who the heck cant,"[2, 3]","['anger', 'annoyance']"
+"Okay. Then what does ""anti-imperialism"" mean to you? ","[7, 27]","['curiosity', 'neutral']"
+I like that he keeps with the Cardinals’ colors. This needs to be an alternative uniform,"[4, 21]","['approval', 'pride']"
+Your just killing time now.,[27],['neutral']
+"Laugh all you want, it's pretty much indestructible now!","[13, 1, 23]","['excitement', 'amusement', 'relief']"
+I wish my mom was catgirl savvy.,"[8, 1]","['desire', 'amusement']"
+"The smile on these guys face, the will and passion to explore all gone in a second. Rest in peace explorers!","[25, 16]","['sadness', 'grief']"
+Just cooked me some chorizo and an omelette with tortillas at half time. The tortilla gods are now pleased.,"[15, 1]","['gratitude', 'amusement']"
+Let's see what [NAME] thought about it...,"[7, 27]","['curiosity', 'neutral']"
+Ugh this moment really had me crying lol just hearing him remember all the good I was like WHY,"[6, 2, 25, 26]","['confusion', 'anger', 'sadness', 'surprise']"
+[NAME] is having a great start to the game. Very gritty and I love it. Plz keep him.,"[4, 20, 18]","['approval', 'optimism', 'love']"
+"Alright, thanks",[27],['neutral']
+The QB said they loved it,"[4, 17, 18]","['approval', 'joy', 'love']"
+I'm glad :),"[15, 17]","['gratitude', 'joy']"
+I've used tofu and nutritional yeast before. It works well for ricotta! Recipe here!,"[7, 23, 4]","['curiosity', 'relief', 'approval']"
+Fucking and being a boy,[],[]
+Anytime :),"[1, 20, 17]","['amusement', 'optimism', 'joy']"
+Got any examples?,[27],['neutral']
+Rare just announced they plan to fix it but don't hold your breath it could be a month or more,"[9, 3]","['disappointment', 'annoyance']"
+"Congrats! That could not have been an easy step to take, so I'm so happy it's been a positive experience.","[4, 23, 17]","['approval', 'relief', 'joy']"
+"I really hope more queer couples have kids. It needs to become more normalized. I definitely want at least 2, probably through surrogacy.","[4, 8, 20]","['approval', 'desire', 'optimism']"
+food pranks really irk me 😔,"[11, 10, 3]","['disgust', 'disapproval', 'annoyance']"
+Because then if the wife gets pregnant it becomes difficult to find out which husband she is pregnant with,"[1, 19, 26]","['amusement', 'nervousness', 'surprise']"
+Agreed. Sometimes you just have to move forward and let those determined to be left behind have their wish.,[10],['disapproval']
+the oj netti pot challenge!,"[13, 1, 26]","['excitement', 'amusement', 'surprise']"
+"What a transition...from ""Ab-Fab"" to ""Au-Bo"" :p (don't forget the vodka, it's cold up there)","[1, 27]","['amusement', 'neutral']"
+"It's hard to not love guys like [NAME], [NAME] and [NAME] though. ","[4, 0, 18]","['approval', 'admiration', 'love']"
+"Block the number, avoid your parents, and cut the toxic people out of your life.","[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+That's ironic.,"[1, 27]","['amusement', 'neutral']"
+>And I could be wrong about my [RELIGION] faith but again that’s the point of faith. The point of faith is to be wrong?,"[7, 1, 27]","['curiosity', 'amusement', 'neutral']"
+VOLCEL POLICE!,"[2, 11, 3]","['anger', 'disgust', 'annoyance']"
+You shouldn't be using hydrocortisone on your face:,"[9, 10, 3]","['disappointment', 'disapproval', 'annoyance']"
+"Ahhh, the ol' Samsung Special. ",[1],['amusement']
+I LOVE THE HIGHS TOO. At least I know tomorrow I will hate them. Is the good worth the bad? Sometimes...,"[7, 23, 27, 18]","['curiosity', 'relief', 'neutral', 'love']"
+That... That makes a lot more sense than what I thought they were chanting.,"[7, 23]","['curiosity', 'relief']"
+[NAME] breaks to love early in the third.,"[4, 27]","['approval', 'neutral']"
+Greetings fellow human,[27],['neutral']
+♫ Your love for me Won't be quite the same When you take a whiff Of my hershey stains. ♫,"[1, 18, 11]","['amusement', 'love', 'disgust']"
+"Damn, hoped i had missed some fan translations or something...","[9, 3]","['disappointment', 'annoyance']"
+"People do realize that getting an ad declined for the Super Bowl is an actual advertising strategy, right?","[1, 26]","['amusement', 'surprise']"
+Can confirm. I've been trying to get out of bed for an hour and 15 minutes,"[9, 3]","['disappointment', 'annoyance']"
+"I’ve always loved the art style of the author/illustrator as a kid, so I could see where you’re coming from.","[4, 18]","['approval', 'love']"
+Thanks for sharing your thought. You have a fair and reasonable perspective. Happy New Year!,"[15, 4, 20]","['gratitude', 'approval', 'optimism']"
+I found all mutual nut destruction games to be ridiculous and I never played them. My friends all loved them though.,"[1, 10, 27]","['amusement', 'disapproval', 'neutral']"
+hes doing it for his kid,"[4, 21, 18]","['approval', 'pride', 'love']"
+"Wow, impressive... And how long until it breaks and they decide it's not worth repairing?","[1, 10]","['amusement', 'disapproval']"
+Do you not commute to work? It's still like that during rush hour traffic.,"[27, 3]","['neutral', 'annoyance']"
+"Fuck the White House, fuck McDonald’s and fuck this post.",[],[]
+everyone does it.,"[1, 27]","['amusement', 'neutral']"
+"If there’s a pattern, yes.",[7],['curiosity']
+"Wow, Michelin star for $25. That's nuts. Thanks for the heads up. ","[10, 27, 3]","['disapproval', 'neutral', 'annoyance']"
+He’s a brave man.,"[0, 21]","['admiration', 'pride']"
+I definitely get that vibe from this post. Or [NAME] was friends with them and didn’t get invited to the party lmao,[1],['amusement']
+2016 was also the worst year of my life,"[9, 25, 16]","['disappointment', 'sadness', 'grief']"
+Can't play defence when everything is call and on the other end the Bulls haven't gotten a call since early in the quarter ...,"[2, 9]","['anger', 'disappointment']"
+Then watch the American remake and weep,"[25, 16]","['sadness', 'grief']"
+Bitch yes!,"[2, 3]","['anger', 'annoyance']"
+“Still wearing ATM” this bit has me crying! Thanks for the mental image.,[1],['amusement']
+"They’re speaking Spanish and the character is racist, making the experience terrifying","[14, 10, 11]","['fear', 'disapproval', 'disgust']"
+Rumor says he failed the medical. Probably false but this is Arsenal anything can happen.,"[23, 9, 27]","['relief', 'disappointment', 'neutral']"
+Haha haha! Excellent,"[4, 1, 17]","['approval', 'amusement', 'joy']"
+That's what *you* want you to think!,"[1, 26, 3]","['amusement', 'surprise', 'annoyance']"
+"Get big, whatever it takes.",[2],['anger']
+Those charts seem to indicate approximately a net 4000 advantage for [NAME] over the period considered.,"[4, 20]","['approval', 'optimism']"
+That has to be the saddest nba account ever. Like 4 likes every post :(,"[9, 25, 10]","['disappointment', 'sadness', 'disapproval']"
+No he didn't lol every ref gives that. He was looking for it but it's still a foul,"[1, 19, 3]","['amusement', 'nervousness', 'annoyance']"
+It'll still be beautiful! They'll just have to be prepared to get a bit damp!,"[1, 20]","['amusement', 'optimism']"
+I got the exact same message from tati yesterday ! She said on her twitter that it's definitely a scam,"[10, 3, 11]","['disapproval', 'annoyance', 'disgust']"
+Totally Actually I've been talking with my friend about how a unique tag team 2 kombatants that play as one would work out,"[7, 1]","['curiosity', 'amusement']"
+"I have, and what I get is hundreds. I just wanted some advice on ones people would recommend ","[9, 3]","['disappointment', 'annoyance']"
+"God damn, [NAME] gets 2 Mikans? Lucky.","[4, 1, 26]","['approval', 'amusement', 'surprise']"
+"Yeah strong man makes me nervous, imagine if he dropped it on his foot? 😬","[1, 19]","['amusement', 'nervousness']"
+"I'm not telling them, I was just saying that the person who knew them irl said they were a she. That is all","[7, 27]","['curiosity', 'neutral']"
+Unless the government steps in and does something stupid,"[2, 9, 10]","['anger', 'disappointment', 'disapproval']"
+Everyone has a right to fetish. Does not mean I cannot say “you deserve to be nailed to a cross” for it,[],[]
+Haha yeah. But still very nice of Ben I hope that the people who got it will use it 24/7,"[4, 1, 15]","['approval', 'amusement', 'gratitude']"
+Spent time with them. Argue with them. Laugh with them. Cry with them. We all get lonely when we are old.,"[1, 5, 25, 27, 18]","['amusement', 'caring', 'sadness', 'neutral', 'love']"
+"I also remember the scripts stating [NAME] look was one of jealousy, which disappoints me.","[9, 10]","['disappointment', 'disapproval']"
+[NAME] in the highest!,"[4, 21, 13]","['approval', 'pride', 'excitement']"
+"Stop breaking the rules, you're still posting in that comment section after making this post. ","[10, 3]","['disapproval', 'annoyance']"
+So nothing. Nothing happened.,[27],['neutral']
+She's aggressive in every TLJ fight. She even bullied that poor homeless man.,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+"Awesome, great to see people coming together for peer to peer cash!","[13, 4, 20]","['excitement', 'approval', 'optimism']"
+No I thought that movie was really bad. I could relate to requiem for a dream.,"[9, 25, 10]","['disappointment', 'sadness', 'disapproval']"
+> I want to feel peace and not have to wake up everyday anxious for what the day has in store. I can relate to this.,"[23, 25, 27]","['relief', 'sadness', 'neutral']"
+That is an exceedingly rare failure. I read an article about this guy. He was just stupid and stopped there.,"[11, 9, 3]","['disgust', 'disappointment', 'annoyance']"
+I tried to send this to a friend but [NAME] knocked it away.,"[12, 9]","['embarrassment', 'disappointment']"
+This is a symptom of the main reason I don't drink or do drugs. F,"[23, 27]","['relief', 'neutral']"
+"Now if you can teach her english, the real fun starts. ","[13, 1]","['excitement', 'amusement']"
+I'm glad we have a place we can come to when we have doubts. Thank you so much.,"[15, 23]","['gratitude', 'relief']"
+Great trade for us but we're losing some forward depth in [NAME]. Tbh though I would be willing to take the risk.,"[4, 1, 20]","['approval', 'amusement', 'optimism']"
+I was hoping they both were gonna hit the ground lol,"[23, 1]","['relief', 'amusement']"
+"wow it’s literally disgusting that you’re getting downvoted for pointing out that she abuses her kids. this is the society we live in, eugh","[10, 3, 11]","['disapproval', 'annoyance', 'disgust']"
+deliberately getting in someone's face while they are in the middle of what would qualify as prayer is disrespect.,"[2, 10, 11]","['anger', 'disapproval', 'disgust']"
+"Tbh, that sounds better than lithium","[1, 27]","['amusement', 'neutral']"
+"Does that violate the NAP or not, hmm🤔","[7, 27]","['curiosity', 'neutral']"
+"Hey, [NAME] nerf to basic damage and no damage mitigation in stealth! Thank [NAME]!","[9, 3]","['disappointment', 'annoyance']"
+My face is so round so I don’t even know what male haircut to get :(,"[12, 9, 25]","['embarrassment', 'disappointment', 'sadness']"
+Now that I've gone solar I'll never go back,"[13, 4, 21]","['excitement', 'approval', 'pride']"
+There are ways to work outside of employment.,"[23, 20, 27]","['relief', 'optimism', 'neutral']"
+That was oddly specific,"[7, 26]","['curiosity', 'surprise']"
+There's a difference between rights and law. Stop conflating the two.,"[2, 10, 3]","['anger', 'disapproval', 'annoyance']"
+I'd say it's pretty uncommon now.,"[9, 10, 27]","['disappointment', 'disapproval', 'neutral']"
+Omg is this that what older kids call s*x?1?1??1??,"[7, 12, 26]","['curiosity', 'embarrassment', 'surprise']"
+I watched the whole thing. I miss that style of cartoon. Simultaneously silly and understated.,[25],['sadness']
+Imagine if we dont trade [NAME] and [NAME] fans just kill all of us.,"[2, 25, 10]","['anger', 'sadness', 'disapproval']"
+"That’s the way I interpreted it too, but i was laying in bed half asleep when I heard it, so I could be way off.","[27, 22]","['neutral', 'realization']"
+But where?,"[6, 27]","['confusion', 'neutral']"
+What a great photo and you two look so happy. 😍,"[0, 17]","['admiration', 'joy']"
+Thank you. And I love your flair. My toddler is the same haha,"[15, 1, 18]","['gratitude', 'amusement', 'love']"
+"Hi, [NAME]! I am stopping by to wish you the best day, and the best year! -HappyFriendlyBot","[15, 4, 17]","['gratitude', 'approval', 'joy']"
+You are amazing,"[21, 4, 0, 17, 18]","['pride', 'approval', 'admiration', 'joy', 'love']"
+I can’t believe only 3 people pet the cat. Not even the cameraman pet the cat!,"[1, 9, 26]","['amusement', 'disappointment', 'surprise']"
+inertial frame of reference is the viewing party.,[27],['neutral']
+"He's the only dignified politician, but it's still bizarre that people can be so enamoured of a literal [NAME]","[1, 10]","['amusement', 'disapproval']"
+This is the funniest shit I've seen all day.,[1],['amusement']
+What the hell,"[2, 3, 11]","['anger', 'annoyance', 'disgust']"
+Don't worry about it.,"[23, 27]","['relief', 'neutral']"
+It burns...,"[25, 16]","['sadness', 'grief']"
+Ha! I can totally see him having these pictures on his dating profile. He’s so cheesy lol.,[1],['amusement']
+I love [NAME],"[4, 5, 0, 18]","['approval', 'caring', 'admiration', 'love']"
+Woman here - $50 per orgasm please! I could easily make $300 in a half hour wankfest...,[],[]
+A royal with creme,"[1, 17]","['amusement', 'joy']"
+Oh god yes. Top quality cringe. Thank you for sharing,"[1, 10]","['amusement', 'disapproval']"
+My name is [NAME],[27],['neutral']
