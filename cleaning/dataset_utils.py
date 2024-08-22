@@ -3,24 +3,8 @@ import re
 import torch
 import torch.nn.functional as F
 import pandas as pd
-import json
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-def parse_llama_output(output):
-    parsed_output = []
-    for instance in output:
-        # Convert string representation of list to actual list
-        if type(instance) == str:
-            labels_list = ast.literal_eval(instance)
-        else:
-            labels_list = instance
-        parsed_output.append(labels_list)
-    return parsed_output
-
-def filter_invalid_labels(predicted_labels, valid_labels):
-    return [label for label in predicted_labels if label in valid_labels]
-
 
 def calculate_bce_loss(predictions, ground_truth):
     predictions_tensor = torch.tensor(predictions, dtype=torch.float32)
@@ -100,79 +84,8 @@ def calculate_metrics(predicted_labels, ground_truth_labels, all_labels):
     scores = {k: scores[k] for k in ["average"] + all_labels}
     return scores
 
+def visualize_emotion_data(scores):
 
-def append_to_json_file(data, filename="results.json"):
-    try:
-        with open(filename, "r") as f:
-            existing_data = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        existing_data = []
-
-    existing_data.append(data)
-
-    with open(filename, "w") as f:
-        json.dump(existing_data, f)
-
-    return "results saved in results.json"
-
-
-
-
-def process_save_results(
-    model_name,
-    system_message,
-    prompt_template,
-    model_output,
-    ground_truth,
-    valid_labels,
-    text,
-    verbose=True,
-    trial_num=0,
-    **kwargs,
-):
-
-    filtered_predictions = [
-        filter_invalid_labels(instance, valid_labels) for instance in model_output
-    ]
-    ground_truth = parse_llama_output(ground_truth)
-
-    # Calculate metrics
-    scores = calculate_metrics(filtered_predictions, ground_truth, valid_labels)
-
-    # Print results
-    print(f"Results for {model_name}:")
-    print(f"Average BCE Loss: {scores['average']['bce']:.4f}")
-    print(f"Average F1 Score: {scores['average']['f1']:.4f}")
-    print(f"Average Precision: {scores['average']['precision']:.4f}")
-    print(f"Average Recall: {scores['average']['recall']:.4f}")
-
-    # Save results to CSV
-    df = pd.DataFrame(
-        {
-            "text": text,
-            "predictions": filtered_predictions,
-            "ground_truth": ground_truth
-        }
-    )
-    append_to_json_file(
-        {
-            "model_name": model_name,
-            "system_message": system_message,
-            "prompt_template": prompt_template,
-            **kwargs,
-            "scores": scores
-        }
-    )
-
-    # Optionally visualize data
-    if verbose:
-        visualize_emotion_data("results.json", trial_num=trial_num)
-
-
-def visualize_emotion_data(json_path, trial_num=0):
-    # Load the JSON data from the file
-    with open(json_path, "r") as file:
-        data = json.load(file)
 
     # Initialize an empty dictionary to store the results
     emotion_data = {}
@@ -182,7 +95,6 @@ def visualize_emotion_data(json_path, trial_num=0):
     bce_data = {}
 
     # Extract the relevant information for each emotion
-    scores = data[trial_num]["scores"]  # Access the scores part of the JSON
     for emotion, metrics in scores.items():
         if emotion != "average":  # Skip the average key
             correct = metrics.get("correct", 0)
