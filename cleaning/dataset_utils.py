@@ -84,9 +84,11 @@ def calculate_metrics(predicted_labels, ground_truth_labels, all_labels):
     scores = {k: scores[k] for k in ["average"] + all_labels}
     return scores
 
-def visualize_emotion_data(scores):
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-
+def visualize_emotion_data(scores, save, path):
     # Initialize an empty dictionary to store the results
     emotion_data = {}
     precision_data = {}
@@ -132,7 +134,10 @@ def visualize_emotion_data(scores):
     ax.set_title("Correct vs Incorrect Predictions for Each Emotion", fontsize=18)
     ax.set_xlabel("Prediction", fontsize=14)
     ax.set_ylabel("Emotion", fontsize=14)
-    plt.show()
+    if save:
+        plt.savefig(f"{path}_correct_vs_incorrect.png")
+    else:
+        plt.show()
 
     # Create a figure with subplots for the remaining plots
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 14))
@@ -184,5 +189,7 @@ def visualize_emotion_data(scores):
     # Adjust the spacing between subplots
     plt.subplots_adjust(hspace=0.5, wspace=0.3)
 
-    # Display the figure
-    plt.show()
+    if save:
+        plt.savefig(f"{path}_metrics.png")
+    else:
+        plt.show()
