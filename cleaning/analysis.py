@@ -13,7 +13,7 @@ import yaml
 import os
 
 # Emotion Analysis Comparison Pipeline
-def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTIONS, save=False):
+def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTIONS, plot_percentage = False, save=False):
     def load_and_preprocess(run_number):
         file_path = f'run{run_number}/{set_}_filtered.csv'
         df = pd.read_csv(file_path)
@@ -47,7 +47,7 @@ def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTION
     print(f"Average Precision: {scores['average']['precision']:.4f}")
     print(f"Average Recall: {scores['average']['recall']:.4f}")
 
-    visualize_emotion_data(scores, save, f"plots/emotion_metrics_run{run_number1}_vs_run{run_number2}")
+    visualize_emotion_data(scores, save, f"plots/emotion_metrics_run{run_number1}_vs_run{run_number2}", plot_percentage, (run_number1, run_number2))
 
     def count_labels(labels):
         label_counts = {}
@@ -81,17 +81,20 @@ def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTION
     def calculate_shannon_entropy(label_counts):
         total = sum(label_counts.values())
         probabilities = [count / total for count in label_counts.values()]
-        return -sum(p * np.log2(p) for p in probabilities if p > 0)
+        entropy = -sum(p * np.log2(p) for p in probabilities if p > 0)
+        max_entropy = np.log2(len(label_counts))  # Maximum possible entropy
+        return entropy, max_entropy
 
     def calculate_gini_coefficient(label_counts):
         total = sum(label_counts.values())
         proportions = sorted([count / total for count in label_counts.values()])
         cumulative_proportions = np.cumsum(proportions)
         n = len(proportions)
-        return (n + 1 - 2 * np.sum(cumulative_proportions)) / n
+        gini = (n + 1 - 2 * np.sum(cumulative_proportions)) / n
+        return gini
 
-    entropy_run1 = calculate_shannon_entropy(label_counts_run1)
-    entropy_run2 = calculate_shannon_entropy(label_counts_run2)
+    entropy_run1, max_entropy = calculate_shannon_entropy(label_counts_run1)
+    entropy_run2, max_entropy = calculate_shannon_entropy(label_counts_run2)
     gini_run1 = calculate_gini_coefficient(label_counts_run1)
     gini_run2 = calculate_gini_coefficient(label_counts_run2)
 
@@ -100,27 +103,38 @@ def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTION
     print(f"Gini Coefficient - Run {run_number1}: {gini_run1:.4f}")
     print(f"Gini Coefficient - Run {run_number2}: {gini_run2:.4f}")
 
-    measures = ['Shannon Entropy', 'Gini Coefficient']
     run1_values = [entropy_run1, gini_run1]
     run2_values = [entropy_run2, gini_run2]
 
-    plt.figure(figsize=(5, 5))
-    x = np.arange(len(measures))
-    width = 0.35
-    rects1 = plt.bar(x - width/2, run1_values, width, label=f'Run {run_number1}')
-    rects2 = plt.bar(x + width/2, run2_values, width, label=f'Run {run_number2}')
-    plt.ylabel('Value')
-    plt.title(f'Diversity Measures Comparison (Run {run_number1} vs Run {run_number2})')
-    plt.xticks(x, measures)
-    plt.legend()
-    for rects in [rects1, rects2]:
-        for rect in rects:
-            height = rect.get_height()
-            plt.text(rect.get_x() + rect.get_width()/2., height,
-                     f'{height:.4f}', ha='center', va='bottom')
+    
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    
+    # Shannon Entropy subplot
+    ax1.bar([f'Run {run_number1}', f'Run {run_number2}'], [run1_values[0], run2_values[0]], color=['blue', 'red'])
+    ax1.set_ylabel('Shannon Entropy')
+    ax1.set_title('Shannon Entropy Comparison')
+    ax1.set_ylim(0, max_entropy)
+    
+    # Add value labels on top of bars
+    for i, v in enumerate([run1_values[0], run2_values[0]]):
+        ax1.text(i, v, f'{v:.4f}', ha='center', va='bottom')
+    
+    # Gini Coefficient subplot
+    ax2.bar([f'Run {run_number1}', f'Run {run_number2}'], [run1_values[1], run2_values[1]], color=['blue', 'red'])
+    ax2.set_ylabel('Gini Coefficient')
+    ax2.set_title('Gini Coefficient Comparison')
+    ax2.set_ylim(0, 1)  # Gini coefficient is always between 0 and 1
+    
+    # Add value labels on top of bars
+    for i, v in enumerate([run1_values[1], run2_values[1]]):
+        ax2.text(i, v, f'{v:.4f}', ha='center', va='bottom')
+    
+    plt.suptitle(f'Diversity Measures Comparison (Run {run_number1} vs Run {run_number2})')
     plt.tight_layout()
+    
     if save:
         plt.savefig(f"plots/diversity_measures_run{run_number1}_vs_run{run_number2}.png")
+    
     plt.show()
 
     average_labels_run1 = sum(label_counts_run1.values()) / len(labels1)

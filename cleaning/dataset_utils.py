@@ -84,56 +84,81 @@ def calculate_metrics(predicted_labels, ground_truth_labels, all_labels):
     scores = {k: scores[k] for k in ["average"] + all_labels}
     return scores
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
-def visualize_emotion_data(scores, save, path):
-    # Initialize an empty dictionary to store the results
+
+def visualize_emotion_data(scores, save, path, percentage=False, runs_names=(1, 2)):
+    """
+    Visualizes emotion data metrics using heatmaps and bar charts.
+
+    Parameters:
+    scores (dict): A dictionary containing emotion metrics with the following structure:
+    save (bool): If True, saves the plots to the specified path. If False, displays the plots.
+    path (str): The file path to save the plots if save is True.
+    percentage (bool, optional): If True, displays correct and incorrect counts as percentages. Defaults to False.
+    runs_names (tuple, optional): A tuple containing names for the runs to be used in the heatmap columns. Defaults to (1, 2).
+
+    Returns:
+    None
+    """
+    # Initialize dictionaries to store the results
     emotion_data = {}
     precision_data = {}
     recall_data = {}
     f1_data = {}
     bce_data = {}
-
-    # Extract the relevant information for each emotion
+    
+    # Extract relevant information for each emotion
     for emotion, metrics in scores.items():
         if emotion != "average":  # Skip the average key
             correct = metrics.get("correct", 0)
             incorrect = metrics.get("incorrect", 0)
-            precision = metrics.get("precision", 0)
-            recall = metrics.get("recall", 0)
-            f1_score = metrics.get("f1_score", 0)
-            bce_loss = metrics.get("bce_loss", 0)
-            emotion_data[emotion] = [correct, incorrect]
-            precision_data[emotion] = precision
-            recall_data[emotion] = recall
-            f1_data[emotion] = f1_score
-            bce_data[emotion] = bce_loss
-
+            total = correct + incorrect
+            
+            if percentage and total > 0:
+                correct_percentage = (correct / total) * 100
+                incorrect_percentage = (incorrect / total) * 100
+                emotion_data[emotion] = [correct_percentage, incorrect_percentage]
+            else:
+                emotion_data[emotion] = [correct, incorrect]
+            
+            precision_data[emotion] = metrics.get("precision", 0)
+            recall_data[emotion] = metrics.get("recall", 0)
+            f1_data[emotion] = metrics.get("f1_score", 0)
+            bce_data[emotion] = metrics.get("bce_loss", 0)
+    
     # Convert the dictionaries to DataFrames
     df_correct_incorrect = pd.DataFrame.from_dict(
-        emotion_data, orient="index", columns=["Correct", "Incorrect"]
+        emotion_data, orient="index", columns=[f"Run {runs_names[0]}", f"Run {runs_names[1]}"]
     )
-    df_precision = pd.DataFrame.from_dict(
-        precision_data, orient="index", columns=["Precision"]
-    )
+    df_precision = pd.DataFrame.from_dict(precision_data, orient="index", columns=["Precision"])
     df_recall = pd.DataFrame.from_dict(recall_data, orient="index", columns=["Recall"])
     df_f1 = pd.DataFrame.from_dict(f1_data, orient="index", columns=["F1 Score"])
     df_bce = pd.DataFrame.from_dict(bce_data, orient="index", columns=["BCE Loss"])
-
-    # Plot the Correct vs Incorrect Predictions heatmap
+    
+    # Plot the Prediction matching heatmap
     plt.figure(figsize=(10, 6))
-    ax = sns.heatmap(
-        df_correct_incorrect,
-        annot=True,
-        cmap="YlGnBu",
-        fmt="d",
-        annot_kws={"fontsize": 12},
-    )
-    ax.set_title("Correct vs Incorrect Predictions for Each Emotion", fontsize=18)
+    if percentage:
+        ax = sns.heatmap(
+            df_correct_incorrect,
+            annot=True,
+            cmap="YlGnBu",
+            fmt=".2f",  # Format for percentages
+            annot_kws={"fontsize": 12},
+        )
+        ax.set_title("Predictions for Each Emotion", fontsize=18)
+    else:
+        ax = sns.heatmap(
+            df_correct_incorrect,
+            annot=True,
+            cmap="YlGnBu",
+            fmt="d",  # Format for counts
+            annot_kws={"fontsize": 12},
+        )
+        ax.set_title("Prediction Matching for Each Emotion", fontsize=18)
+    
     ax.set_xlabel("Prediction", fontsize=14)
     ax.set_ylabel("Emotion", fontsize=14)
+    
     if save:
         plt.savefig(f"{path}_correct_vs_incorrect.png")
     else:
