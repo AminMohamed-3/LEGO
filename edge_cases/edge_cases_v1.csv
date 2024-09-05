@@ -1,8 +1,21 @@
-Apple stock is going down. Someone should analyze that.,0.0133,0,0,0,0,0,0,0,0,0,0,0,0,0.0303,0.0117,0.018,0,0,0,0,0.0783,0,0,0,0.0467,0.8799,0.9035,0
-Apple stock is going up. Someone should analyze that.,0.0634,0,0,0,0,0.0265,0,0,0.6197,0,0,0.4424,0,0.1286,0.1516,0,0,0,0,0,0,0,0,0,0,0.0994,0.1679,0
-"He was an asshole, but he was our asshole",0.0131,0,0,0,0,0,0,0,0,0,0,0.0068,0,0,0,0,0,0,0,0,0.0105,0.0053,0,0.1162,0.8201,0.6838,0.9495,0
-The earth rotates around its axis.,0.1351,0.0126,0,0,0,0,0,0,0.0259,0,0,0,0.049,0.4005,0.8852,0.1243,0,0,0,0,0,0,0,0,0,0,0,0.2515
-I bought a burger for a thousand dollars today.,0.105,0.5276,0.6488,0,0,0.0215,0,0.0716,0,0.6466,0.1114,0.0453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-I bought a burger for fifty dollars today,0.0402,0.3917,0.3635,0,0,0,0,0.0666,0,0.7859,0.1218,0.0807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0286
-I bought a burger for two dollars today.,0.0432,0.2665,0.3112,0,0,0,0,0.0646,0,0.4697,0.1085,0.119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1083
-I bought a burger for five dollars today. The world has changed.,0.0782,0.3865,0.2043,0,0,0.126,0,0,0,0.27,0.2687,0,0.1457,0.5732,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Text,emotion_1_1,emotion_1_2,emotion_1_3,emotion_1_4,emotion_1_5,probability_1_1,probability_1_2,probability_1_3,probability_1_4,probability_1_5,emotion_2_1,emotion_2_2,emotion_2_3,emotion_2_4,emotion_2_5,probability_2_1,probability_2_2,probability_2_3,probability_2_4,probability_2_5
+Apple stock is going down. Someone should analyze that,annoyance,disapproval,disappointment,anger,surprise,0.8618,0.851,0.1032,0.0514,0.05,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+Apple stock is going up. Someone should analyze that,admiration,approval,curiosity,surprise,disapproval,0.7133,0.3772,0.3003,0.1588,0.0778,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+"He was an asshole, but he was our asshole",disapproval,anger,annoyance,disgust,amusement,0.9495,0.8201,0.6838,0.1162,0.0131,anger,annoyance,neutral,disgust,disapproval,0.6595,0.3487,0.0742,0.0284,0.0208
+The earth rotates around its axis,curiosity,surprise,neutral,amusement,confusion,0.9106,0.3607,0.2035,0.1421,0.1331,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+I bought a burger for a thousand dollars today.,joy,gratitude,excitement,relief,amusement,0.6488,0.6466,0.5276,0.1114,0.105,joy,excitement,neutral,approval,realization,0.2783,0.2762,0.2527,0.0511,0.023
+I bought a burger for two dollars today,gratitude,joy,excitement,relief,approval,0.5878,0.4914,0.3991,0.1057,0.091,neutral,joy,excitement,approval,realization,0.3352,0.2109,0.1396,0.0411,0.0139
+This is why we need to be distributing AI via some kind of torrent system.,curiosity,approval,neutral,optimism,amusement,0.4513,0.3852,0.2148,0.1602,0.1118,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+It's fascinating how the human body could produce such stupid ideas.,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,admiration,annoyance,neutral,approval,anger,0.5635,0.26,0.057,0.0544,0.0417
+I think going over there would be something else fr ,curiosity,confusion,neutral,realization,amusement,0.9289,0.2983,0.2333,0.1359,0.0935,neutral,approval,confusion,optimism,realization,0.8987,0.0464,0.0439,0.0373,0.0325
+it's disturbing how much they're alike,disapproval,surprise,disgust,curiosity,amusement,0.7492,0.2339,0.2114,0.1674,0.1026,disappointment,annoyance,neutral,disapproval,disgust,0.5413,0.4925,0.0911,0.0548,0.0535
+"feeling kinda empty is amazing ngl, I've been in an emotional roller coaster for a while, and I can't believe I'm finally feeling .. nothing  ",surprise,excitement,disappointment,admiration,joy,0.9197,0.2781,0.1454,0.0962,0.0932,surprise,sadness,disappointment,excitement,realization,0.5683,0.2895,0.174,0.0936,0.0445
+Trump for the win!,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,neutral,approval,admiration,realization,annoyance,0.96,0.026,0.0087,0.0064,0.0045
+Biden for the win!,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,neutral,approval,admiration,realization,excitement,0.9616,0.0244,0.0075,0.0062,0.0054
+"I think black people are the best, suck it if you don't agree -I'm white btw-",disapproval,annoyance,approval,admiration,amusement,0.7543,0.6616,0.4839,0.0948,0.0316,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+DO YOU REALIZE HOW BIG OF A DEAL THIS IS?? ,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,curiosity,surprise,neutral,confusion,realization,0.5521,0.2793,0.1557,0.0767,0.043
+"I think no one is going to notice, go for it dude",NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,neutral,approval,optimism,caring,realization,0.7232,0.2121,0.1017,0.0225,0.0177
+"Not the **emotional effect**, when it's in the best interest of our country",approval,optimism,caring,admiration,disapproval,0.9075,0.1995,0.1615,0.1314,0.0771,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+"Seeing the old photos of the house and realizing it’s been years since we last gathered there for those family dinners is just overwhelming. I still remember how we used to spend hours together, and now it feels like those moments are lost forever. The empty rooms and faded memories only make it harder to accept that things will never be the same again.",NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,realization,sadness,disappointment,surprise,neutral,0.7053,0.146,0.1344,0.0538,0.049
+"Best sex of my life, nasty tho",NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,admiration,disgust,approval,annoyance,love,0.7155,0.3157,0.0408,0.0389,0.0259
+"kinda hated the experience while I'm at it, but afterwards it would bring a tear of joy just remembering it ",NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,joy,annoyance,anger,sadness,neutral,0.3345,0.1736,0.1298,0.0497,0.0455
