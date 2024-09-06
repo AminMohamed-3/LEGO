@@ -2,7 +2,6 @@ import ast
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from dataset_utils import visualize_emotion_data, calculate_metrics
 import csv
 import re
 from collections import Counter
@@ -11,6 +10,216 @@ import seaborn as sns
 from tabulate import tabulate
 import yaml
 import os
+import torch
+import torch.nn.functional as F
+
+def calculate_bce_loss(predictions, ground_truth):
+    predictions_tensor = torch.tensor(predictions, dtype=torch.float32)
+    ground_truth_tensor = torch.tensor(ground_truth, dtype=torch.float32)
+    loss = F.binary_cross_entropy(
+        predictions_tensor, ground_truth_tensor, reduction="none"
+    )
+    return loss
+
+
+def normalize_bce_loss(loss, min_loss=0, max_loss=1):
+    return (loss - min_loss) / (max_loss - min_loss)
+
+
+def calculate_metrics(predicted_labels, ground_truth_labels, all_labels):
+    scores = {}
+    total_loss = 0
+    total_samples = len(predicted_labels)
+
+    for label in all_labels:
+        predicted = [1 if label in instance else 0 for instance in predicted_labels]
+        ground_truth = [1 if label in instance else 0 for instance in ground_truth_labels]
+
+        matching = sum(1 for p, g in zip(predicted, ground_truth) if p == g == 1)
+        unique_predicted = sum(1 for p, g in zip(predicted, ground_truth) if p == 1 and g == 0)
+        unique_ground_truth = sum(1 for p, g in zip(predicted, ground_truth) if p == 0 and g == 1)
+
+        tp = matching
+        fp = unique_predicted
+        fn = unique_ground_truth
+        tn = sum(1 for p, g in zip(predicted, ground_truth) if p == g == 0)
+
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+        f1_score = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+
+        accuracy = (tp + tn) / total_samples  # Calculate accuracy for each label
+
+        loss = calculate_bce_loss(predicted, ground_truth)
+        normalized_loss = normalize_bce_loss(loss.mean().item())
+
+        scores[label] = {
+            "matching": matching,
+            "unique_predicted": unique_predicted,
+            "unique_ground_truth": unique_ground_truth,
+            "precision": precision,
+            "recall": recall,
+            "f1_score": f1_score,
+            "bce_loss": normalized_loss,
+            "accuracy": accuracy,
+        }
+
+        total_loss += normalized_loss
+
+    average_bce = total_loss / len(all_labels)
+    average_f1 = sum(scores[label]["f1_score"] for label in all_labels) / len(all_labels)
+    average_precision = sum(scores[label]["precision"] for label in all_labels) / len(all_labels)
+    average_recall = sum(scores[label]["recall"] for label in all_labels) / len(all_labels)
+    average_accuracy = sum(scores[label]["accuracy"] for label in all_labels) / len(all_labels)
+    
+    total_matching = sum(scores[label]["matching"] for label in all_labels)
+    total_unique_predicted = sum(scores[label]["unique_predicted"] for label in all_labels)
+    total_unique_ground_truth = sum(scores[label]["unique_ground_truth"] for label in all_labels)
+
+    scores["average"] = {
+        "matching": total_matching,
+        "unique_predicted": total_unique_predicted,
+        "unique_ground_truth": total_unique_ground_truth,
+        "precision": average_precision,
+        "recall": average_recall,
+        "f1": average_f1,
+        "bce": average_bce,
+        "accuracy": average_accuracy,
+    }
+    # make average the first element
+    scores = {k: scores[k] for k in ["average"] + all_labels}
+    return scores
+
+
+
+def visualize_emotion_data(scores, save, path, percentage=False, run_numbers=None):
+    """
+    Visualizes emotion data metrics using heatmaps and bar charts.
+
+    Parameters:
+    scores (dict): A dictionary containing emotion metrics with the updated structure.
+    save (bool): If True, saves the plots to the specified path. If False, displays the plots.
+    path (str): The file path to save the plots if save is True.
+    percentage (bool, optional): If True, displays metrics as percentages. Defaults to False.
+
+    Returns:
+    None
+    """
+    # Initialize dictionaries to store the results
+    emotion_data = {}
+    precision_data = {}
+    recall_data = {}
+    f1_data = {}
+    bce_data = {}
+    
+    # Extract relevant information for each emotion
+    for emotion, metrics in scores.items():
+        if emotion != "average":  # Skip the average key
+            unique_ground_truth = metrics.get("unique_ground_truth", 0)
+            matching = metrics.get("matching", 0)
+            unique_predicted = metrics.get("unique_predicted", 0)
+            total = unique_ground_truth + matching + unique_predicted
+            
+            if percentage and total > 0:
+                unique_ground_truth_pct = (unique_ground_truth / total) * 100
+                matching_pct = (matching / total) * 100
+                unique_predicted_pct = (unique_predicted / total) * 100
+                emotion_data[emotion] = [unique_ground_truth_pct, matching_pct, unique_predicted_pct]
+            else:
+                emotion_data[emotion] = [unique_ground_truth, matching, unique_predicted]
+            
+            precision_data[emotion] = metrics.get("precision", 0)
+            recall_data[emotion] = metrics.get("recall", 0)
+            f1_data[emotion] = metrics.get("f1_score", 0)
+            bce_data[emotion] = metrics.get("bce_loss", 0)
+    
+    # Convert the dictionaries to DataFrames
+    df_prediction_matching = pd.DataFrame.from_dict(
+        emotion_data, orient="index", columns=[f"Unique Run {run_numbers[0]}", "Matching", f"Unique Run {run_numbers[1]}"]
+    )
+    df_precision = pd.DataFrame.from_dict(precision_data, orient="index", columns=["Precision"])
+    df_recall = pd.DataFrame.from_dict(recall_data, orient="index", columns=["Recall"])
+    df_f1 = pd.DataFrame.from_dict(f1_data, orient="index", columns=["F1 Score"])
+    df_bce = pd.DataFrame.from_dict(bce_data, orient="index", columns=["BCE Loss"])
+    
+    # Plot the Prediction matching heatmap
+    plt.figure(figsize=(12, 8))
+    if percentage:
+        ax = sns.heatmap(
+            df_prediction_matching,
+            annot=True,
+            cmap="YlGnBu",
+            fmt=".2f",  # Format for percentages
+            annot_kws={"fontsize": 10},
+        )
+        ax.set_title("Prediction Matching for Each Emotion (%)", fontsize=18)
+    else:
+        ax = sns.heatmap(
+            df_prediction_matching,
+            annot=True,
+            cmap="YlGnBu",
+            fmt="d",  # Format for counts
+            annot_kws={"fontsize": 10},
+        )
+        ax.set_title("Prediction Matching for Each Emotion", fontsize=18)
+    
+    ax.set_xlabel("Prediction Category", fontsize=14)
+    ax.set_ylabel("Emotion", fontsize=14)
+    
+    if save:
+        plt.savefig(f"{path}_prediction_matching.png")
+    else:
+        plt.show()
+
+    # Create a figure with subplots for the remaining plots
+    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 14))
+
+    # Plot the Precision bar chart
+    sns.barplot(
+        x=df_precision.index,
+        y="Precision",
+        data=df_precision,
+        ax=axes[0, 0],
+    )
+    axes[0, 0].set_title("Precision for Each Emotion", fontsize=18)
+    axes[0, 0].set_xlabel("Emotion", fontsize=14)
+    axes[0, 0].set_ylabel("Precision", fontsize=14)
+    axes[0, 0].set_xticklabels(axes[0, 0].get_xticklabels(), rotation=90, fontsize=10)
+    axes[0, 0].grid(axis="y", linestyle="--")
+
+    # Plot the Recall bar chart
+    sns.barplot(
+        x=df_recall.index, y="Recall", data=df_recall, ax=axes[0, 1]
+    )
+    axes[0, 1].set_title("Recall for Each Emotion", fontsize=18)
+    axes[0, 1].set_xlabel("Emotion", fontsize=14)
+    axes[0, 1].set_ylabel("Recall", fontsize=14)
+    axes[0, 1].set_xticklabels(axes[0, 1].get_xticklabels(), rotation=90, fontsize=10)
+    axes[0, 1].grid(axis="y", linestyle="--")
+
+    # Plot the F1 Score bar chart
+    sns.barplot(x=df_f1.index, y="F1 Score", data=df_f1, ax=axes[1, 0])
+    axes[1, 0].set_title("F1 Score for Each Emotion", fontsize=18)
+    axes[1, 0].set_xlabel("Emotion", fontsize=14)
+    axes[1, 0].set_ylabel("F1 Score", fontsize=14)
+    axes[1, 0].set_xticklabels(axes[1, 0].get_xticklabels(), rotation=90, fontsize=10)
+    axes[1, 0].grid(axis="y", linestyle="--")
+
+    # Plot the BCE Loss bar chart
+    sns.barplot(x=df_bce.index, y="BCE Loss", data=df_bce, ax=axes[1, 1])
+    axes[1, 1].set_title("BCE Loss for Each Emotion", fontsize=18)
+    axes[1, 1].set_xlabel("Emotion", fontsize=14)
+    axes[1, 1].set_ylabel("BCE Loss", fontsize=14)
+    axes[1, 1].set_xticklabels(axes[1, 1].get_xticklabels(), rotation=90, fontsize=10)
+    axes[1, 1].grid(axis="y", linestyle="--")
+
+    # Adjust the spacing between subplots
+    plt.tight_layout()
+
+    if save:
+        plt.savefig(f"{path}_metrics.png")
+    else:
+        plt.show()
 
 # Emotion Analysis Comparison Pipeline
 def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTIONS, plot_percentage = False, save=False):
@@ -47,7 +256,7 @@ def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTION
     print(f"Average Precision: {scores['average']['precision']:.4f}")
     print(f"Average Recall: {scores['average']['recall']:.4f}")
 
-    visualize_emotion_data(scores, save, f"plots/emotion_metrics_run{run_number1}_vs_run{run_number2}", plot_percentage, (run_number1, run_number2))
+    visualize_emotion_data(scores, save, f"plots/emotion_metrics_run{run_number1}_vs_run{run_number2}", plot_percentage, run_numbers=[run_number1, run_number2])
 
     def count_labels(labels):
         label_counts = {}
@@ -143,8 +352,7 @@ def emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTION
     print(f"Average number of labels per comment - Run {run_number1}: {average_labels_run1:.4f}")
     print(f"Average number of labels per comment - Run {run_number2}: {average_labels_run2:.4f}")
 
-# Emotion Pair Analysis Pipeline
-def emotion_pair_analysis_pipeline(run_number, set_, config_path, number=10, print_table=False):
+def emotion_pair_analysis_pipeline(run_number, set_, config_path, number=10, table=False, save_visualizations=False):
     def load_config(config_path):
         with open(config_path, "r") as f:
             config = yaml.safe_load(f)
@@ -236,47 +444,65 @@ def emotion_pair_analysis_pipeline(run_number, set_, config_path, number=10, pri
             plt.savefig(f'run{run_number}/plots/{set_}_heatmap_run_{run_number}.png')
         plt.show()
 
+    def visualize_data(df, emotions, save=False):
+        fig, axs = plt.subplots(1, 2, figsize=(13, 5), dpi=200)
+
+        # Bar chart of label distribution
+        label_counts = {}
+        for labels in df["parsed_predictions"]:
+            for label in labels:
+                if label in label_counts:
+                    label_counts[label] += 1
+                else:
+                    label_counts[label] = 1
+
+        filtered_dict = {k: v for k, v in label_counts.items() if k in emotions}
+        sorted_filtered_dict = {k: v for k, v in sorted(filtered_dict.items(), key=lambda item: item[1])}
+
+        axs[0].barh(list(sorted_filtered_dict.keys()), list(sorted_filtered_dict.values()))
+        axs[0].set_title('Label Distribution')
+
+        # Histogram of number of labels per comment
+        count = df["parsed_predictions"].apply(lambda x: len(x))
+        axs[1].hist(count, bins=10)
+        # Plot mean and median
+        axs[1].axvline(count.mean(), color='k', linestyle='dashed', linewidth=1, label=f'Mean: {count.mean():.2f}')
+        axs[1].legend()
+        axs[1].set_title('Number of Labels per Comment')
+
+        plt.tight_layout()
+        plt.show()
+
+        print(f"Total number of labels counted: {sum(sorted_filtered_dict.values())}")
+        print(f"Total number of labels in the dataset: {len(df)}")
+
+        if save:
+            fig.savefig(f"run{run_number}/{set_}_visualizations.png")
+
     # Load configuration
     emotions, _ = load_config(config_path)
-    
+
     # Process CSV
     file_path = f'run{run_number}/{set_}_filtered.csv'
     data = process_csv(file_path)
-    
+
+    # Prepare DataFrame for visualization
+    df = pd.DataFrame({"parsed_predictions": data})
+
+    # Visualize Data
+    visualize_data(df, emotions, save=save_visualizations)
+
     # Get emotion pairs
     top_pairs = get_top_pairs(data, n=number)
     all_emotion_pairs = get_all_emotion_pairs(data, emotions)
-    
+
     # Plot and save
     plot_top_pairs(top_pairs, f"Top {number} Common Emotion Pairs", run_number, save=True, set_=set_)
     plot_top_pairs(all_emotion_pairs, f"Top {number} Emotion Pairs (Comprehensive)", run_number, save=True, set_=set_)
     plot_heatmap(get_all_emotion_pairs(data, emotions, n=len(emotions)**2), emotions, run_number, save=True, set_=set_)
-    
+
     # Print tables if requested
-    if print_table:
+    if table:
         print_table(top_pairs, f"Top {number} Common Pairs")
         print_table(all_emotion_pairs, f"Top {number} Pairs of Emotions (Comprehensive)")
 
-# Main function to run both pipelines
-def run_emotion_analysis(run_number1, run_number2, set_, config_path, number=10, print_table=False, save=False):
-    print("Running Emotion Analysis Comparison Pipeline...")
-    emotion_analysis_comparison_pipeline(run_number1, run_number2, set_, EMOTIONS, save)
-    
-    print("\nRunning Emotion Pair Analysis Pipeline for Run", run_number1)
-    emotion_pair_analysis_pipeline(run_number1, set_, config_path, number, print_table)
-    
-    print("\nRunning Emotion Pair Analysis Pipeline for Run", run_number2)
-    emotion_pair_analysis_pipeline(run_number2, set_, config_path, number, print_table)
-
-if __name__ == "__main__":
-    config_path = os.path.join("..", "config.yaml")
-    EMOTIONS = ["joy", "trust", "fear", "surprise", "sadness", "disgust", "anger", "anticipation"]  # You might want to load this from config
-    run_emotion_analysis(
-        run_number1=2,
-        run_number2=3,
-        set_='train',
-        config_path=config_path,
-        number=10,
-        print_table=False,
-        save=True
-    )
