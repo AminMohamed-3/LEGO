@@ -12,18 +12,6 @@ from transformers import AutoTokenizer, AutoModel
 tqdm.pandas()
 sys.path.append("../..")
 
-import yaml
-with open("../config.yaml", "r") as f:
-    config = yaml.safe_load(f)
-definitions, EMOTIONS, RANDOM_SEED = (
-    config["definitions"],
-    config["EMOTIONS"],
-    config["RANDOM_SEED"],
-)
-
-id2label = {str(id): label for id, label in enumerate(EMOTIONS)}
-label2id = {v: k for k, v in id2label.items()}
-
 device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
 
 
