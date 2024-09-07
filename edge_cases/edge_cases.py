@@ -9,9 +9,9 @@ import csv
 VERSION = "v1"
 
 # Load both models
-our_tokenizer = AutoTokenizer.from_pretrained("results/roberta-base-LEGO_emotions")
+our_tokenizer = AutoTokenizer.from_pretrained("0ssamaak0/roberta-base-LEGO_emotions")
 our_model = AutoModelForSequenceClassification.from_pretrained(
-    "results/roberta-base-LEGO_emotions"
+    "0ssamaak0/roberta-base-LEGO_emotions"
 )
 
 original_tokenizer = AutoTokenizer.from_pretrained("SamLowe/roberta-base-go_emotions")
@@ -160,11 +160,11 @@ def style_df(df):
         g = int(255 * score)
         return f"background-color: rgb({r}, {g}, 0); color: white;"
 
-    return df.style.applymap(color_score, subset=["Score"])
+    return df.style.map(color_score, subset=["Score"])
 
 
 # Define the Gradio interface
-with gr.Blocks() as iface:
+with gr.Blocks(title="LEGO Model Arena") as iface:
     gr.Markdown("# Emotion Analysis with Edge Case Saving")
     gr.Markdown(
         "Analyze the emotions in the given text with two models and save interesting edge cases."
@@ -242,6 +242,17 @@ with gr.Blocks() as iface:
             save_original,
         ],
         outputs=save_status,
+    )
+    text_input.submit(
+        analyze,
+        inputs=text_input,
+        outputs=[
+            output_our_df,
+            output_original_df,
+            last_analyzed_text,
+            last_our_df,
+            last_original_df,
+        ],
     )
 
 # Launch the interface
