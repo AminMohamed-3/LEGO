@@ -165,9 +165,9 @@ def style_df(df):
 
 # Define the Gradio interface
 with gr.Blocks(title="LEGO Model Arena") as iface:
-    gr.Markdown("# Emotion Analysis with Edge Case Saving")
+    gr.Markdown("# LEGO Model Arena")
     gr.Markdown(
-        "Analyze the emotions in the given text with two models and save interesting edge cases."
+        "Compare the performance of GO Emotions vs LEGO Emotions"
     )
 
     with gr.Row():
@@ -179,13 +179,13 @@ with gr.Blocks(title="LEGO Model Arena") as iface:
             headers=["Emotion", "Score"],
             datatype=["str", "str"],
             col_count=(2, "fixed"),
-            label="Top 5 Emotions and Scores (Our Model)",
+            label="Top 5 Emotions and Scores roberta-base-lego_emotions (preview)",
         )
         output_original_df = gr.Dataframe(
             headers=["Emotion", "Score"],
             datatype=["str", "str"],
             col_count=(2, "fixed"),
-            label="Top 5 Emotions and Scores (Original Model)",
+            label="Top 5 Emotions and Scores SamLowe/roberta-base-go_emotions",
         )
 
     with gr.Row():
