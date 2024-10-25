@@ -12,9 +12,13 @@ We made a simple UI to compare the results of [SamLowe/roberta-base-go_emotions]
 
 ![results](assets/results.gif)
 
-- The early results show better capability of recognizing emotions with with higher confidence in the model trained on LEGO emotions. But it still has issues in `neutral` texts and predicts it with low confidence.
+- The early results show better capability of recognizing emotions with with higher confidence in the model trained on LEGO emotions.
 
-- We have also been able to reduce the size of Go emotions and get very similar resuls by removing duplicate and similar examples from the dataset. More on that later
+- The model is better in recognizing subtle differences (The stock is going up / down) in the examples and change the predictions accordingly.
+
+- There are some issues in recognizing `neutral` example and the model predicts it with low confidence.
+
+- We have also been able to reduce the size of Go emotions and get very similar results by removing duplicate and similar examples from the dataset. More on that later.
 
 ## This project is sponsored by Fireworks.AI
 <div align = "center">
